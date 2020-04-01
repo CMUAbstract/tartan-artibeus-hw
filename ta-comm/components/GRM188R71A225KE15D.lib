@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model GRM188R71A225KE15D
+#/284939/105706/2.46/2/2/Capacitor
+DEF GRM188R71A225KE15D C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "GRM188R71A225KE15D" 350 150 50 H V L CNN
+F2 "CAPC1608X90N" 350 50 50 H I L CNN
+F3 "https://psearch.en.murata.com/capacitor/product/GRM188R71A225KE15%23.html" 350 -50 50 H I L CNN
+F4 "Ceramic  SMT capacitor 2.2uF 10Vdc Murata 0603 GRM 2.2??F Ceramic Multilayer Capacitor, 10 V dc, +125??C, X7R Dielectric, ??10%" 350 -150 50 H I L CNN "Description"
+F5 "0.9" 350 -250 50 H I L CNN "Height"
+F6 "Murata Electronics" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "GRM188R71A225KE15D" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "81-GRM188R71A225KE15" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM188R71A225KE15" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "7235597P" 350 -750 50 H I L CNN "RS Part Number"
+F11 "http://uk.rs-online.com/web/p/products/7235597P" 350 -850 50 H I L CNN "RS Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library
