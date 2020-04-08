@@ -1,0 +1,663 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Connector_Generic_Conn_01x04
+#
+DEF Connector_Generic_Conn_01x04 J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Generic_Conn_01x04" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -250 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic_Conn_01x16
+#
+DEF Connector_Generic_Conn_01x16 J 0 40 Y N 1 F N
+F0 "J" 0 800 50 H V C CNN
+F1 "Connector_Generic_Conn_01x16" 0 -900 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -795 0 -805 1 1 6 N
+S -50 -695 0 -705 1 1 6 N
+S -50 -595 0 -605 1 1 6 N
+S -50 -495 0 -505 1 1 6 N
+S -50 -395 0 -405 1 1 6 N
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 305 0 295 1 1 6 N
+S -50 405 0 395 1 1 6 N
+S -50 505 0 495 1 1 6 N
+S -50 605 0 595 1 1 6 N
+S -50 705 0 695 1 1 6 N
+S -50 750 50 -850 1 1 10 f
+X Pin_1 1 -200 700 150 R 50 50 1 1 P
+X Pin_10 10 -200 -200 150 R 50 50 1 1 P
+X Pin_11 11 -200 -300 150 R 50 50 1 1 P
+X Pin_12 12 -200 -400 150 R 50 50 1 1 P
+X Pin_13 13 -200 -500 150 R 50 50 1 1 P
+X Pin_14 14 -200 -600 150 R 50 50 1 1 P
+X Pin_15 15 -200 -700 150 R 50 50 1 1 P
+X Pin_16 16 -200 -800 150 R 50 50 1 1 P
+X Pin_2 2 -200 600 150 R 50 50 1 1 P
+X Pin_3 3 -200 500 150 R 50 50 1 1 P
+X Pin_4 4 -200 400 150 R 50 50 1 1 P
+X Pin_5 5 -200 300 150 R 50 50 1 1 P
+X Pin_6 6 -200 200 150 R 50 50 1 1 P
+X Pin_7 7 -200 100 150 R 50 50 1 1 P
+X Pin_8 8 -200 0 150 R 50 50 1 1 P
+X Pin_9 9 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_VDD
+#
+DEF power_VDD #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_VDD" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X VDD 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# ta-comm_0603ZC104KAT2A
+#
+DEF ta-comm_0603ZC104KAT2A C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "ta-comm_0603ZC104KAT2A" 350 150 50 H V L CNN
+F2 "CAPC1608X90N" 350 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf" 350 -50 50 H I L CNN
+F4 "AVX - 0603ZC104KAT2A - CAP, MLCC, X7R, 100NF, 10V, 0603" 350 -150 50 H I L CNN "Description"
+F5 "0.9" 350 -250 50 H I L CNN "Height"
+F6 "AVX" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "0603ZC104KAT2A" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "581-0603ZC104K" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZC104K" 350 -650 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 0 300 0 N
+P 2 0 1 6 280 100 280 -100 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# ta-comm_0603ZC105KAT2A
+#
+DEF ta-comm_0603ZC105KAT2A C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "ta-comm_0603ZC105KAT2A" 350 150 50 H V L CNN
+F2 "CAPC1608X90N" 350 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf" 350 -50 50 H I L CNN
+F4 "AVX - 0603ZC105KAT2A - CAP, MLCC, X7R, 1UF, 10V, 0603" 350 -150 50 H I L CNN "Description"
+F5 "0.9" 350 -250 50 H I L CNN "Height"
+F6 "AVX" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "0603ZC105KAT2A" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "581-0603ZC105KAT2A" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZC105KAT2A" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "1358373" 350 -750 50 H I L CNN "RS Part Number"
+F11 "http://uk.rs-online.com/web/p/products/1358373" 350 -850 50 H I L CNN "RS Price/Stock"
+DRAW
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 0 300 0 N
+P 2 0 1 6 280 100 280 -100 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# ta-comm_885012006010
+#
+DEF ta-comm_885012006010 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "ta-comm_885012006010" 350 150 50 H V L CNN
+F2 "CAPC1608X87N" 350 50 50 H I L CNN
+F3 "https://katalog.we-online.com/pbs/datasheet/885012006010.pdf" 350 -50 50 H I L CNN
+F4 "Multilayer Ceramic Chip Capacitor WCAP-CSGP Series 0603 220pF NP00603221J010DFCT10000" 350 -150 50 H I L CNN "Description"
+F5 "0.87" 350 -250 50 H I L CNN "Height"
+F6 "Wurth Elektronik" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "885012006010" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "710-885012006010" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=710-885012006010" 350 -650 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 0 300 0 N
+P 2 0 1 6 280 100 280 -100 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# ta-comm_885012006014
+#
+DEF ta-comm_885012006014 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "ta-comm_885012006014" 350 150 50 H V L CNN
+F2 "CAPC1608X87N" 350 50 50 H I L CNN
+F3 "https://katalog.we-online.com/pbs/datasheet/885012006014.pdf" 350 -50 50 H I L CNN
+F4 "Multilayer Ceramic Chip Capacitor WCAP-CSGP Series 0603 1000pF NP00603102J010DFCT10000" 350 -150 50 H I L CNN "Description"
+F5 "0.87" 350 -250 50 H I L CNN "Height"
+F6 "Wurth Elektronik" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "885012006014" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "710-885012006014" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=710-885012006014" 350 -650 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 0 300 0 N
+P 2 0 1 6 280 100 280 -100 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# ta-comm_A-1JB
+#
+DEF ta-comm_A-1JB J 0 30 Y Y 1 F N
+F0 "J" 1250 700 50 H V L CNN
+F1 "ta-comm_A-1JB" 1250 600 50 H V L CNN
+F2 "A1JB" 1250 500 50 H I L CNN
+F3 "https://www.amphenolrf.com/media/downloads/3960/CA-1JB.pdf" 1250 400 50 H I L CNN
+F4 "AMC Straight PCB Jack, Surface Mount" 1250 300 50 H I L CNN "Description"
+F5 "1.05" 1250 200 50 H I L CNN "Height"
+F6 "Amphenol" 1250 100 50 H I L CNN "Manufacturer_Name"
+F7 "A-1JB" 1250 0 50 H I L CNN "Manufacturer_Part_Number"
+F8 "523-A-1JB" 1250 -100 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=523-A-1JB" 1250 -200 50 H I L CNN "Mouser Price/Stock"
+F10 "1440895" 1250 -300 50 H I L CNN "RS Part Number"
+F11 "http://uk.rs-online.com/web/p/products/1440895" 1250 -400 50 H I L CNN "RS Price/Stock"
+F12 "70142555" 1250 -500 50 H I L CNN "Allied_Number"
+F13 "https://www.alliedelec.com/amphenolrf-a-1jb/70142555/" 1250 -600 50 H I L CNN "Allied Price/Stock"
+DRAW
+P 5 0 1 6 200 500 1200 500 1200 -500 200 -500 200 500 N
+X SIGNAL 1 1400 0 200 L 50 50 0 0 U
+X GND_1 2 700 700 200 D 50 50 0 0 U
+X GND_2 3 0 0 200 R 50 50 0 0 U
+X GND_3 4 700 -700 200 U 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# ta-comm_BLM18KG102SZ1D
+#
+DEF ta-comm_BLM18KG102SZ1D FB 0 30 Y Y 1 F N
+F0 "FB" 650 300 50 H V L CNN
+F1 "ta-comm_BLM18KG102SZ1D" 650 200 50 H V L CNN
+F2 "BEADC1608X95N" 650 100 50 H I L CNN
+F3 "https://www.murata.com/en-us/products/productdetail?partno=BLM18KG102SZ1%23" 650 0 50 H I L CNN
+F4 "BLM18_Z1D Series EMI Suppression Filter 1000+/-25% at 100MHz 1A @85" 650 -100 50 H I L CNN "Description"
+F5 "0.95" 650 -200 50 H I L CNN "Height"
+F6 "Murata Electronics" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "BLM18KG102SZ1D" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "81-BLM18KG102SZ1D" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=81-BLM18KG102SZ1D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 U
+X 2 2 0 -100 200 R 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# ta-comm_CC0603KRX7R6BB224
+#
+DEF ta-comm_CC0603KRX7R6BB224 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "ta-comm_CC0603KRX7R6BB224" 350 150 50 H V L CNN
+F2 "CAPC1608X90N" 350 50 50 H I L CNN
+F3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" 350 -50 50 H I L CNN
+F4 "YAGEO - CC0603KRX7R6BB224 - CAP, 0.22F, 10V, 10%, X7R, 0603" 350 -150 50 H I L CNN "Description"
+F5 "0.9" 350 -250 50 H I L CNN "Height"
+F6 "YAGEO (PHYCOMP)" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "CC0603KRX7R6BB224" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "603-CC603KRX7R6BB224" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=603-CC603KRX7R6BB224" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "6169442" 350 -750 50 H I L CNN "RS Part Number"
+F11 "http://uk.rs-online.com/web/p/products/6169442" 350 -850 50 H I L CNN "RS Price/Stock"
+DRAW
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 0 300 0 N
+P 2 0 1 6 280 100 280 -100 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# ta-comm_CC1110F32RHHR
+#
+DEF ta-comm_CC1110F32RHHR IC 0 30 Y Y 1 F N
+F0 "IC" 1350 900 50 H V L CNN
+F1 "ta-comm_CC1110F32RHHR" 1350 800 50 H V L CNN
+F2 "QFN50P600X600X100-37N-D" 1350 700 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/cc1110-cc1111" 1350 600 50 H I L CNN
+F4 "Sub-1 GHz wireless MCU with up to 32 kB Flash memory" 1350 500 50 H I L CNN "Description"
+F5 "1" 1350 400 50 H I L CNN "Height"
+F6 "Texas Instruments" 1350 300 50 H I L CNN "Manufacturer_Name"
+F7 "CC1110F32RHHR" 1350 200 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-CC1110F32RHHR" 1350 100 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-CC1110F32RHHR" 1350 0 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 700 1300 700 1300 -1700 200 -1700 200 700 N
+X P1_2 1 0 0 200 R 50 50 0 0 U
+X DVDD_2 10 300 -1900 200 U 50 50 0 0 U
+X P0_5 11 400 -1900 200 U 50 50 0 0 U
+X P0_6 12 500 -1900 200 U 50 50 0 0 U
+X P0_7 13 600 -1900 200 U 50 50 0 0 U
+X P2_0 14 700 -1900 200 U 50 50 0 0 U
+X P2_1 15 800 -1900 200 U 50 50 0 0 U
+X P2_2 16 900 -1900 200 U 50 50 0 0 U
+X P2_3/XSOC32_Q1 17 1000 -1900 200 U 50 50 0 0 U
+X P2_4/XOSC32_Q2 18 1100 -1900 200 U 50 50 0 0 U
+X AVDD_1 19 1500 -800 200 L 50 50 0 0 U
+X DVDD_1 2 0 -100 200 R 50 50 0 0 U
+X XOSC_Q2 20 1500 -700 200 L 50 50 0 0 U
+X XOSC_Q1 21 1500 -600 200 L 50 50 0 0 U
+X AVDD_2 22 1500 -500 200 L 50 50 0 0 U
+X RF_P 23 1500 -400 200 L 50 50 0 0 U
+X RF_N 24 1500 -300 200 L 50 50 0 0 U
+X AVDD_3 25 1500 -200 200 L 50 50 0 0 U
+X AVDD_4 26 1500 -100 200 L 50 50 0 0 U
+X RBIAS 27 1500 0 200 L 50 50 0 0 U
+X GUARD 28 1200 900 200 D 50 50 0 0 U
+X AVDD_DREG 29 1100 900 200 D 50 50 0 0 U
+X P1_1 3 0 -200 200 R 50 50 0 0 U
+X DCOUPL 30 1000 900 200 D 50 50 0 0 U
+X RESET_N 31 900 900 200 D 50 50 0 0 U
+X P1_7 32 800 900 200 D 50 50 0 0 U
+X P1_6 33 700 900 200 D 50 50 0 0 U
+X P1_5 34 600 900 200 D 50 50 0 0 U
+X P1_4 35 500 900 200 D 50 50 0 0 U
+X P1_3 36 400 900 200 D 50 50 0 0 U
+X AGND 37 300 900 200 D 50 50 0 0 U
+X P1_0 4 0 -300 200 R 50 50 0 0 U
+X P0_0 5 0 -400 200 R 50 50 0 0 U
+X P0_1 6 0 -500 200 R 50 50 0 0 U
+X P0_2 7 0 -600 200 R 50 50 0 0 U
+X P0_3 8 0 -700 200 R 50 50 0 0 U
+X P0_4 9 0 -800 200 R 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# ta-comm_F2972NEGK
+#
+DEF ta-comm_F2972NEGK IC 0 30 Y Y 1 F N
+F0 "IC" 1050 700 50 H V L CNN
+F1 "ta-comm_F2972NEGK" 1050 600 50 H V L CNN
+F2 "QFN50P200X200X55-13N-D" 1050 500 50 H I L CNN
+F3 "https://www.idt.com/document/dst/f2972-datasheet" 1050 400 50 H I L CNN
+F4 "VFQFP-N 2 MM X 2MM X .5MM PITCH" 1050 300 50 H I L CNN "Description"
+F5 "0.55" 1050 200 50 H I L CNN "Height"
+F6 "IDT" 1050 100 50 H I L CNN "Manufacturer_Name"
+F7 "F2972NEGK" 1050 0 50 H I L CNN "Manufacturer_Part_Number"
+F8 "972-F2972NEGK" 1050 -100 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=972-F2972NEGK" 1050 -200 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 500 1000 500 1000 -700 200 -700 200 500 N
+X GND_1 1 0 0 200 R 50 50 0 0 U
+X GND_5 10 700 700 200 D 50 50 0 0 U
+X RF2 11 600 700 200 D 50 50 0 0 U
+X GND_6 12 500 700 200 D 50 50 0 0 U
+X EP 13 400 700 200 D 50 50 0 0 U
+X RFC 2 0 -100 200 R 50 50 0 0 U
+X GND_2 3 0 -200 200 R 50 50 0 0 U
+X GND_3 4 500 -900 200 U 50 50 0 0 U
+X RF1 5 600 -900 200 U 50 50 0 0 U
+X GND_4 6 700 -900 200 U 50 50 0 0 U
+X VCTL 7 1200 -200 200 L 50 50 0 0 U
+X EN 8 1200 -100 200 L 50 50 0 0 U
+X VCC 9 1200 0 200 L 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# ta-comm_FOX924B-27
+#
+DEF ta-comm_FOX924B-27 Y 0 30 Y Y 1 F N
+F0 "Y" 1050 300 50 H V L CNN
+F1 "ta-comm_FOX924B-27" 1050 200 50 H V L CNN
+F2 "FOX924B27" 1050 100 50 H I L CNN
+F3 "https://www.mouser.com/datasheet/2/160/fox924-18323.pdf" 1050 0 50 H I L CNN
+F4 "TCXO Oscillators 27.0MHz 3.3Volts -30C +85C" 1050 -100 50 H I L CNN "Description"
+F5 "1.5" 1050 -200 50 H I L CNN "Height"
+F6 "Fox" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "FOX924B-27" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "559-FOX924B-27" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=559-FOX924B-27" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
+X NC 1 0 -100 200 R 50 50 0 0 N
+X GND 2 1200 -100 200 L 50 50 0 0 U
+X OUTPUT 3 1200 0 200 L 50 50 0 0 U
+X VCC 4 0 0 200 R 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# ta-comm_GRM188R71A225KE15D
+#
+DEF ta-comm_GRM188R71A225KE15D C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "ta-comm_GRM188R71A225KE15D" 350 150 50 H V L CNN
+F2 "CAPC1608X90N" 350 50 50 H I L CNN
+F3 "https://psearch.en.murata.com/capacitor/product/GRM188R71A225KE15%23.html" 350 -50 50 H I L CNN
+F4 "Ceramic  SMT capacitor 2.2uF 10Vdc Murata 0603 GRM 2.2??F Ceramic Multilayer Capacitor, 10 V dc, +125??C, X7R Dielectric, ??10%" 350 -150 50 H I L CNN "Description"
+F5 "0.9" 350 -250 50 H I L CNN "Height"
+F6 "Murata Electronics" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "GRM188R71A225KE15D" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "81-GRM188R71A225KE15" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM188R71A225KE15" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "7235597P" 350 -750 50 H I L CNN "RS Part Number"
+F11 "http://uk.rs-online.com/web/p/products/7235597P" 350 -850 50 H I L CNN "RS Price/Stock"
+DRAW
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 0 300 0 N
+P 2 0 1 6 280 100 280 -100 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# ta-comm_LG_Q396-PS-35
+#
+DEF ta-comm_LG_Q396-PS-35 LED 0 30 Y Y 1 F N
+F0 "LED" 500 350 50 H V L BNN
+F1 "ta-comm_LG_Q396-PS-35" 500 250 50 H V L BNN
+F2 "LGQ396PS35" 500 150 50 H I L BNN
+F3 "https://mouser.componentsearchengine.com/Datasheets/2/LG%20Q396-PS-35.pdf" 500 50 50 H I L BNN
+F4 "CHIPLED 0603 GREEN" 500 -50 50 H I L BNN "Description"
+F5 "0.4" 500 -150 50 H I L BNN "Height"
+F6 "OSRAM" 500 -250 50 H I L BNN "Manufacturer_Name"
+F7 "LG Q396-PS-35" 500 -350 50 H I L BNN "Manufacturer_Part_Number"
+F8 "720-LGQ396A3964" 500 -450 50 H I L BNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=720-LGQ396A3964" 500 -550 50 H I L BNN "Mouser Price/Stock"
+DRAW
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 250 100 150 200 N
+P 2 0 1 6 350 100 250 200 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+P 4 0 1 10 210 170 180 140 150 200 210 170 F
+P 4 0 1 10 310 170 280 140 250 200 310 170 F
+X K 1 0 0 100 R 50 50 0 0 U
+X A 2 600 0 100 L 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# ta-comm_LQW18AN27NJ80D
+#
+DEF ta-comm_LQW18AN27NJ80D L 0 30 Y Y 1 F N
+F0 "L" 650 250 50 H V L CNN
+F1 "ta-comm_LQW18AN27NJ80D" 650 150 50 H V L CNN
+F2 "INDC1608X100N" 650 50 50 H I L CNN
+F3 "https://psearch.en.murata.com/inductor/product/LQW18AN27NJ80%23.html" 650 -50 50 H I L CNN
+F4 "LQW18AN_80 Series Inductor 27nH +/-5% 0603 (1608)" 650 -150 50 H I L CNN "Description"
+F5 "1" 650 -250 50 H I L CNN "Height"
+F6 "Murata Electronics" 650 -350 50 H I L CNN "Manufacturer_Name"
+F7 "LQW18AN27NJ80D" 650 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "81-LQW18AN27NJ80D" 650 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=81-LQW18AN27NJ80D" 650 -650 50 H I L CNN "Mouser Price/Stock"
+DRAW
+A 250 -2 50 1777 -23 0 1 6 N 300 0 200 0
+A 350 -2 50 1777 -23 0 1 6 N 400 0 300 0
+A 450 -2 50 1777 -23 0 1 6 N 500 0 400 0
+A 550 -2 50 1777 -23 0 1 6 N 600 0 500 0
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# ta-comm_MCT06030C1000FP500
+#
+DEF ta-comm_MCT06030C1000FP500 R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "ta-comm_MCT06030C1000FP500" 550 150 50 H V L CNN
+F2 "RESC1608X55N" 550 50 50 H I L CNN
+F3 "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf" 550 -50 50 H I L CNN
+F4 "Thin Film Resistors - SMD .1W 100ohm 1% 0603 50ppm Auto" 550 -150 50 H I L CNN "Description"
+F5 "0.55" 550 -250 50 H I L CNN "Height"
+F6 "Vishay" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "MCT06030C1000FP500" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "594-MCT06030C1000FP5" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=594-MCT06030C1000FP5" 550 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "1885546" 550 -750 50 H I L CNN "RS Part Number"
+F11 "http://uk.rs-online.com/web/p/products/1885546" 550 -850 50 H I L CNN "RS Price/Stock"
+DRAW
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# ta-comm_MCT06030C1001FP500
+#
+DEF ta-comm_MCT06030C1001FP500 R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "ta-comm_MCT06030C1001FP500" 550 150 50 H V L CNN
+F2 "RESC1608X55N" 550 50 50 H I L CNN
+F3 "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf" 550 -50 50 H I L CNN
+F4 "Thin Film Resistors - SMD .1W 1Kohm 1% 0603 50ppm Auto" 550 -150 50 H I L CNN "Description"
+F5 "0.55" 550 -250 50 H I L CNN "Height"
+F6 "Vishay" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "MCT06030C1001FP500" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "594-MCT06030C1001FP5" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=594-MCT06030C1001FP5" 550 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "1885949" 550 -750 50 H I L CNN "RS Part Number"
+F11 "http://uk.rs-online.com/web/p/products/1885949" 550 -850 50 H I L CNN "RS Price/Stock"
+DRAW
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# ta-comm_MCT06030C1501FP500
+#
+DEF ta-comm_MCT06030C1501FP500 R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "ta-comm_MCT06030C1501FP500" 550 150 50 H V L CNN
+F2 "RESC1608X55N" 550 50 50 H I L CNN
+F3 "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf" 550 -50 50 H I L CNN
+F4 "Thin Film Resistors - SMD .1W 1.5Kohms 1% 0603 50ppm Auto" 550 -150 50 H I L CNN "Description"
+F5 "0.55" 550 -250 50 H I L CNN "Height"
+F6 "Vishay" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "MCT06030C1501FP500" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "594-MCT06030C1501FP5" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=594-MCT06030C1501FP5" 550 -650 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# ta-comm_MCT06030C3302FP500
+#
+DEF ta-comm_MCT06030C3302FP500 R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "ta-comm_MCT06030C3302FP500" 550 150 50 H V L CNN
+F2 "RESC1608X55N" 550 50 50 H I L CNN
+F3 "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf" 550 -50 50 H I L CNN
+F4 "VISHAY - MCT06030C3302FP500 - RES, 33K, 1%, 0603, THIN FILM" 550 -150 50 H I L CNN "Description"
+F5 "0.55" 550 -250 50 H I L CNN "Height"
+F6 "Vishay" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "MCT06030C3302FP500" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "594-MCT06030C3302FP5" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=594-MCT06030C3302FP5" 550 -650 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# ta-comm_MCT06030C5602FP500
+#
+DEF ta-comm_MCT06030C5602FP500 R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "ta-comm_MCT06030C5602FP500" 550 150 50 H V L CNN
+F2 "RESC1608X55N" 550 50 50 H I L CNN
+F3 "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf" 550 -50 50 H I L CNN
+F4 "Thin Film Resistors - SMD .1W 56Kohm 1% 0603 50ppm Auto" 550 -150 50 H I L CNN "Description"
+F5 "0.55" 550 -250 50 H I L CNN "Height"
+F6 "Vishay" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "MCT06030C5602FP500" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "594-MCT06030C5602FP5" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=594-MCT06030C5602FP5" 550 -650 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# ta-comm_MCT06030C6801FP500
+#
+DEF ta-comm_MCT06030C6801FP500 R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "ta-comm_MCT06030C6801FP500" 550 150 50 H V L CNN
+F2 "RESC1608X55N" 550 50 50 H I L CNN
+F3 "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf" 550 -50 50 H I L CNN
+F4 "VISHAY - MCT06030C6801FP500 - RES, THIN FILM, 6K8, 75V, 1%, 0603" 550 -150 50 H I L CNN "Description"
+F5 "0.55" 550 -250 50 H I L CNN "Height"
+F6 "Vishay" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "MCT06030C6801FP500" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "594-MCT06030C6801FP5" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=594-MCT06030C6801FP5" 550 -650 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# ta-comm_RFFM6404
+#
+DEF ta-comm_RFFM6404 IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "ta-comm_RFFM6404" 1150 200 50 H V L CNN
+F2 "RFFM6404" 1150 100 50 H I L CNN
+F3 "https://www.mouser.com/datasheet/2/412/RFFM6404_Data_Sheet-1509375.pdf" 1150 0 50 H I L CNN
+F4 "2.5V to 4.5V, ISM Band, 27.5dBm, 430MHz to 450MHz Transmit/Receive Module" 1150 -100 50 H I L CNN "Description"
+F5 "0.975" 1150 -200 50 H I L CNN "Height"
+F6 "Qorvo" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "RFFM6404" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "N/A" 1150 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA" 1150 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 1100 100 1100 -1500 200 -1500 200 100 N
+X GND_1 1 0 0 200 R 50 50 0 0 U
+X SAW1 10 0 -900 200 R 50 50 0 0 U
+X GND_5 11 0 -1000 200 R 50 50 0 0 U
+X GND_6 12 0 -1100 200 R 50 50 0 0 U
+X SAW2 13 0 -1200 200 R 50 50 0 0 U
+X GND_7 14 0 -1300 200 R 50 50 0 0 U
+X GND_8 15 0 -1400 200 R 50 50 0 0 U
+X GND_9 16 1300 0 200 L 50 50 0 0 U
+X VCC_RX 17 1300 -100 200 L 50 50 0 0 U
+X RX 18 1300 -200 200 L 50 50 0 0 U
+X GND_10 19 1300 -300 200 L 50 50 0 0 U
+X TR 2 0 -100 200 R 50 50 0 0 U
+X TX 20 1300 -400 200 L 50 50 0 0 U
+X GND_11 21 1300 -500 200 L 50 50 0 0 U
+X GND_12 22 1300 -600 200 L 50 50 0 0 U
+X GND_13 23 1300 -700 200 L 50 50 0 0 U
+X GND_14 24 1300 -800 200 L 50 50 0 0 U
+X GND_15 25 1300 -900 200 L 50 50 0 0 U
+X VCC_TX 26 1300 -1000 200 L 50 50 0 0 U
+X GND_16 27 1300 -1100 200 L 50 50 0 0 U
+X GND_17 28 1300 -1200 200 L 50 50 0 0 U
+X EP 29 1300 -1300 200 L 50 50 0 0 U
+X EN 3 0 -200 200 R 50 50 0 0 U
+X BYP 4 0 -300 200 R 50 50 0 0 U
+X VAPC 5 0 -400 200 R 50 50 0 0 U
+X GND_2 6 0 -500 200 R 50 50 0 0 U
+X ANT 7 0 -600 200 R 50 50 0 0 U
+X GND_3 8 0 -700 200 R 50 50 0 0 U
+X GND_4 9 0 -800 200 R 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# ta-comm_STA0693A
+#
+DEF ta-comm_STA0693A IC 0 40 Y Y 1 F N
+F0 "IC" 0 0 50 H V C CNN
+F1 "ta-comm_STA0693A" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -350 150 350 -200 0 1 0 N
+X GND 1 -250 -300 100 U 50 50 1 1 P
+X INPUT 2 -450 50 100 R 50 50 1 1 P
+X GND 3 -150 -300 100 U 50 50 1 1 P
+X GND 4 -50 -300 100 U 50 50 1 1 P
+X GND 5 50 -300 100 U 50 50 1 1 P
+X OUTPUT 6 450 50 100 L 50 50 1 1 P
+X GND 7 150 -300 100 U 50 50 1 1 P
+X GND 8 250 -300 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ta-comm_VJ0603A3R9BXQCW1BC
+#
+DEF ta-comm_VJ0603A3R9BXQCW1BC C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "ta-comm_VJ0603A3R9BXQCW1BC" 350 150 50 H V L CNN
+F2 "CAPC1608X87N" 350 50 50 H I L CNN
+F3 "https://www.mouser.com/datasheet/2/427/vjw1bcbascomseries-1762447.pdf" 350 -50 50 H I L CNN
+F4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 3.9pF 10volts C0G +/-0.1pF" 350 -150 50 H I L CNN "Description"
+F5 "0.87" 350 -250 50 H I L CNN "Height"
+F6 "Vishay" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "VJ0603A3R9BXQCW1BC" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "77-VJ0603A3R9BXQCBC" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=77-VJ0603A3R9BXQCBC" 350 -650 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 0 300 0 N
+P 2 0 1 6 280 100 280 -100 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library

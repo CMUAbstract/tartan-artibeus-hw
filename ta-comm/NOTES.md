@@ -59,27 +59,3 @@ sudo apt install kicad
 
 * Lay out the schematic in `eeschema`. Set the appropriate label values.
 
-...
-
-* Open `pcbnew` (PCB Layout Editor) and choose `File > Page Settings...` to
-  select "Size: USLetter 8.5x11in"
-
-* Add the PCB outline with graphic lines and graphic arcs.
-
-**Graphic Lines for PCB Edge**
-
-Create the following in the Edge.Cuts layer:
-* Start: (135.04, 85.50); End: (174.96, 85.50)
-* Start: (135.04,130.50); End: (174.96,130.50)
-* Start: (132.50, 88.04); End: (132.50,127.96)
-* Start: (177.50, 88.04); End: (177.50,127.96)
-
-**Graphic Arcs for PCB Edge**
-
-Create the following in the Edge.Cuts layer:
-* Center: (135.04, 88.04); Start: (135.04, 85.50); Arc angle -90.0
-* Center: (174.96, 88.04); Start: (177.50, 88.04); Arc angle -90.0
-* Center: (135.04,127.96); Start: (132.50,127.96); Arc angle -90.0
-* Center: (174.96,127.96); Start: (174.96,130.50); Arc angle -90.0
-
-
