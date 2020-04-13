@@ -1,4 +1,4 @@
-16941157649931076
+16947503071605076
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75306,6 +75306,27 @@ LED
 2
 2
 ta-comm
+MountingHoles_TartanArtibeus
+
+
+0
+4
+4
+ta-comm
+PinSocket_1x4_TartanArtibeus
+
+
+0
+4
+4
+ta-comm
+PinSocket_1x16_TartanArtibeus
+
+
+0
+16
+16
+ta-comm
 QFN50P200X200X55-13N-D
 2mm x 2mm x 0.5mm 12-pin TQFN
 Integrated Circuit
@@ -75333,3 +75354,10 @@ Integrated Circuit
 0
 29
 29
+ta-comm
+STA0693A
+
+
+0
+8
+8
