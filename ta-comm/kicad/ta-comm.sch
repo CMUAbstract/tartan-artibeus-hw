@@ -1047,13 +1047,13 @@ F 11 "http://uk.rs-online.com/web/p/products/1885546" H 6600 950 50  0001 L CNN 
 	-1   0    0    -1  
 $EndComp
 Text Label 6050 750  0    50   ~ 0
-RTS1
+RTS0
 Text Label 6050 1100 0    50   ~ 0
-CTS1
+CTS0
 Text Label 6050 1450 0    50   ~ 0
-RX1
+RX0
 Text Label 6050 1800 0    50   ~ 0
-TX1
+TX0
 Wire Wire Line
 	5350 1100 4800 1100
 Wire Wire Line
