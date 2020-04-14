@@ -30,38 +30,6 @@ sudo apt install kicad
   (recommended)" if prompted. Choose `File > New Library...`. Enter the project
   name (here: `ta-comm`), and choose the "Project" scope when prompted.
 
-* In the Footprint Editor, build four custom footprints:
-  `MountingHoles_TartanArtibeus`, `PinSocket_1x16_TartanArtibeus`,
-  `PinSocket_1x4_TartanArtibeus`, and `STA0693A`. See below for details on each
-  custom footprint. Save each footprint in the project library. Choose
-  `File > New Footprint...` to get started.
-
-**Tartan Artibeus Mounting Holes**
-
-* Size (x): 3 mm
-* Hole size (x): 2.54 mm
-* Locations: 1 (-19.50,-8.00), 2 (19.50,-8.00), 3 (-19.50,8.00), 4 (19.50,8.00)
-* Labels locations: (0,-24), (0,24)
-
-**Tartan Artibeus Pin Sockets (16)**
-
-* Size (x): 1.54 mm
-* Hole size (x): 1 mm
-* Locations: 1 (-19.05,0.00), 2 (-16.51,0.00), 3 (-13.97,0.00), 4 (-11.43,0.00),
-  5 (-8.89,0.00), 6 (-6.35,0.00), 7 (-3.81,0.00), 8 (-1.27,0.00), 9 (1.27,0.00),
-  10 (3.81,0.00), 11 (6.35,0.00), 12 (8.89,0.00), 13 (11.43,0.00),
-  14 (13.97,0.00), 15 (16.51,0.00), 16 (19.05,0.00)
-* Labels locations: (0,-3), (0,3)
-
-**Tartan Artibeus Pin Sockets (4)**
-
-* Size (x): 1.54 mm
-* Hole size (x): 1 mm
-* Locations: 1 (0.00,3.81), 2 (0.00,1.27), 3 (0.00,-1.27), 4 (0.00,-3.81)
-* Labels locations: (0,-5.5), (0,5.5)
-
-**STA0693A**: See the datasheet
-
 * Import the BOM footprints from `componentsearchengine.com` into the project
   footprint library. Select `File > Import Footprint from KiCad File...` and
   save in the project library. The `.kicad_mod` files are provided in the
@@ -121,6 +89,9 @@ sudo apt install kicad
   * dPair Width: 5 mils
   * dPair Gap: 5 mils
 
+* Choose `Preferences > Preferences...`. Under `Pcbnew`, set Units to
+  Millimeters.
+
 * Add the PCB outline with graphic lines and graphic arcs.
 
 **Graphic Lines for PCB Edge**
@@ -139,14 +110,6 @@ Create the following in the Edge.Cuts layer:
 * Center: (135.04,127.96); Start: (132.50,127.96); Arc angle -90.0
 * Center: (174.96,127.96); Start: (174.96,130.50); Arc angle -90.0
 
-* Add the filled zone for the ground plane.
-  * Start: (132.40, 85.40); End: (177.60, 85.40)
-  * Start: (132.40,130.60); End: (177.60,130.60)
-  * Start: (132.40, 85.40); End: (132.40,130.60)
-  * Start: (177.60, 85.40); End: (177.60,130.60)
-
-
-
 * From `eeschema`, choose `Tools > Generate Netlist File...` and select
   "Generate Netlist."
 
@@ -154,4 +117,62 @@ Create the following in the Edge.Cuts layer:
   file.
 
 * Place the components, vias, and tracks.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
