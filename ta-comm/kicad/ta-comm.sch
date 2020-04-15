@@ -283,9 +283,7 @@ $EndComp
 Text Label 2000 2100 1    50   ~ 0
 TX_MODE
 Text Label 2100 1700 1    50   ~ 0
-N_RX_MODE
-Wire Wire Line
-	2200 1250 2200 2400
+RX_MODE
 Wire Wire Line
 	2000 2100 2000 2150
 Wire Wire Line
@@ -311,8 +309,6 @@ Wire Wire Line
 Connection ~ 2100 1750
 Wire Wire Line
 	2100 1750 2100 2400
-Text Label 1100 1750 2    50   ~ 0
-VDD_FILT
 $Comp
 L power:GND #PWR03
 U 1 1 5E994A86
@@ -326,11 +322,6 @@ F 3 "" H 1100 1250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1200 1250 1100 1250
-Wire Wire Line
-	1700 1250 2200 1250
-Wire Wire Line
-	2200 1250 2400 1250
-Connection ~ 2200 1250
 Text Label 3250 1250 0    50   ~ 0
 D0
 $Comp
@@ -931,8 +922,6 @@ F 3 "~" H 4200 7200 50  0001 C CNN
 	1    4200 7200
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3100 1250 3200 1250
 $Comp
 L ta-comm:MCT06030C3302FP500 R8
 U 1 1 5EB4144E
@@ -950,11 +939,6 @@ F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=594-MCT06030C3302FP5" H 3
 	1    3200 1350
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3200 1350 3200 1250
-Connection ~ 3200 1250
-Wire Wire Line
-	3200 1250 3250 1250
 Wire Wire Line
 	3200 2050 3200 2250
 Text Label 3200 2250 0    50   ~ 0
@@ -1337,109 +1321,6 @@ Wire Wire Line
 	9750 1250 9750 1350
 Connection ~ 9750 1250
 Connection ~ 9750 1350
-$Comp
-L ta-comm:F2972NEGK IC2
-U 1 1 5EAC12F5
-P 6100 3750
-F 0 "IC2" H 6400 3350 50  0000 L CNN
-F 1 "F2972NEGK" H 6400 3450 50  0000 L CNN
-F 2 "ta-comm:QFN50P200X200X55-13N-D" H 7150 4250 50  0001 L CNN
-F 3 "https://www.idt.com/document/dst/f2972-datasheet" H 7150 4150 50  0001 L CNN
-F 4 "VFQFP-N 2 MM X 2MM X .5MM PITCH" H 7150 4050 50  0001 L CNN "Description"
-F 5 "0.55" H 7150 3950 50  0001 L CNN "Height"
-F 6 "IDT" H 7150 3850 50  0001 L CNN "Manufacturer_Name"
-F 7 "F2972NEGK" H 7150 3750 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "972-F2972NEGK" H 7150 3650 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=972-F2972NEGK" H 7150 3550 50  0001 L CNN "Mouser Price/Stock"
-	1    6100 3750
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	6000 3650 6100 3650
-$Comp
-L power:GND #PWR022
-U 1 1 5ED30EF6
-P 6200 3250
-F 0 "#PWR022" H 6200 3000 50  0001 C CNN
-F 1 "GND" H 6205 3077 50  0000 C CNN
-F 2 "" H 6200 3250 50  0001 C CNN
-F 3 "" H 6200 3250 50  0001 C CNN
-	1    6200 3250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6100 3550 6100 3250
-Wire Wire Line
-	6100 3250 6200 3250
-$Comp
-L power:GND #PWR021
-U 1 1 5ED343CA
-P 6100 3750
-F 0 "#PWR021" H 6100 3500 50  0001 C CNN
-F 1 "GND" H 6105 3577 50  0000 C CNN
-F 2 "" H 6100 3750 50  0001 C CNN
-F 3 "" H 6100 3750 50  0001 C CNN
-	1    6100 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR023
-U 1 1 5ED34940
-P 6450 2850
-F 0 "#PWR023" H 6450 2600 50  0001 C CNN
-F 1 "GND" H 6455 2677 50  0000 C CNN
-F 2 "" H 6450 2850 50  0001 C CNN
-F 3 "" H 6450 2850 50  0001 C CNN
-	1    6450 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR026
-U 1 1 5ED34F35
-P 6950 2850
-F 0 "#PWR026" H 6950 2600 50  0001 C CNN
-F 1 "GND" H 6955 2677 50  0000 C CNN
-F 2 "" H 6950 2850 50  0001 C CNN
-F 3 "" H 6950 2850 50  0001 C CNN
-	1    6950 2850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6450 2850 6600 2850
-Wire Wire Line
-	6800 2850 6950 2850
-Wire Wire Line
-	6600 4450 6500 4450
-$Comp
-L power:GND #PWR024
-U 1 1 5ED3E019
-P 6500 4450
-F 0 "#PWR024" H 6500 4200 50  0001 C CNN
-F 1 "GND" H 6505 4277 50  0000 C CNN
-F 2 "" H 6500 4450 50  0001 C CNN
-F 3 "" H 6500 4450 50  0001 C CNN
-	1    6500 4450
-	1    0    0    -1  
-$EndComp
-Connection ~ 6500 4450
-$Comp
-L power:GND #PWR025
-U 1 1 5ED3E5CB
-P 6800 4450
-F 0 "#PWR025" H 6800 4200 50  0001 C CNN
-F 1 "GND" H 6805 4277 50  0000 C CNN
-F 2 "" H 6800 4450 50  0001 C CNN
-F 3 "" H 6800 4450 50  0001 C CNN
-	1    6800 4450
-	1    0    0    -1  
-$EndComp
-NoConn ~ 7300 3650
-Text Label 7300 3550 0    50   ~ 0
-N_RX_MODE
-Text Label 7300 3750 0    50   ~ 0
-VDD_FILT
-Text Notes 6550 3700 0    50   ~ 0
-(Pulled up)
 Text Label 9050 4450 0    50   ~ 0
 TX_MODE
 Text Label 9050 4550 0    50   ~ 0
@@ -1565,8 +1446,6 @@ Wire Wire Line
 	7750 4350 7750 4050
 Wire Wire Line
 	7750 4050 7850 4050
-Wire Wire Line
-	6700 2550 6700 2850
 Text Label 10100 4700 0    50   ~ 0
 VDD_FILT
 $Comp
@@ -1608,14 +1487,6 @@ Wire Wire Line
 	7750 4550 7400 4550
 Wire Wire Line
 	7400 4550 7400 3800
-Wire Wire Line
-	7400 3800 7750 3800
-Wire Wire Line
-	7750 3800 7750 2550
-Wire Wire Line
-	7750 2550 7200 2550
-Wire Wire Line
-	6700 4450 6700 4750
 Wire Wire Line
 	7200 4750 7750 4750
 $Comp
@@ -1986,8 +1857,146 @@ NoConn ~ 4300 1300
 NoConn ~ 4400 1300
 NoConn ~ 4500 1300
 NoConn ~ 4600 1300
-Text Notes 6650 2800 2    50   ~ 0
-RX: VCTL=L
-Text Notes 6650 4750 2    50   ~ 0
-TX: VCTL=H
+Text Notes 6650 4800 2    50   ~ 0
+VCTL=L
+Text Notes 6650 2600 2    50   ~ 0
+VCTL=H
+$Comp
+L power:GND #PWR021
+U 1 1 5E96E772
+P 1100 1750
+F 0 "#PWR021" H 1100 1500 50  0001 C CNN
+F 1 "GND" H 1105 1577 50  0000 C CNN
+F 2 "" H 1100 1750 50  0001 C CNN
+F 3 "" H 1100 1750 50  0001 C CNN
+	1    1100 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 1250 3250 1250
+Wire Wire Line
+	3100 1250 3200 1250
+Connection ~ 3200 1250
+Wire Wire Line
+	3200 1350 3200 1250
+Wire Wire Line
+	2200 1250 2400 1250
+Wire Wire Line
+	1700 1250 2200 1250
+Connection ~ 2200 1250
+Wire Wire Line
+	2200 1250 2200 2400
+Wire Wire Line
+	7200 2550 7650 2550
+Wire Wire Line
+	7650 2550 7650 3800
+Wire Wire Line
+	7650 3800 7400 3800
+$Comp
+L ta-comm:F2972NEGK IC2
+U 1 1 5E99286D
+P 6100 3550
+F 0 "IC2" H 6400 3750 50  0000 L CNN
+F 1 "F2972NEGK" H 6400 3650 50  0000 L CNN
+F 2 "QFN50P200X200X55-13N-D" H 7150 4050 50  0001 L CNN
+F 3 "https://www.idt.com/document/dst/f2972-datasheet" H 7150 3950 50  0001 L CNN
+F 4 "VFQFP-N 2 MM X 2MM X .5MM PITCH" H 7150 3850 50  0001 L CNN "Description"
+F 5 "0.55" H 7150 3750 50  0001 L CNN "Height"
+F 6 "IDT" H 7150 3650 50  0001 L CNN "Manufacturer_Name"
+F 7 "F2972NEGK" H 7150 3550 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "972-F2972NEGK" H 7150 3450 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=972-F2972NEGK" H 7150 3350 50  0001 L CNN "Mouser Price/Stock"
+	1    6100 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 2550 6700 2850
+Wire Wire Line
+	6700 4450 6700 4750
+$Comp
+L power:GND #PWR025
+U 1 1 5E9AAA8A
+P 6600 4450
+F 0 "#PWR025" H 6600 4200 50  0001 C CNN
+F 1 "GND" H 6605 4277 50  0000 C CNN
+F 2 "" H 6600 4450 50  0001 C CNN
+F 3 "" H 6600 4450 50  0001 C CNN
+	1    6600 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR026
+U 1 1 5E9AB05C
+P 6800 4450
+F 0 "#PWR026" H 6800 4200 50  0001 C CNN
+F 1 "GND" H 6805 4277 50  0000 C CNN
+F 2 "" H 6800 4450 50  0001 C CNN
+F 3 "" H 6800 4450 50  0001 C CNN
+	1    6800 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR022
+U 1 1 5E9AB653
+P 6100 3750
+F 0 "#PWR022" H 6100 3500 50  0001 C CNN
+F 1 "GND" H 6105 3577 50  0000 C CNN
+F 2 "" H 6100 3750 50  0001 C CNN
+F 3 "" H 6100 3750 50  0001 C CNN
+	1    6100 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR023
+U 1 1 5E9ABC4D
+P 6200 3250
+F 0 "#PWR023" H 6200 3000 50  0001 C CNN
+F 1 "GND" H 6205 3077 50  0000 C CNN
+F 2 "" H 6200 3250 50  0001 C CNN
+F 3 "" H 6200 3250 50  0001 C CNN
+	1    6200 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 3550 6100 3250
+Wire Wire Line
+	6100 3250 6200 3250
+Text Label 7300 3550 0    50   ~ 0
+VDD_FILT
+Text Label 7300 3750 0    50   ~ 0
+RX_MODE
+NoConn ~ 7300 3650
+Wire Wire Line
+	6000 3650 6100 3650
+$Comp
+L power:GND #PWR024
+U 1 1 5E9C0236
+P 6350 2850
+F 0 "#PWR024" H 6350 2600 50  0001 C CNN
+F 1 "GND" H 6355 2677 50  0000 C CNN
+F 2 "" H 6350 2850 50  0001 C CNN
+F 3 "" H 6350 2850 50  0001 C CNN
+	1    6350 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR049
+U 1 1 5E9C0D1F
+P 6950 2850
+F 0 "#PWR049" H 6950 2600 50  0001 C CNN
+F 1 "GND" H 6955 2677 50  0000 C CNN
+F 2 "" H 6950 2850 50  0001 C CNN
+F 3 "" H 6950 2850 50  0001 C CNN
+	1    6950 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 2850 6500 2850
+Wire Wire Line
+	6500 2850 6350 2850
+Connection ~ 6500 2850
+Wire Wire Line
+	6800 2850 6950 2850
+Text Notes 6550 3700 0    50   ~ 0
+(Pulled up)
 $EndSCHEMATC
