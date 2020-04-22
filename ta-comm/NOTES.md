@@ -291,7 +291,11 @@ Create the following in the Edge.Cuts layer:
   * GND: (171.51, 122.90)
   * GND: (174.05, 122.90)
 
-
+* Ground and power planes:
+  * Clearance: 0.254 mm
+  * Minimum width: 0.127 mm
+  * Thermal clearance: 0.254 mm
+  * Thermal spoke width: 0.254 mm
 
 
 
