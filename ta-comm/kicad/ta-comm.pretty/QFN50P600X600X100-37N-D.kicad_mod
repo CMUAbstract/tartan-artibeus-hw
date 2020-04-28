@@ -1,8 +1,8 @@
-(module QFN50P600X600X100-37N-D (layer F.Cu) (tedit 0)
+(module QFN50P600X600X100-37N-D (layer F.Cu) (tedit 5EA498FA)
   (descr RHH0036C+)
   (tags "Integrated Circuit")
   (attr smd)
-  (fp_text reference IC** (at 0 0) (layer F.SilkS)
+  (fp_text reference IC** (at 0 0) (layer F.Fab)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )
   (fp_text value QFN50P600X600X100-37N-D (at 0 0) (layer F.SilkS) hide
@@ -58,7 +58,7 @@
   (pad 3 smd rect (at -2.9 -1 90) (size 0.3 0.9) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -2.9 -1.5 90) (size 0.3 0.9) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -2.9 -2 90) (size 0.3 0.9) (layers F.Cu F.Paste F.Mask))
-  (model CC1110F32RHHR.stp
+  (model /home/bdenby/git-repos/tartan-artibeus-hw/ta-comm/3d-models/QFN50P600X600X100-37N-D.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

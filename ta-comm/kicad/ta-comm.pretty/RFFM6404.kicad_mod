@@ -1,8 +1,8 @@
-(module RFFM6404 (layer F.Cu) (tedit 0)
+(module RFFM6404 (layer F.Cu) (tedit 5EA49918)
   (descr RFFM6404-3)
   (tags "Integrated Circuit")
   (attr smd)
-  (fp_text reference IC** (at -0.35 0) (layer F.SilkS)
+  (fp_text reference IC** (at -0.35 0) (layer F.Fab)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )
   (fp_text value RFFM6404 (at -0.35 0) (layer F.SilkS) hide
@@ -52,7 +52,7 @@
   (pad 3 smd rect (at -2.625 -1.125 90) (size 0.4 0.55) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -2.625 -1.875 90) (size 0.4 0.55) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -2.625 -2.65 90) (size 0.5 0.55) (layers F.Cu F.Paste F.Mask))
-  (model RFFM6404.stp
+  (model /home/bdenby/git-repos/tartan-artibeus-hw/ta-comm/3d-models/RFFM6404.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

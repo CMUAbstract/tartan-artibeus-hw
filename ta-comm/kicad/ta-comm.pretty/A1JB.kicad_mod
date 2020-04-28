@@ -1,8 +1,8 @@
-(module A1JB (layer F.Cu) (tedit 0)
+(module A1JB (layer F.Cu) (tedit 5EA4986C)
   (descr A-1JB)
   (tags Connector)
   (attr smd)
-  (fp_text reference J** (at 0 0) (layer F.SilkS)
+  (fp_text reference J** (at 0 0) (layer F.Fab)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )
   (fp_text value A1JB (at 0 0) (layer F.SilkS) hide
@@ -27,7 +27,7 @@
   (pad 3 smd rect (at -1.525 0) (size 0.6 1.4) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0 -1.475 90) (size 1.05 2.2) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at 1.525 0) (size 0.6 1.4) (layers F.Cu F.Paste F.Mask))
-  (model A-1JB.stp
+  (model /home/bdenby/git-repos/tartan-artibeus-hw/ta-comm/3d-models/A1JB.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

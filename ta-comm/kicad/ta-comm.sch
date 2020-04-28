@@ -708,19 +708,19 @@ $EndComp
 $Comp
 L ta-comm:VJ0603A3R9BXQCW1BC C11
 U 1 1 5EAB12BE
-P 4700 3900
-F 0 "C11" H 4950 4165 50  0000 C CNN
-F 1 "VJ0603A3R9BXQCW1BC" H 4950 4074 50  0000 C CNN
-F 2 "ta-comm:CAPC1608X87N" H 5050 3950 50  0001 L CNN
-F 3 "https://www.mouser.com/datasheet/2/427/vjw1bcbascomseries-1762447.pdf" H 5050 3850 50  0001 L CNN
-F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 3.9pF 10volts C0G +/-0.1pF" H 5050 3750 50  0001 L CNN "Description"
-F 5 "0.87" H 5050 3650 50  0001 L CNN "Height"
-F 6 "Vishay" H 5050 3550 50  0001 L CNN "Manufacturer_Name"
-F 7 "VJ0603A3R9BXQCW1BC" H 5050 3450 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "77-VJ0603A3R9BXQCBC" H 5050 3350 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=77-VJ0603A3R9BXQCBC" H 5050 3250 50  0001 L CNN "Mouser Price/Stock"
-	1    4700 3900
-	1    0    0    -1  
+P 4700 4200
+F 0 "C11" H 4950 4465 50  0000 C CNN
+F 1 "VJ0603A3R9BXQCW1BC" H 4950 4374 50  0000 C CNN
+F 2 "ta-comm:CAPC1608X87N" H 5050 4250 50  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/427/vjw1bcbascomseries-1762447.pdf" H 5050 4150 50  0001 L CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 3.9pF 10volts C0G +/-0.1pF" H 5050 4050 50  0001 L CNN "Description"
+F 5 "0.87" H 5050 3950 50  0001 L CNN "Height"
+F 6 "Vishay" H 5050 3850 50  0001 L CNN "Manufacturer_Name"
+F 7 "VJ0603A3R9BXQCW1BC" H 5050 3750 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "77-VJ0603A3R9BXQCBC" H 5050 3650 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=77-VJ0603A3R9BXQCBC" H 5050 3550 50  0001 L CNN "Mouser Price/Stock"
+	1    4700 4200
+	1    0    0    1   
 $EndComp
 $Comp
 L ta-comm:885012006010 C13
@@ -783,23 +783,12 @@ Wire Wire Line
 Wire Wire Line
 	5450 4050 5350 4050
 Wire Wire Line
-	5200 3900 5350 3900
-Wire Wire Line
 	5350 3900 5350 4050
 Wire Wire Line
 	5350 4050 5350 4200
 Connection ~ 5350 4050
 Wire Wire Line
-	4450 3800 4450 3900
-Wire Wire Line
-	4700 3900 4450 3900
-Connection ~ 4450 3900
-Wire Wire Line
-	4450 3900 4450 4000
-Wire Wire Line
 	4450 4100 4450 4200
-Wire Wire Line
-	4450 4200 4550 4200
 Connection ~ 4450 4200
 Wire Wire Line
 	4450 5000 4700 5000
@@ -1916,19 +1905,19 @@ Connection ~ 2900 4500
 $Comp
 L ta-comm:LQW18AN27NJ80D L2
 U 1 1 5EAA8F2F
-P 4550 4200
-F 0 "L2" H 4950 4425 50  0000 C CNN
-F 1 "LQW18AN27NJ80D" H 4950 4334 50  0000 C CNN
-F 2 "ta-comm:INDC1608X100N" H 5200 4250 50  0001 L CNN
-F 3 "https://psearch.en.murata.com/inductor/product/LQW18AN27NJ80%23.html" H 5200 4150 50  0001 L CNN
-F 4 "LQW18AN_80 Series Inductor 27nH +/-5% 0603 (1608)" H 5200 4050 50  0001 L CNN "Description"
-F 5 "1" H 5200 3950 50  0001 L CNN "Height"
-F 6 "Murata Electronics" H 5200 3850 50  0001 L CNN "Manufacturer_Name"
-F 7 "LQW18AN27NJ80D" H 5200 3750 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "81-LQW18AN27NJ80D" H 5200 3650 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=81-LQW18AN27NJ80D" H 5200 3550 50  0001 L CNN "Mouser Price/Stock"
-	1    4550 4200
-	1    0    0    1   
+P 4550 3900
+F 0 "L2" H 4950 4125 50  0000 C CNN
+F 1 "LQW18AN27NJ80D" H 4950 4034 50  0000 C CNN
+F 2 "ta-comm:INDC1608X100N" H 5200 3950 50  0001 L CNN
+F 3 "https://psearch.en.murata.com/inductor/product/LQW18AN27NJ80%23.html" H 5200 3850 50  0001 L CNN
+F 4 "LQW18AN_80 Series Inductor 27nH +/-5% 0603 (1608)" H 5200 3750 50  0001 L CNN "Description"
+F 5 "1" H 5200 3650 50  0001 L CNN "Height"
+F 6 "Murata Electronics" H 5200 3550 50  0001 L CNN "Manufacturer_Name"
+F 7 "LQW18AN27NJ80D" H 5200 3450 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "81-LQW18AN27NJ80D" H 5200 3350 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=81-LQW18AN27NJ80D" H 5200 3250 50  0001 L CNN "Mouser Price/Stock"
+	1    4550 3900
+	1    0    0    -1  
 $EndComp
 $Comp
 L ta-comm:0603ZC104KAT2A C14
@@ -2007,4 +1996,23 @@ F 3 "" H 9450 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 9450 6350
+Wire Wire Line
+	4450 4200 4700 4200
+Wire Wire Line
+	5350 4200 5200 4200
+Wire Wire Line
+	4450 3800 4450 3900
+Wire Wire Line
+	4550 3900 4450 3900
+Connection ~ 4450 3900
+Wire Wire Line
+	4450 3900 4450 4000
+Text Notes 6500 4100 0    50   ~ 0
+(Pulled up)
+Text Notes 4450 2800 0    50   ~ 0
+RF traces should have 50 ohm impedance\nOSH Park 4 Layer: 12 mil (0.3048 mm) width
+Text Notes 6300 3200 0    50   ~ 0
+VCTL=H
+Text Notes 6300 5200 0    50   ~ 0
+VCTL=L
 $EndSCHEMATC

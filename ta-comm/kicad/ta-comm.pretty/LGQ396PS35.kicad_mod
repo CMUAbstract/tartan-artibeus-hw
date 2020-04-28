@@ -1,8 +1,8 @@
-(module LGQ396PS35 (layer F.Cu) (tedit 0)
+(module LGQ396PS35 (layer F.Cu) (tedit 5EA498CB)
   (descr "LG Q396-PS-35-4")
   (tags LED)
   (attr smd)
-  (fp_text reference LED** (at -0.35 0) (layer F.SilkS)
+  (fp_text reference LED** (at -0.35 0) (layer F.Fab)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )
   (fp_text value LGQ396PS35 (at -0.35 0) (layer F.SilkS) hide
@@ -27,7 +27,7 @@
   )
   (pad 2 smd rect (at 0.75 0 90) (size 0.8 0.8) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -0.75 0 90) (size 0.8 0.8) (layers F.Cu F.Paste F.Mask))
-  (model LG_Q396-PS-35.stp
+  (model /home/bdenby/git-repos/tartan-artibeus-hw/ta-comm/3d-models/LGQ396PS35.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

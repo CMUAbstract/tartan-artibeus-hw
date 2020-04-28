@@ -1,4 +1,4 @@
-update=Mon 20 Apr 2020 09:03:44 PM EDT
+update=Sat 25 Apr 2020 08:36:58 PM EDT
 version=1
 last_client=kicad
 [general]
@@ -27,7 +27,7 @@ version=1
 PageLayoutDescrFile=
 LastNetListRead=ta-comm.net
 CopperLayerCount=4
-BoardThickness=1.6
+BoardThickness=1.742
 AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
@@ -39,6 +39,8 @@ MinMicroViaDiameter=0.4572
 MinMicroViaDrill=0.254
 MinHoleToHole=0.127
 TrackWidth1=0.127
+TrackWidth2=0.2032
+TrackWidth3=0.3048
 ViaDiameter1=0.4572
 ViaDrill1=0.254
 dPairWidth1=0.127
@@ -64,10 +66,10 @@ OthersTextSizeH=1
 OthersTextSizeThickness=0.15
 OthersTextItalic=0
 OthersTextUpright=1
-SolderMaskClearance=0.051
-SolderMaskMinWidth=0.25
+SolderMaskClearance=0.0508
+SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0

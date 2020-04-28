@@ -1,4 +1,4 @@
-16947519377812076
+16947526143322076
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75272,14 +75272,14 @@ Ferrite Bead
 2
 ta-comm
 CAPC1608X87N
-0603;1.6x0.8x0.8
+0603-
 Capacitor
 0
 2
 2
 ta-comm
 CAPC1608X90N
-GRM18_0.10 L=1.6mm W=0.8mm T=0.8mm
+0603-1
 Capacitor
 0
 2
