@@ -68,8 +68,8 @@ sudo apt install kicad
 * Choose `Preferences > Preferences...`. Under `Pcbnew`, set Units to Inches.
 
 * Choose `File > Board Setup...`. Under `Design Rules`, choose
-  `Solder Mask/Paste`. Set "Solder mask clearance" to 0.002 in (i.e. 2.0 mils or
-  0.0508 mm), and set all other values to zero.
+  `Solder Mask/Paste`. Set "Solder mask clearance" to 0.0005 in (i.e. 0.5 mils
+  or 0.0127 mm), and set all other values to zero.
 
 * Still under `File > Board Setup...`, choose `Design Rules`. Ensure that "Allow
   blind/buried vias" is **not** checked. Ensure that "Allow micro vias (uVias)"
