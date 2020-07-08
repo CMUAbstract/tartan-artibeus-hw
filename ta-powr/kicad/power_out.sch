@@ -33,17 +33,6 @@ Wire Wire Line
 	8250 850  8600 850 
 Text Label 8300 850  0    50   ~ 0
 Vdd
-$Comp
-L Power_Management:SiP32431DR3 U3
-U 1 1 5EF945E6
-P 8700 2000
-F 0 "U3" H 8700 2367 50  0000 C CNN
-F 1 "SiP32431DR3" H 8700 2276 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 8700 2450 50  0001 C CNN
-F 3 "http://www.vishay.com.hk/docs/66597/sip32431.pdf" H 8700 2000 50  0001 C CNN
-	1    8700 2000
-	1    0    0    -1  
-$EndComp
 Text Label 8200 1900 0    50   ~ 0
 Vdd
 $Comp
@@ -63,17 +52,6 @@ Wire Wire Line
 	9000 1900 9150 1900
 Wire Wire Line
 	8050 2000 8200 2000
-$Comp
-L Power_Management:SiP32431DR3 U4
-U 1 1 5EFA2A15
-P 8750 3750
-F 0 "U4" H 8750 4117 50  0000 C CNN
-F 1 "SiP32431DR3" H 8750 4026 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 8750 4200 50  0001 C CNN
-F 3 "http://www.vishay.com.hk/docs/66597/sip32431.pdf" H 8750 3750 50  0001 C CNN
-	1    8750 3750
-	1    0    0    -1  
-$EndComp
 Text Label 8250 3650 0    50   ~ 0
 Vdd
 $Comp
@@ -93,17 +71,6 @@ Wire Wire Line
 	9050 3650 9250 3650
 Wire Wire Line
 	8100 3750 8250 3750
-$Comp
-L Power_Management:SiP32431DR3 U5
-U 1 1 5EFA3FFB
-P 8700 5300
-F 0 "U5" H 8700 5667 50  0000 C CNN
-F 1 "SiP32431DR3" H 8700 5576 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 8700 5750 50  0001 C CNN
-F 3 "http://www.vishay.com.hk/docs/66597/sip32431.pdf" H 8700 5300 50  0001 C CNN
-	1    8700 5300
-	1    0    0    -1  
-$EndComp
 Text Label 8200 5200 0    50   ~ 0
 Vdd
 $Comp
@@ -822,6 +789,39 @@ F 1 "1M" H 5118 2055 50  0000 L CNN
 F 2 "" V 5090 2090 50  0001 C CNN
 F 3 "~" H 5050 2100 50  0001 C CNN
 	1    5050 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Management:SiP32431DNP3 U?
+U 1 1 5F05BC9F
+P 8700 5300
+F 0 "U?" H 8700 5667 50  0000 C CNN
+F 1 "SiP32431DNP3" H 8700 5576 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 8700 5750 50  0001 C CNN
+F 3 "http://www.vishay.com.hk/docs/66597/sip32431.pdf" H 8700 5300 50  0001 C CNN
+	1    8700 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Management:SiP32431DNP3 U?
+U 1 1 5F05CF28
+P 8750 3750
+F 0 "U?" H 8750 4117 50  0000 C CNN
+F 1 "SiP32431DNP3" H 8750 4026 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 8750 4200 50  0001 C CNN
+F 3 "http://www.vishay.com.hk/docs/66597/sip32431.pdf" H 8750 3750 50  0001 C CNN
+	1    8750 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Management:SiP32431DNP3 U?
+U 1 1 5F05D83A
+P 8700 2000
+F 0 "U?" H 8700 2367 50  0000 C CNN
+F 1 "SiP32431DNP3" H 8700 2276 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 8700 2450 50  0001 C CNN
+F 3 "http://www.vishay.com.hk/docs/66597/sip32431.pdf" H 8700 2000 50  0001 C CNN
+	1    8700 2000
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
