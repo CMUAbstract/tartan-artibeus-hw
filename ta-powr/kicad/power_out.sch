@@ -47,7 +47,7 @@ F 3 "" H 8700 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8700 2300 8700 2450
+	8700 2300 8700 2400
 Wire Wire Line
 	9000 1900 9150 1900
 Wire Wire Line
@@ -66,7 +66,7 @@ F 3 "" H 8750 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8750 4050 8750 4200
+	8750 4050 8750 4150
 Wire Wire Line
 	9050 3650 9250 3650
 Wire Wire Line
@@ -85,7 +85,7 @@ F 3 "" H 8700 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8700 5600 8700 5750
+	8700 5600 8700 5700
 Wire Wire Line
 	9000 5200 9200 5200
 Wire Wire Line
@@ -214,12 +214,12 @@ F 3 "~" H 8700 4800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8350 5200 8350 4800
+	8150 5200 8150 4800
 Wire Wire Line
-	8350 4800 8550 4800
-Connection ~ 8350 5200
+	8150 4800 8550 4800
+Connection ~ 8150 5200
 Wire Wire Line
-	8350 5200 8400 5200
+	8150 5200 8400 5200
 Wire Wire Line
 	9200 4800 9200 5200
 Connection ~ 9200 5200
@@ -239,12 +239,12 @@ F 3 "~" H 8750 3150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8400 3650 8400 3150
+	8150 3650 8150 3150
 Wire Wire Line
-	8400 3150 8600 3150
-Connection ~ 8400 3650
+	8150 3150 8600 3150
+Connection ~ 8150 3650
 Wire Wire Line
-	8400 3650 8450 3650
+	8150 3650 8450 3650
 Wire Wire Line
 	8900 3150 9250 3150
 Wire Wire Line
@@ -264,12 +264,12 @@ F 3 "~" H 8700 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8350 1900 8350 1450
+	8100 1900 8100 1450
 Wire Wire Line
-	8350 1450 8550 1450
-Connection ~ 8350 1900
+	8100 1450 8550 1450
+Connection ~ 8100 1900
 Wire Wire Line
-	8350 1900 8400 1900
+	8100 1900 8400 1900
 Wire Wire Line
 	8850 1450 9150 1450
 Wire Wire Line
@@ -535,7 +535,7 @@ $EndComp
 Wire Wire Line
 	7150 1900 7150 1950
 Wire Wire Line
-	7150 1900 8350 1900
+	7150 1900 8100 1900
 $Comp
 L power:GND #PWR011
 U 1 1 5F1249E6
@@ -633,7 +633,7 @@ Wire Wire Line
 Wire Wire Line
 	7150 3700 7150 3650
 Wire Wire Line
-	7150 3650 8400 3650
+	7150 3650 8150 3650
 $Comp
 L power:GND #PWR012
 U 1 1 5F1355D6
@@ -714,7 +714,7 @@ Wire Wire Line
 Wire Wire Line
 	7200 5250 7200 5200
 Wire Wire Line
-	7200 5200 8350 5200
+	7200 5200 8150 5200
 $Comp
 L Device:R_US R17
 U 1 1 5F15228F
@@ -792,36 +792,57 @@ F 3 "~" H 5050 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power_Management:SiP32431DNP3 U?
-U 1 1 5F05BC9F
-P 8700 5300
-F 0 "U?" H 8700 5667 50  0000 C CNN
-F 1 "SiP32431DNP3" H 8700 5576 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 8700 5750 50  0001 C CNN
-F 3 "http://www.vishay.com.hk/docs/66597/sip32431.pdf" H 8700 5300 50  0001 C CNN
-	1    8700 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Power_Management:SiP32431DNP3 U?
-U 1 1 5F05CF28
+L power-board:SIP32431DNP3-T1GE4 U?
+U 1 1 5F066050
 P 8750 3750
 F 0 "U?" H 8750 4117 50  0000 C CNN
-F 1 "SiP32431DNP3" H 8750 4026 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 8750 4200 50  0001 C CNN
+F 1 "SIP32431DNP3-T1GE4" H 8750 4026 50  0000 C CNN
+F 2 "ta-powr:TDFN4" H 8750 4200 50  0001 C CNN
 F 3 "http://www.vishay.com.hk/docs/66597/sip32431.pdf" H 8750 3750 50  0001 C CNN
 	1    8750 3750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power_Management:SiP32431DNP3 U?
-U 1 1 5F05D83A
+L power-board:SIP32431DNP3-T1GE4 U?
+U 1 1 5F066637
 P 8700 2000
 F 0 "U?" H 8700 2367 50  0000 C CNN
-F 1 "SiP32431DNP3" H 8700 2276 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 8700 2450 50  0001 C CNN
+F 1 "SIP32431DNP3-T1GE4" H 8700 2276 50  0000 C CNN
+F 2 "ta-powr:TDFN4" H 8700 2450 50  0001 C CNN
 F 3 "http://www.vishay.com.hk/docs/66597/sip32431.pdf" H 8700 2000 50  0001 C CNN
 	1    8700 2000
 	1    0    0    -1  
 $EndComp
+$Comp
+L power-board:SIP32431DNP3-T1GE4 U?
+U 1 1 5F066DFD
+P 8700 5300
+F 0 "U?" H 8700 5667 50  0000 C CNN
+F 1 "SIP32431DNP3-T1GE4" H 8700 5576 50  0000 C CNN
+F 2 "ta-powr:TDFN4" H 8700 5750 50  0001 C CNN
+F 3 "http://www.vishay.com.hk/docs/66597/sip32431.pdf" H 8700 5300 50  0001 C CNN
+	1    8700 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 5600 8850 5700
+Wire Wire Line
+	8850 5700 8700 5700
+Connection ~ 8700 5700
+Wire Wire Line
+	8700 5700 8700 5750
+Wire Wire Line
+	8900 4050 8900 4150
+Wire Wire Line
+	8900 4150 8750 4150
+Connection ~ 8750 4150
+Wire Wire Line
+	8750 4150 8750 4200
+Wire Wire Line
+	8850 2300 8850 2400
+Wire Wire Line
+	8850 2400 8700 2400
+Connection ~ 8700 2400
+Wire Wire Line
+	8700 2400 8700 2450
 $EndSCHEMATC
