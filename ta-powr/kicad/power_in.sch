@@ -397,8 +397,8 @@ L Device:CP1 C7
 U 1 1 5EF71DFF
 P 8400 4150
 F 0 "C7" H 8515 4196 50  0000 L CNN
-F 1 "CP1" H 8515 4105 50  0000 L CNN
-F 2 "" H 8400 4150 50  0001 C CNN
+F 1 "5.6F" H 8515 4105 50  0000 L CNN
+F 2 "ta-powr:FT0H565ZF" H 8400 4150 50  0001 C CNN
 F 3 "~" H 8400 4150 50  0001 C CNN
 	1    8400 4150
 	1    0    0    -1  
@@ -429,4 +429,35 @@ Wire Wire Line
 	3850 3200 3950 3200
 Wire Wire Line
 	3500 3200 3950 3200
+$Comp
+L Device:CP1 C?
+U 1 1 5F06D9D0
+P 8950 4150
+F 0 "C?" H 9065 4196 50  0000 L CNN
+F 1 "DNP" H 9065 4105 50  0000 L CNN
+F 2 "ta-powr:TECATE_PBL" H 8950 4150 50  0001 C CNN
+F 3 "~" H 8950 4150 50  0001 C CNN
+	1    8950 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 3650 8950 4000
+$Comp
+L power:GND #PWR?
+U 1 1 5F06D9D7
+P 8950 4350
+F 0 "#PWR?" H 8950 4100 50  0001 C CNN
+F 1 "GND" H 8955 4177 50  0000 C CNN
+F 2 "" H 8950 4350 50  0001 C CNN
+F 3 "" H 8950 4350 50  0001 C CNN
+	1    8950 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 4300 8950 4350
+Wire Wire Line
+	8400 3650 8950 3650
+Connection ~ 8400 3650
+Text Notes 8150 5000 0    50   ~ 0
+Put outlines for cap footprints \non back of board if you can. \nRealistically we just need to \nmake sure we have both sets\nof through-holes routed
 $EndSCHEMATC
