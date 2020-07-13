@@ -1,5 +1,23 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADS1115-Q1
+D Ultra-Small, Low-Power, I2C-Compatible, 3.3-kSPS, 12-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10
+K 12 bit 4 channel I2C ADC
+F http://www.ti.com/lit/ds/symlink/ads1015.pdf
+$ENDCMP
+#
+$CMP ADS1115IDGS
+D Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10
+K 16 bit 4 channel I2C ADC
+F http://www.ti.com/lit/ds/symlink/ads1113.pdf
+$ENDCMP
+#
+$CMP D_Zener_AKA
+D Zener diode, small symbol
+K diode
+F ~
+$ENDCMP
+#
 $CMP SIP32431DNP3-T1GE4
 D 10 pA, Ultra Low Leakage and Quiescent Current, Load Switch with Reverse Blocking, High Enable, SC-70-6
 K Load switch

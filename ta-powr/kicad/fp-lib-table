@@ -3,4 +3,6 @@
   (lib (name Package_SON)(type KiCad)(uri C:/Users/emily/Code/ABSTRACT/artibeus/tartan-artibeus-hw/ta-powr/footprints/Package_SON.pretty)(options "")(descr ""))
   (lib (name Package_SO)(type KiCad)(uri C:/Users/emily/Code/ABSTRACT/artibeus/tartan-artibeus-hw/ta-powr/footprints/Package_SO.pretty)(options "")(descr ""))
   (lib (name ta-powr)(type KiCad)(uri C:/Users/emily/Code/ABSTRACT/artibeus/tartan-artibeus-hw/ta-powr/footprints/ta-powr.pretty)(options "")(descr ""))
+  (lib (name Diode_SMD)(type KiCad)(uri C:/Users/emily/Code/ABSTRACT/artibeus/tartan-artibeus-hw/ta-powr/footprints/Diode_SMD.pretty)(options "")(descr ""))
+  (lib (name Resistor_SMD)(type KiCad)(uri C:/Users/emily/Code/ABSTRACT/artibeus/tartan-artibeus-hw/ta-powr/footprints/Resistor_SMD.pretty)(options "")(descr ""))
 )
