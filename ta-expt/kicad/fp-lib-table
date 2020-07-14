@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name ta-expt)(type KiCad)(uri ${KIPRJMOD}/ta-expt.pretty)(options "")(descr ""))
+)
