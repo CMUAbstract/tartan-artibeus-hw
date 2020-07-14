@@ -97,9 +97,6 @@ Wire Wire Line
 	2550 2600 2550 2650
 Wire Wire Line
 	2450 2600 2450 2650
-NoConn ~ 1550 2600
-Wire Wire Line
-	1550 2600 1550 2650
 $Comp
 L power:GND #PWR?
 U 1 1 5F0E7823
@@ -279,4 +276,40 @@ Text Label 8400 2900 0    50   ~ 0
 Exp
 Wire Wire Line
 	8300 2900 8650 2900
+NoConn ~ 2150 2600
+Wire Wire Line
+	2150 2600 2150 2650
+NoConn ~ 1850 1200
+NoConn ~ 1950 1200
+NoConn ~ 2050 1200
+NoConn ~ 2150 1200
+NoConn ~ 2250 1200
+NoConn ~ 2350 1200
+NoConn ~ 1850 2600
+NoConn ~ 1950 2600
+NoConn ~ 2050 2600
+NoConn ~ 2250 2600
+NoConn ~ 2350 2600
+Wire Wire Line
+	1850 2600 1850 2650
+Wire Wire Line
+	1950 2600 1950 2650
+Wire Wire Line
+	2050 2600 2050 2650
+Wire Wire Line
+	2250 2600 2250 2650
+Wire Wire Line
+	2350 2600 2350 2650
+Wire Wire Line
+	1850 1200 1850 1150
+Wire Wire Line
+	1950 1200 1950 1150
+Wire Wire Line
+	2050 1200 2050 1150
+Wire Wire Line
+	2150 1200 2150 1150
+Wire Wire Line
+	2250 1200 2250 1150
+Wire Wire Line
+	2350 1200 2350 1150
 $EndSCHEMATC
