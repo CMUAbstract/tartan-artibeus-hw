@@ -61,7 +61,7 @@ F 4 "" H 3250 1700 50  0001 C CNN "Vendor part number"
 $EndComp
 Connection ~ 3700 1550
 Text Label 3400 1550 0    50   ~ 0
-Vharv
+V_harv
 Wire Wire Line
 	4850 1550 4850 1250
 Wire Wire Line
@@ -421,7 +421,7 @@ U 1 1 5F094EAB
 P 4750 4350
 F 0 "U3" H 5550 4737 60  0000 C CNN
 F 1 "TLV8544DT" H 5550 4631 60  0000 C CNN
-F 2 "D14_TEX" H 5800 3600 60  0001 C CNN
+F 2 "ta-powr:TLV8544DT" H 5800 3600 60  0001 C CNN
 F 3 "" H 4750 4350 60  0000 C CNN
 	1    4750 4350
 	1    0    0    -1  
@@ -441,7 +441,7 @@ F 3 "" H 7200 4650 50  0001 C CNN
 	1    7200 4650
 	1    0    0    -1  
 $EndComp
-Text HLabel 3950 4650 0    50   Input ~ 0
+Text HLabel 3800 4300 0    50   Input ~ 0
 Vdd_IN
 Wire Wire Line
 	4750 4450 4550 4450
@@ -455,9 +455,7 @@ Wire Wire Line
 	4750 4850 4550 4850
 Wire Wire Line
 	4550 4850 4550 4950
-Wire Wire Line
-	4550 4950 4750 4950
-Text Label 1400 3850 0    50   ~ 0
+Text Label 1300 3850 0    50   ~ 0
 V_harv
 Wire Wire Line
 	6350 4350 6550 4350
@@ -473,7 +471,7 @@ Wire Wire Line
 	6550 4850 6350 4850
 Text Label 2600 3850 0    50   ~ 0
 V_cap
-Text Label 2050 3850 0    50   ~ 0
+Text Label 2000 3850 0    50   ~ 0
 Vout
 Text Notes 4900 5450 0    50   ~ 0
 Attach the IN+ pins to their respective\nnets as close as possible to the shunt\nresistor.
@@ -501,32 +499,29 @@ F 3 "" H 5500 6950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5500 6850 5500 6950
-Wire Wire Line
-	4600 6350 5100 6350
-Text Label 4750 6350 0    50   ~ 0
+Text Label 4600 6350 0    50   ~ 0
 V_sol+
 Wire Wire Line
 	5100 6450 4600 6450
-Text Label 4750 6450 0    50   ~ 0
+Text Label 4600 6450 0    50   ~ 0
 V_sol-
 Wire Wire Line
 	5100 6550 4600 6550
 Wire Wire Line
 	5100 6650 4600 6650
-Text Label 4750 6550 0    50   ~ 0
+Text Label 4600 6550 0    50   ~ 0
 V_cap+
-Text Label 4750 6650 0    50   ~ 0
+Text Label 4600 6650 0    50   ~ 0
 V_cap-
 Connection ~ 6550 4950
-Text Label 6600 4950 0    50   ~ 0
+Text Label 6900 4950 2    50   ~ 0
 V_cap-
 Connection ~ 6550 4350
-Text Label 6600 4350 0    50   ~ 0
+Text Label 6900 4350 2    50   ~ 0
 V_cap+
 Connection ~ 4550 4350
 Text Label 4250 4350 0    50   ~ 0
 V_sol+
-Connection ~ 4550 4950
 Text Label 4250 4950 0    50   ~ 0
 V_sol-
 Wire Wire Line
@@ -627,7 +622,7 @@ Wire Wire Line
 	4150 4550 4750 4550
 Wire Wire Line
 	3750 5950 4350 5950
-Text Label 3850 5950 0    50   ~ 0
+Text Label 3750 5950 0    50   ~ 0
 Vdd_IN_loc
 Wire Wire Line
 	4250 4350 4550 4350
@@ -667,8 +662,6 @@ $EndComp
 Wire Wire Line
 	1650 4650 1650 4750
 Wire Wire Line
-	1400 3850 1650 3850
-Wire Wire Line
 	4100 4750 4750 4750
 Wire Wire Line
 	6550 4350 6900 4350
@@ -707,8 +700,6 @@ F 3 "" H 2850 4750 50  0001 C CNN
 	1    2850 4750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2850 4650 2850 4750
 Wire Wire Line
 	2600 3850 2850 3850
 Wire Wire Line
@@ -758,49 +749,39 @@ Wire Wire Line
 	1650 4150 1650 4250
 Text Label 4000 4650 0    50   ~ 0
 Vdd_IN_loc
-Wire Wire Line
-	3950 4650 4750 4650
 Connection ~ 2850 4250
 Wire Wire Line
 	2850 4250 2850 4350
-Text Label 2900 4250 0    50   ~ 0
+Text Label 3350 4250 2    50   ~ 0
 V_cap_meas
-Text Label 2300 4250 0    50   ~ 0
+Text Label 2700 4250 2    50   ~ 0
 V_out_meas
 Wire Wire Line
 	2250 4150 2250 4250
 Connection ~ 2250 4250
 Wire Wire Line
 	2250 4250 2250 4350
-Wire Wire Line
-	2250 4250 2600 4250
-Wire Wire Line
-	2850 4250 3250 4250
-Wire Wire Line
-	1650 4250 1950 4250
 Connection ~ 1650 4250
 Wire Wire Line
 	1650 4250 1650 4350
-Wire Wire Line
-	950  4250 1250 4250
 Connection ~ 950  4250
 Wire Wire Line
 	950  4250 950  4350
-Text Label 1700 4250 0    50   ~ 0
+Text Label 2150 4250 2    50   ~ 0
 V_harv_meas
-Text Label 1000 4250 0    50   ~ 0
+Text Label 1500 4250 2    50   ~ 0
 V_solar_meas
-Text Label 4200 4550 0    50   ~ 0
+Text Label 4150 4550 0    50   ~ 0
 V_solar_meas
-Text Label 4200 4750 0    50   ~ 0
+Text Label 4100 4750 0    50   ~ 0
 V_harv_meas
-Text Label 6500 4550 0    50   ~ 0
+Text Label 7000 4550 2    50   ~ 0
 V_cap_meas
 Wire Wire Line
 	6350 4650 7200 4650
 Wire Wire Line
 	6350 4750 7000 4750
-Text Label 6550 4750 0    50   ~ 0
+Text Label 7000 4750 2    50   ~ 0
 V_out_meas
 Wire Wire Line
 	3250 1550 3700 1550
@@ -851,4 +832,38 @@ F 6 "541-1.00AAFCT-ND" H 9150 2000 50  0001 C CNN "Vendor Part Number"
 $EndComp
 Wire Wire Line
 	1550 1550 2350 1550
+Wire Wire Line
+	2250 4250 2700 4250
+Wire Wire Line
+	2850 4250 3350 4250
+Wire Wire Line
+	950  4250 1500 4250
+Wire Wire Line
+	1650 4250 2150 4250
+Wire Wire Line
+	5100 6350 4600 6350
+Wire Wire Line
+	4750 4950 4550 4950
+Connection ~ 4550 4950
+Wire Wire Line
+	1300 3850 1650 3850
+Wire Wire Line
+	2850 4650 2850 4750
+$Comp
+L Device:R_US R?
+U 1 1 5F183712
+P 3850 4500
+F 0 "R?" H 3918 4546 50  0000 L CNN
+F 1 "0" H 3918 4455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3890 4490 50  0001 C CNN
+F 3 "~" H 3850 4500 50  0001 C CNN
+	1    3850 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 4300 3850 4300
+Wire Wire Line
+	3850 4300 3850 4350
+Wire Wire Line
+	3850 4650 4750 4650
 $EndSCHEMATC

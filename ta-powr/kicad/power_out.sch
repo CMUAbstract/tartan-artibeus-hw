@@ -31,7 +31,7 @@ Text Notes 4650 3250 0    50   ~ 0
 Carefully follow evaluation board layout. \nUse thermal pad as point ground. \nKeep RLCs as close as possible.
 Wire Wire Line
 	8250 850  8600 850 
-Text Label 8300 850  0    50   ~ 0
+Text Label 8250 850  0    50   ~ 0
 Vdd
 Text Label 8200 1900 0    50   ~ 0
 Vdd
@@ -280,7 +280,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 4750 5450 4750
 Connection ~ 5150 4750
-Text Label 5250 4750 0    50   ~ 0
+Text Label 5450 4750 0    50   ~ 0
 EN
 $Comp
 L Regulator_Switching:TPS63000-Q1 U2
@@ -848,4 +848,7 @@ Wire Wire Line
 Connection ~ 8700 2400
 Wire Wire Line
 	8700 2400 8700 2450
+NoConn ~ 5050 4550
+Wire Wire Line
+	4950 4550 5050 4550
 $EndSCHEMATC
