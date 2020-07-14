@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 597D158X9004R2T
+#/398104/105706/2.47/2/2/Capacitor Polarised
+DEF 597D158X9004R2T C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "597D158X9004R2T" 350 150 50 H V L CNN
+F2 "CAPPC5660X400N" 350 50 50 H I L CNN
+F3 "http://www.vishay.com/doc?40047" 350 -50 50 H I L CNN
+F4 "Solid Tantalum Chip Capacitors TANTAMOUNT(TM), Ultra-Low ESR, Conformal Coated, Maximum CV" 350 -150 50 H I L CNN "Description"
+F5 "4" 350 -250 50 H I L CNN "Height"
+F6 "Vishay" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "597D158X9004R2T" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "597D158X9004R2T" 350 -550 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/597d158x9004r2t/vishay" 350 -650 50 H I L CNN "Arrow Price/Stock"
+F10 "71-597D158X9004R2T" 350 -750 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.com/Search/Refine.aspx?Keyword=71-597D158X9004R2T" 350 -850 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+ENDDRAW
+ENDDEF
+#
+#End Library

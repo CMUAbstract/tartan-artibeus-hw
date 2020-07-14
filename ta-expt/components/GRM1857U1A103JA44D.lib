@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model GRM1857U1A103JA44D
+#/762114/105706/2.47/2/2/Capacitor
+DEF GRM1857U1A103JA44D C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "GRM1857U1A103JA44D" 350 150 50 H V L CNN
+F2 "CAPC1608X50N" 350 50 50 H I L CNN
+F3 "https://psearch.en.murata.com/capacitor/product/GRM1857U1A103JA44%23.html" 350 -50 50 H I L CNN
+F4 "Capacitor GRM18_0.10 L=1.6mm W=0.8mm T=0.5mm" 350 -150 50 H I L CNN "Description"
+F5 "0.5" 350 -250 50 H I L CNN "Height"
+F6 "Murata Electronics" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "GRM1857U1A103JA44D" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "GRM1857U1A103JA44D" 350 -550 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/grm1857u1a103ja44d/murata-manufacturing" 350 -650 50 H I L CNN "Arrow Price/Stock"
+F10 "81-GRM1857U1A103JA4D" 350 -750 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM1857U1A103JA44D?qs=MY6wChARw2zuf1nfg9IsQA%3D%3D" 350 -850 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library
