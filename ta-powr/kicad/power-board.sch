@@ -120,28 +120,6 @@ F 3 "" H 4400 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-board:PinSocket_4 J5
-U 1 1 5F0EB25D
-P 5500 1150
-F 0 "J5" H 5778 1263 50  0000 L CNN
-F 1 "PinSocket_4" H 5778 1172 50  0000 L CNN
-F 2 "ta-powr:PinSocket_1x4_TartanArtibeus_pwr_cpy" H 5450 1150 50  0001 C CNN
-F 3 "" H 5450 1150 50  0001 C CNN
-	1    5500 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power-board:PinSocket_4 J6
-U 1 1 5F0EB733
-P 6500 1150
-F 0 "J6" H 6778 1263 50  0000 L CNN
-F 1 "PinSocket_4" H 6778 1172 50  0000 L CNN
-F 2 "ta-powr:PinSocket_1x4_TartanArtibeus_pwr_cpy" H 6450 1150 50  0001 C CNN
-F 3 "" H 6450 1150 50  0001 C CNN
-	1    6500 1150
-	1    0    0    -1  
-$EndComp
-$Comp
 L power-board:MountingHole J7
 U 1 1 5F0EBD56
 P 7750 1150
@@ -285,54 +263,6 @@ Wire Wire Line
 Wire Wire Line
 	4400 1150 4400 1250
 Wire Wire Line
-	5350 1150 5350 1400
-Wire Wire Line
-	5350 1400 5450 1400
-Wire Wire Line
-	5650 1400 5650 1150
-Wire Wire Line
-	5450 1150 5450 1400
-Connection ~ 5450 1400
-Wire Wire Line
-	5450 1400 5500 1400
-Wire Wire Line
-	5550 1150 5550 1400
-Connection ~ 5550 1400
-Wire Wire Line
-	5550 1400 5650 1400
-Wire Wire Line
-	5500 1400 5500 1550
-Connection ~ 5500 1400
-Wire Wire Line
-	5500 1400 5550 1400
-Text Label 5900 1550 2    50   ~ 0
-V_Solar_IN
-Wire Wire Line
-	1250 2650 1250 2550
-Wire Wire Line
-	1250 2550 1350 2550
-Wire Wire Line
-	1550 2550 1550 2650
-Wire Wire Line
-	1450 2650 1450 2550
-Connection ~ 1450 2550
-Wire Wire Line
-	1450 2550 1550 2550
-Wire Wire Line
-	1350 2650 1350 2550
-Connection ~ 1350 2550
-Wire Wire Line
-	1350 2550 1400 2550
-Wire Wire Line
-	1400 2550 1400 2400
-Connection ~ 1400 2550
-Wire Wire Line
-	1400 2550 1450 2550
-Text Label 900  2400 0    50   ~ 0
-V_Solar_IN
-Wire Wire Line
-	900  2400 1400 2400
-Wire Wire Line
 	2800 2300 3400 2300
 Text Label 2800 2300 0    50   ~ 0
 V_Solar_IN
@@ -341,22 +271,12 @@ GNSS
 Text Label 8400 2450 0    50   ~ 0
 Cntrl
 Wire Wire Line
-	6650 1150 6650 1500
-Wire Wire Line
-	6650 1500 7050 1500
-Text Label 1050 1600 0    50   ~ 0
-Cntrl
-Wire Wire Line
 	4850 2550 5150 2550
 Wire Wire Line
 	4850 2650 5150 2650
 Text Label 5150 2550 0    50   ~ 0
 scl
 Text Label 5150 2650 0    50   ~ 0
-sda
-Text Label 2100 1400 2    50   ~ 0
-scl
-Text Label 1950 1500 2    50   ~ 0
 sda
 Wire Wire Line
 	4850 2750 5150 2750
@@ -374,72 +294,145 @@ Text Label 6350 2900 0    50   ~ 0
 exp_en
 Wire Wire Line
 	6350 2900 6700 2900
-Wire Wire Line
-	5500 1550 5900 1550
-Wire Wire Line
-	1750 1150 1750 1400
-Wire Wire Line
-	1650 1150 1650 1500
-Wire Wire Line
-	1650 1500 1950 1500
-Wire Wire Line
-	1550 1150 1550 1600
-Text Label 1850 1600 2    50   ~ 0
-adc_int
-Text Label 6900 1700 2    50   ~ 0
-comm_en
-Wire Wire Line
-	1750 1400 2100 1400
-Text Label 7000 1600 2    50   ~ 0
-gnss_en
-Text Label 7050 1500 2    50   ~ 0
-exp_en
-Wire Wire Line
-	1550 1600 1850 1600
-Text Label 1000 1500 0    50   ~ 0
-GNSS
 $Comp
-L power:GND #PWR?
-U 1 1 5F120FFB
-P 1450 1250
-AR Path="/5EF1389E/5F120FFB" Ref="#PWR?"  Part="1" 
-AR Path="/5F120FFB" Ref="#PWR0113"  Part="1" 
-F 0 "#PWR0113" H 1450 1000 50  0001 C CNN
-F 1 "GND" H 1455 1077 50  0000 C CNN
-F 2 "" H 1450 1250 50  0001 C CNN
-F 3 "" H 1450 1250 50  0001 C CNN
-	1    1450 1250
+L power-board:PinSocket_5 J5
+U 1 1 5F12A0FB
+P 5700 1150
+F 0 "J5" H 5700 1465 50  0000 C CNN
+F 1 "PinSocket_5" H 5700 1374 50  0000 C CNN
+F 2 "ta-powr:PinSocket_1x5_left_TartanArtibeus" H 5600 1150 50  0001 C CNN
+F 3 "" H 5600 1150 50  0001 C CNN
+	1    5700 1150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1450 1150 1450 1250
+	5500 1150 5500 1250
 Wire Wire Line
-	1350 1150 1350 1600
+	5500 1250 5600 1250
 Wire Wire Line
-	1350 1600 1050 1600
-NoConn ~ 1650 2600
+	5900 1250 5900 1150
 Wire Wire Line
-	1650 2600 1650 2650
-Text Notes 1550 3250 0    50   ~ 0
-Pin 5 and 6\nstill available
-Text Notes 6300 950  0    50   ~ 0
-Pin 1 is still available
+	5600 1150 5600 1250
+Connection ~ 5600 1250
 Wire Wire Line
-	1250 1500 1000 1500
+	5600 1250 5700 1250
 Wire Wire Line
-	1250 1150 1250 1500
+	5700 1150 5700 1250
+Connection ~ 5700 1250
 Wire Wire Line
-	6550 1150 6550 1600
+	5700 1250 5800 1250
 Wire Wire Line
-	6450 1700 6900 1700
+	5800 1150 5800 1250
+Connection ~ 5800 1250
 Wire Wire Line
-	6450 1150 6450 1700
+	5800 1250 5900 1250
 Wire Wire Line
-	6550 1600 7000 1600
-NoConn ~ 6350 1200
+	5500 1250 5500 1500
+Connection ~ 5500 1250
+Text Label 5950 1500 2    50   ~ 0
+V_Solar_IN
 Wire Wire Line
-	6350 1150 6350 1200
-NoConn ~ 1750 2600
+	5500 1500 5950 1500
+NoConn ~ 6750 1250
+NoConn ~ 6650 1250
 Wire Wire Line
-	1750 2600 1750 2650
+	6650 1150 6650 1250
+Wire Wire Line
+	6750 1150 6750 1250
+Text Notes 6750 1450 0    50   ~ 0
+TST & RST \nfor cntrl board
+$Comp
+L power:GND #PWR?
+U 1 1 5F138D11
+P 6550 1250
+AR Path="/5EF1389E/5F138D11" Ref="#PWR?"  Part="1" 
+AR Path="/5F138D11" Ref="#PWR024"  Part="1" 
+F 0 "#PWR024" H 6550 1000 50  0001 C CNN
+F 1 "GND" H 6555 1077 50  0000 C CNN
+F 2 "" H 6550 1250 50  0001 C CNN
+F 3 "" H 6550 1250 50  0001 C CNN
+	1    6550 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 1150 6550 1250
+Wire Wire Line
+	6450 1600 6850 1600
+Wire Wire Line
+	6450 1150 6450 1600
+Text Label 6850 1600 2    50   ~ 0
+Cntrl
+Wire Wire Line
+	1750 2650 1750 2450
+Wire Wire Line
+	1750 2450 2100 2450
+Wire Wire Line
+	1650 2350 2100 2350
+Wire Wire Line
+	1650 2350 1650 2650
+Wire Wire Line
+	1550 2650 1550 2250
+Wire Wire Line
+	1550 2250 2100 2250
+Text Label 2100 2250 2    50   ~ 0
+comm_en
+Text Label 2100 2350 2    50   ~ 0
+exp_en
+Text Label 2100 2450 2    50   ~ 0
+gnss_en
+Wire Wire Line
+	1250 2450 1250 2650
+Wire Wire Line
+	1250 2450 1000 2450
+Wire Wire Line
+	1350 2650 1350 2350
+Wire Wire Line
+	1350 2350 1000 2350
+Wire Wire Line
+	1450 2650 1450 2250
+Wire Wire Line
+	1450 2250 1000 2250
+Text Label 1000 2350 0    50   ~ 0
+scl
+Text Label 1000 2450 0    50   ~ 0
+sda
+Text Label 1000 2250 0    50   ~ 0
+adc_int
+Text Notes 1600 1350 0    50   ~ 0
+pins 1-6 still available
+NoConn ~ 1750 1200
+NoConn ~ 1650 1200
+NoConn ~ 1550 1200
+NoConn ~ 1450 1200
+NoConn ~ 1350 1200
+Wire Wire Line
+	1350 1150 1350 1200
+Wire Wire Line
+	1450 1150 1450 1200
+Wire Wire Line
+	1550 1150 1550 1200
+Wire Wire Line
+	1650 1150 1650 1200
+Wire Wire Line
+	1750 1150 1750 1200
+NoConn ~ 1250 1200
+Wire Wire Line
+	1250 1150 1250 1200
+$Comp
+L power-board:PinSocket_5 J6
+U 1 1 5F0FE717
+P 6550 1150
+F 0 "J6" H 6550 1465 50  0000 C CNN
+F 1 "PinSocket_5" H 6550 1374 50  0000 C CNN
+F 2 "ta-powr:PinSocket_1x5_right_TartanArtibeus" H 6450 1150 50  0001 C CNN
+F 3 "" H 6450 1150 50  0001 C CNN
+	1    6550 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 1150 6350 1750
+Wire Wire Line
+	6350 1750 6800 1750
+Text Label 6800 1750 2    50   ~ 0
+GNSS
 $EndSCHEMATC

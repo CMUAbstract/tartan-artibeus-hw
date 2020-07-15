@@ -209,8 +209,6 @@ F 3 "" H 4900 2700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4900 2600 4900 2700
-Text Label 4550 2300 0    50   ~ 0
-Vout
 $Comp
 L Device:C C5
 U 1 1 5EF675DD
@@ -349,7 +347,7 @@ $EndComp
 Wire Wire Line
 	8150 2650 8150 2700
 Text Label 9500 2000 0    50   ~ 0
-Vout
+V_out
 Connection ~ 8150 2000
 Text Notes 7900 3350 0    50   ~ 0
 Put outlines for cap footprints \non back of board if you can. \nRealistically we just need to \nmake sure we have both sets\nof through-holes routed
@@ -408,7 +406,7 @@ Wire Wire Line
 Text Label 2450 3800 0    50   ~ 0
 V_cap
 Text Label 1850 3800 0    50   ~ 0
-Vout
+V_out
 Text Notes 4900 5450 0    50   ~ 0
 Attach the IN+ pins to their respective\nnets as close as possible to the shunt\nresistor.
 $Comp
