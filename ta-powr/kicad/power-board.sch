@@ -65,13 +65,13 @@ $EndComp
 $Comp
 L power-board:PinSocket_16 J2
 U 1 1 5F0E10B5
-P 2050 2650
-F 0 "J2" H 2075 2873 50  0000 C CNN
-F 1 "PinSocket_16" H 2075 2964 50  0000 C CNN
-F 2 "ta-powr:PinSocket_1x16_TartanArtibeus_pwr_cpy" H 1650 2650 50  0001 C CNN
-F 3 "" H 1650 2650 50  0001 C CNN
-	1    2050 2650
-	-1   0    0    1   
+P 1950 2650
+F 0 "J2" H 1975 2873 50  0000 C CNN
+F 1 "PinSocket_16" H 1975 2964 50  0000 C CNN
+F 2 "ta-powr:PinSocket_1x16_TartanArtibeus_pwr_cpy" H 1550 2650 50  0001 C CNN
+F 3 "" H 1550 2650 50  0001 C CNN
+	1    1950 2650
+	1    0    0    1   
 $EndComp
 NoConn ~ 2750 1200
 NoConn ~ 2650 1200
@@ -344,23 +344,8 @@ Wire Wire Line
 	6650 1150 6650 1500
 Wire Wire Line
 	6650 1500 7050 1500
-Text Label 7050 1500 2    50   ~ 0
+Text Label 1050 1600 0    50   ~ 0
 Cntrl
-$Comp
-L power:GND #PWR?
-U 1 1 5F0F8F68
-P 6550 1250
-AR Path="/5EF1389E/5F0F8F68" Ref="#PWR?"  Part="1" 
-AR Path="/5F0F8F68" Ref="#PWR0112"  Part="1" 
-F 0 "#PWR0112" H 6550 1000 50  0001 C CNN
-F 1 "GND" H 6555 1077 50  0000 C CNN
-F 2 "" H 6550 1250 50  0001 C CNN
-F 3 "" H 6550 1250 50  0001 C CNN
-	1    6550 1250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6550 1150 6550 1250
 Wire Wire Line
 	4850 2550 5150 2550
 Wire Wire Line
@@ -369,17 +354,9 @@ Text Label 5150 2550 0    50   ~ 0
 scl
 Text Label 5150 2650 0    50   ~ 0
 sda
-Wire Wire Line
-	6350 1150 6350 1700
-Wire Wire Line
-	6350 1700 6650 1700
-Wire Wire Line
-	6450 1150 6450 1600
-Wire Wire Line
-	6450 1600 6650 1600
-Text Label 6650 1600 0    50   ~ 0
+Text Label 2100 1400 2    50   ~ 0
 scl
-Text Label 6650 1700 0    50   ~ 0
+Text Label 1950 1500 2    50   ~ 0
 sda
 Wire Wire Line
 	4850 2750 5150 2750
@@ -407,23 +384,19 @@ Wire Wire Line
 	1650 1500 1950 1500
 Wire Wire Line
 	1550 1150 1550 1600
-Wire Wire Line
-	1750 2650 1750 2450
-Wire Wire Line
-	1750 2450 2050 2450
-Text Label 2050 2450 2    50   ~ 0
+Text Label 1850 1600 2    50   ~ 0
 adc_int
-Text Label 2100 1400 2    50   ~ 0
+Text Label 6900 1700 2    50   ~ 0
 comm_en
 Wire Wire Line
 	1750 1400 2100 1400
-Text Label 1950 1500 2    50   ~ 0
+Text Label 7000 1600 2    50   ~ 0
 gnss_en
-Text Label 1850 1600 2    50   ~ 0
+Text Label 7050 1500 2    50   ~ 0
 exp_en
 Wire Wire Line
 	1550 1600 1850 1600
-Text Label 1050 1600 0    50   ~ 0
+Text Label 1000 1500 0    50   ~ 0
 GNSS
 $Comp
 L power:GND #PWR?
@@ -445,13 +418,28 @@ Wire Wire Line
 Wire Wire Line
 	1350 1600 1050 1600
 NoConn ~ 1650 2600
-NoConn ~ 1250 1200
-Wire Wire Line
-	1250 1150 1250 1200
 Wire Wire Line
 	1650 2600 1650 2650
-Text Notes 1600 3150 0    50   ~ 0
-Pin 12 is still available
-Text Notes 1150 800  0    50   ~ 0
+Text Notes 1550 3250 0    50   ~ 0
+Pin 5 and 6\nstill available
+Text Notes 6300 950  0    50   ~ 0
 Pin 1 is still available
+Wire Wire Line
+	1250 1500 1000 1500
+Wire Wire Line
+	1250 1150 1250 1500
+Wire Wire Line
+	6550 1150 6550 1600
+Wire Wire Line
+	6450 1700 6900 1700
+Wire Wire Line
+	6450 1150 6450 1700
+Wire Wire Line
+	6550 1600 7000 1600
+NoConn ~ 6350 1200
+Wire Wire Line
+	6350 1150 6350 1200
+NoConn ~ 1750 2600
+Wire Wire Line
+	1750 2600 1750 2650
 $EndSCHEMATC

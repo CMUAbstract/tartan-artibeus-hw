@@ -13,54 +13,51 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1550 1550 0    50   Input ~ 0
-Solar_panels
 Text HLabel 9900 2000 2    50   Output ~ 0
 Vcap
 Wire Wire Line
-	3500 1850 3500 2050
+	3100 2600 3100 2800
 Wire Wire Line
-	3500 1850 3700 1850
-Connection ~ 3500 1850
+	3100 2600 3300 2600
+Connection ~ 3100 2600
 $Comp
 L power:GND #PWR0101
 U 1 1 5EF2CEB4
-P 3500 2050
-F 0 "#PWR0101" H 3500 1800 50  0001 C CNN
-F 1 "GND" H 3505 1877 50  0000 C CNN
-F 2 "" H 3500 2050 50  0001 C CNN
-F 3 "" H 3500 2050 50  0001 C CNN
-	1    3500 2050
+P 3100 2800
+F 0 "#PWR0101" H 3100 2550 50  0001 C CNN
+F 1 "GND" H 3105 2627 50  0000 C CNN
+F 2 "" H 3100 2800 50  0001 C CNN
+F 3 "" H 3100 2800 50  0001 C CNN
+	1    3100 2800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3250 1850 3500 1850
+	2850 2600 3100 2600
 $Comp
 L Device:C C2
 U 1 1 5EF2C541
-P 3700 1700
-F 0 "C2" H 3815 1746 50  0000 L CNN
-F 1 "10uF" H 3815 1655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3738 1550 50  0001 C CNN
-F 3 "~" H 3700 1700 50  0001 C CNN
-F 4 "" H 3700 1700 50  0001 C CNN "Vendor part number"
-	1    3700 1700
+P 3300 2450
+F 0 "C2" H 3415 2496 50  0000 L CNN
+F 1 "10uF" H 3415 2405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3338 2300 50  0001 C CNN
+F 3 "~" H 3300 2450 50  0001 C CNN
+F 4 "" H 3300 2450 50  0001 C CNN "Vendor part number"
+	1    3300 2450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C1
 U 1 1 5EF2BD5B
-P 3250 1700
-F 0 "C1" H 3365 1746 50  0000 L CNN
-F 1 "10uF" H 3365 1655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3288 1550 50  0001 C CNN
-F 3 "~" H 3250 1700 50  0001 C CNN
-F 4 "" H 3250 1700 50  0001 C CNN "Vendor part number"
-	1    3250 1700
+P 2850 2450
+F 0 "C1" H 2965 2496 50  0000 L CNN
+F 1 "10uF" H 2965 2405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2888 2300 50  0001 C CNN
+F 3 "~" H 2850 2450 50  0001 C CNN
+F 4 "" H 2850 2450 50  0001 C CNN "Vendor part number"
+	1    2850 2450
 	1    0    0    -1  
 $EndComp
-Connection ~ 3700 1550
-Text Label 3400 1550 0    50   ~ 0
+Text Label 3000 2300 0    50   ~ 0
 V_harv
 Wire Wire Line
 	4850 1550 4850 1250
@@ -168,9 +165,6 @@ F 4 "" H 4900 2450 50  0001 C CNN "Vendor part number"
 	1    4900 2450
 	1    0    0    -1  
 $EndComp
-Connection ~ 4100 2150
-Wire Wire Line
-	4100 2150 4100 2300
 $Comp
 L Device:D_Schottky D1
 U 1 1 5EF5DCC1
@@ -188,19 +182,17 @@ $EndComp
 $Comp
 L Device:L L1
 U 1 1 5EF2DBBC
-P 4100 2000
-F 0 "L1" H 4153 2046 50  0000 L CNN
-F 1 "15uH" H 4153 1955 50  0000 L CNN
-F 2 "ta-powr:IHLP-2525CZ-8A" H 4100 2000 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/34362/lp25cz8a.pdf" H 4100 2000 50  0001 C CNN
-F 4 "IHLP2525CZER150M8A" H 4100 2000 50  0001 C CNN "Manufacturer Part Number"
-F 5 "Digikey" H 4100 2000 50  0001 C CNN "Vendor"
-F 6 "541-2173-1-ND" H 4100 2000 50  0001 C CNN "Vendor Part Number"
-	1    4100 2000
-	1    0    0    -1  
+P 3800 2300
+F 0 "L1" H 3853 2346 50  0000 L CNN
+F 1 "15uH" H 3853 2255 50  0000 L CNN
+F 2 "ta-powr:IHLP-2525CZ-8A" H 3800 2300 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/34362/lp25cz8a.pdf" H 3800 2300 50  0001 C CNN
+F 4 "IHLP2525CZER150M8A" H 3800 2300 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 3800 2300 50  0001 C CNN "Vendor"
+F 6 "541-2173-1-ND" H 3800 2300 50  0001 C CNN "Vendor Part Number"
+	1    3800 2300
+	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4100 2150 5000 2150
 Connection ~ 4900 2300
 Wire Wire Line
 	4900 2300 5000 2300
@@ -246,20 +238,15 @@ F 3 "" H 6150 2700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6150 2600 6150 2700
-Connection ~ 4100 1550
-Wire Wire Line
-	4100 1550 4650 1550
-Wire Wire Line
-	3700 1550 4100 1550
 $Comp
 L Device:R_US R1
 U 1 1 5EF3D6FE
-P 4100 1700
-F 0 "R1" H 4168 1746 50  0000 L CNN
-F 1 "1k" H 4168 1655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4140 1690 50  0001 C CNN
-F 3 "~" H 4100 1700 50  0001 C CNN
-	1    4100 1700
+P 3450 1700
+F 0 "R1" H 3518 1746 50  0000 L CNN
+F 1 "1k" H 3518 1655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3490 1690 50  0001 C CNN
+F 3 "~" H 3450 1700 50  0001 C CNN
+	1    3450 1700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -344,7 +331,7 @@ F 3 "~" H 8150 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7400 2000 8150 2000
+	7400 2000 7850 2000
 Wire Wire Line
 	8150 2000 8150 2350
 Connection ~ 7400 2000
@@ -361,59 +348,12 @@ F 3 "" H 8150 2700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8150 2650 8150 2700
-Text Label 9700 2000 0    50   ~ 0
+Text Label 9500 2000 0    50   ~ 0
 Vout
-$Comp
-L Device:CP1 C18
-U 1 1 5F06D9D0
-P 8700 2500
-F 0 "C18" H 8815 2546 50  0000 L CNN
-F 1 "DNP" H 8815 2455 50  0000 L CNN
-F 2 "ta-powr:TECATE_PBL" H 8700 2500 50  0001 C CNN
-F 3 "~" H 8700 2500 50  0001 C CNN
-	1    8700 2500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8700 2000 8700 2350
-$Comp
-L power:GND #PWR024
-U 1 1 5F06D9D7
-P 8700 2700
-F 0 "#PWR024" H 8700 2450 50  0001 C CNN
-F 1 "GND" H 8705 2527 50  0000 C CNN
-F 2 "" H 8700 2700 50  0001 C CNN
-F 3 "" H 8700 2700 50  0001 C CNN
-	1    8700 2700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8700 2650 8700 2700
-Wire Wire Line
-	8150 2000 8700 2000
 Connection ~ 8150 2000
 Text Notes 7900 3350 0    50   ~ 0
 Put outlines for cap footprints \non back of board if you can. \nRealistically we just need to \nmake sure we have both sets\nof through-holes routed
-$Comp
-L Device:R_US R19
-U 1 1 5F08D648
-P 2500 1550
-F 0 "R19" H 2568 1596 50  0000 L CNN
-F 1 "1" H 2568 1505 50  0000 L CNN
-F 2 "Resistor_SMD:R_2512_6332Metric" V 2540 1540 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/20035/dcrcwe3.pdf" H 2500 1550 50  0001 C CNN
-F 4 "CRCW25121R00FKEG" H 2500 1550 50  0001 C CNN "Manufacturer Part Number"
-F 5 "Digikey" H 2500 1550 50  0001 C CNN "Vendor"
-F 6 "541-1.00AAFCT-ND" H 2500 1550 50  0001 C CNN "Vendor Part Number"
-	1    2500 1550
-	0    -1   -1   0   
-$EndComp
-Text Label 2100 1550 0    50   ~ 0
-V_solar
-Wire Wire Line
-	8700 2000 9000 2000
-Connection ~ 8700 2000
-Text Label 8350 2000 0    50   ~ 0
+Text Label 8400 2000 0    50   ~ 0
 V_cap
 $Comp
 L power-board:TLV8544DT U3
@@ -426,10 +366,6 @@ F 3 "" H 4750 4350 60  0000 C CNN
 	1    4750 4350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2650 1550 3250 1550
-Wire Wire Line
-	9300 2000 9900 2000
 $Comp
 L power:GND #PWR023
 U 1 1 5F0AFB8D
@@ -449,13 +385,13 @@ Wire Wire Line
 	4550 4450 4550 4350
 Wire Wire Line
 	4550 4350 4750 4350
-Text Label 700  3850 0    50   ~ 0
+Text Label 550  3800 0    50   ~ 0
 V_solar
 Wire Wire Line
 	4750 4850 4550 4850
 Wire Wire Line
 	4550 4850 4550 4950
-Text Label 1300 3850 0    50   ~ 0
+Text Label 1150 3800 0    50   ~ 0
 V_harv
 Wire Wire Line
 	6350 4350 6550 4350
@@ -469,9 +405,9 @@ Wire Wire Line
 	6550 4950 6550 4850
 Wire Wire Line
 	6550 4850 6350 4850
-Text Label 2600 3850 0    50   ~ 0
+Text Label 2450 3800 0    50   ~ 0
 V_cap
-Text Label 2000 3850 0    50   ~ 0
+Text Label 1850 3800 0    50   ~ 0
 Vout
 Text Notes 4900 5450 0    50   ~ 0
 Attach the IN+ pins to their respective\nnets as close as possible to the shunt\nresistor.
@@ -584,83 +520,83 @@ Wire Wire Line
 $Comp
 L Device:R_US R21
 U 1 1 5F0C923D
-P 950 4000
-F 0 "R21" H 1018 4046 50  0000 L CNN
-F 1 "4M" H 1018 3955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 990 3990 50  0001 C CNN
-F 3 "~" H 950 4000 50  0001 C CNN
-	1    950  4000
+P 800 3950
+F 0 "R21" H 868 3996 50  0000 L CNN
+F 1 "4M" H 868 3905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 840 3940 50  0001 C CNN
+F 3 "~" H 800 3950 50  0001 C CNN
+	1    800  3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R22
 U 1 1 5F0CA6E7
-P 950 4500
-F 0 "R22" H 1018 4546 50  0000 L CNN
-F 1 "6M" H 1018 4455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 990 4490 50  0001 C CNN
-F 3 "~" H 950 4500 50  0001 C CNN
-	1    950  4500
+P 800 4450
+F 0 "R22" H 868 4496 50  0000 L CNN
+F 1 "6M" H 868 4405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 840 4440 50  0001 C CNN
+F 3 "~" H 800 4450 50  0001 C CNN
+	1    800  4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR025
 U 1 1 5F0CAAC2
-P 950 4750
-F 0 "#PWR025" H 950 4500 50  0001 C CNN
-F 1 "GND" H 955 4577 50  0000 C CNN
-F 2 "" H 950 4750 50  0001 C CNN
-F 3 "" H 950 4750 50  0001 C CNN
-	1    950  4750
+P 800 4700
+F 0 "#PWR025" H 800 4450 50  0001 C CNN
+F 1 "GND" H 805 4527 50  0000 C CNN
+F 2 "" H 800 4700 50  0001 C CNN
+F 3 "" H 800 4700 50  0001 C CNN
+	1    800  4700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	950  4650 950  4750
+	800  4600 800  4700
 Wire Wire Line
-	700  3850 950  3850
+	550  3800 800  3800
 Wire Wire Line
 	4150 4550 4750 4550
 Wire Wire Line
 	3750 5950 4350 5950
 Text Label 3750 5950 0    50   ~ 0
-Vdd_IN_loc
+Vdd_loc
 Wire Wire Line
 	4250 4350 4550 4350
 $Comp
 L Device:R_US R23
 U 1 1 5F0F4549
-P 1650 4000
-F 0 "R23" H 1718 4046 50  0000 L CNN
-F 1 "4M" H 1718 3955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1690 3990 50  0001 C CNN
-F 3 "~" H 1650 4000 50  0001 C CNN
-	1    1650 4000
+P 1500 3950
+F 0 "R23" H 1568 3996 50  0000 L CNN
+F 1 "4M" H 1568 3905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1540 3940 50  0001 C CNN
+F 3 "~" H 1500 3950 50  0001 C CNN
+	1    1500 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R24
 U 1 1 5F0F6171
-P 1650 4500
-F 0 "R24" H 1718 4546 50  0000 L CNN
-F 1 "6M" H 1718 4455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1690 4490 50  0001 C CNN
-F 3 "~" H 1650 4500 50  0001 C CNN
-	1    1650 4500
+P 1500 4450
+F 0 "R24" H 1568 4496 50  0000 L CNN
+F 1 "6M" H 1568 4405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1540 4440 50  0001 C CNN
+F 3 "~" H 1500 4450 50  0001 C CNN
+	1    1500 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR026
 U 1 1 5F0F6838
-P 1650 4750
-F 0 "#PWR026" H 1650 4500 50  0001 C CNN
-F 1 "GND" H 1655 4577 50  0000 C CNN
-F 2 "" H 1650 4750 50  0001 C CNN
-F 3 "" H 1650 4750 50  0001 C CNN
-	1    1650 4750
+P 1500 4700
+F 0 "#PWR026" H 1500 4450 50  0001 C CNN
+F 1 "GND" H 1505 4527 50  0000 C CNN
+F 2 "" H 1500 4700 50  0001 C CNN
+F 3 "" H 1500 4700 50  0001 C CNN
+	1    1500 4700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1650 4650 1650 4750
+	1500 4600 1500 4700
 Wire Wire Line
 	4100 4750 4750 4750
 Wire Wire Line
@@ -670,106 +606,106 @@ Wire Wire Line
 $Comp
 L Device:R_US R27
 U 1 1 5F115E44
-P 2850 4000
-F 0 "R27" H 2918 4046 50  0000 L CNN
-F 1 "4M" H 2918 3955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2890 3990 50  0001 C CNN
-F 3 "~" H 2850 4000 50  0001 C CNN
-	1    2850 4000
+P 2700 3950
+F 0 "R27" H 2768 3996 50  0000 L CNN
+F 1 "4M" H 2768 3905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2740 3940 50  0001 C CNN
+F 3 "~" H 2700 3950 50  0001 C CNN
+	1    2700 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R28
 U 1 1 5F115E4A
-P 2850 4500
-F 0 "R28" H 2918 4546 50  0000 L CNN
-F 1 "6M" H 2918 4455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2890 4490 50  0001 C CNN
-F 3 "~" H 2850 4500 50  0001 C CNN
-	1    2850 4500
+P 2700 4450
+F 0 "R28" H 2768 4496 50  0000 L CNN
+F 1 "6M" H 2768 4405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2740 4440 50  0001 C CNN
+F 3 "~" H 2700 4450 50  0001 C CNN
+	1    2700 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR028
 U 1 1 5F115E50
-P 2850 4750
-F 0 "#PWR028" H 2850 4500 50  0001 C CNN
-F 1 "GND" H 2855 4577 50  0000 C CNN
-F 2 "" H 2850 4750 50  0001 C CNN
-F 3 "" H 2850 4750 50  0001 C CNN
-	1    2850 4750
+P 2700 4700
+F 0 "#PWR028" H 2700 4450 50  0001 C CNN
+F 1 "GND" H 2705 4527 50  0000 C CNN
+F 2 "" H 2700 4700 50  0001 C CNN
+F 3 "" H 2700 4700 50  0001 C CNN
+	1    2700 4700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2600 3850 2850 3850
+	2450 3800 2700 3800
 Wire Wire Line
 	6350 4550 7000 4550
 $Comp
 L Device:R_US R25
 U 1 1 5F124388
-P 2250 4000
-F 0 "R25" H 2318 4046 50  0000 L CNN
-F 1 "4M" H 2318 3955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2290 3990 50  0001 C CNN
-F 3 "~" H 2250 4000 50  0001 C CNN
-	1    2250 4000
+P 2100 3950
+F 0 "R25" H 2168 3996 50  0000 L CNN
+F 1 "4M" H 2168 3905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2140 3940 50  0001 C CNN
+F 3 "~" H 2100 3950 50  0001 C CNN
+	1    2100 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R26
 U 1 1 5F12438E
-P 2250 4500
-F 0 "R26" H 2318 4546 50  0000 L CNN
-F 1 "6M" H 2318 4455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2290 4490 50  0001 C CNN
-F 3 "~" H 2250 4500 50  0001 C CNN
-	1    2250 4500
+P 2100 4450
+F 0 "R26" H 2168 4496 50  0000 L CNN
+F 1 "6M" H 2168 4405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2140 4440 50  0001 C CNN
+F 3 "~" H 2100 4450 50  0001 C CNN
+	1    2100 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR027
 U 1 1 5F124394
-P 2250 4750
-F 0 "#PWR027" H 2250 4500 50  0001 C CNN
-F 1 "GND" H 2255 4577 50  0000 C CNN
-F 2 "" H 2250 4750 50  0001 C CNN
-F 3 "" H 2250 4750 50  0001 C CNN
-	1    2250 4750
+P 2100 4700
+F 0 "#PWR027" H 2100 4450 50  0001 C CNN
+F 1 "GND" H 2105 4527 50  0000 C CNN
+F 2 "" H 2100 4700 50  0001 C CNN
+F 3 "" H 2100 4700 50  0001 C CNN
+	1    2100 4700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2250 4650 2250 4750
+	2100 4600 2100 4700
 Wire Wire Line
-	2000 3850 2250 3850
+	1850 3800 2100 3800
 Wire Wire Line
-	2850 4150 2850 4250
+	2700 4100 2700 4200
 Wire Wire Line
-	950  4150 950  4250
+	800  4100 800  4200
 Wire Wire Line
-	1650 4150 1650 4250
+	1500 4100 1500 4200
 Text Label 4000 4650 0    50   ~ 0
-Vdd_IN_loc
-Connection ~ 2850 4250
+Vdd_loc
+Connection ~ 2700 4200
 Wire Wire Line
-	2850 4250 2850 4350
-Text Label 3350 4250 2    50   ~ 0
+	2700 4200 2700 4300
+Text Label 3200 4200 2    50   ~ 0
 V_cap_meas
-Text Label 2700 4250 2    50   ~ 0
+Text Label 2550 4200 2    50   ~ 0
 V_out_meas
 Wire Wire Line
-	2250 4150 2250 4250
-Connection ~ 2250 4250
+	2100 4100 2100 4200
+Connection ~ 2100 4200
 Wire Wire Line
-	2250 4250 2250 4350
-Connection ~ 1650 4250
+	2100 4200 2100 4300
+Connection ~ 1500 4200
 Wire Wire Line
-	1650 4250 1650 4350
-Connection ~ 950  4250
+	1500 4200 1500 4300
+Connection ~ 800  4200
 Wire Wire Line
-	950  4250 950  4350
-Text Label 2150 4250 2    50   ~ 0
+	800  4200 800  4300
+Text Label 2000 4200 2    50   ~ 0
 V_harv_meas
-Text Label 1500 4250 2    50   ~ 0
+Text Label 1350 4200 2    50   ~ 0
 V_solar_meas
 Text Label 4150 4550 0    50   ~ 0
 V_solar_meas
@@ -784,15 +720,15 @@ Wire Wire Line
 Text Label 7000 4750 2    50   ~ 0
 V_out_meas
 Wire Wire Line
-	3250 1550 3700 1550
-Connection ~ 3250 1550
+	2850 2300 3300 2300
+Connection ~ 2850 2300
 Wire Wire Line
 	4400 2300 4500 2300
 Wire Wire Line
 	4500 2350 4500 2300
 Connection ~ 4500 2300
 Wire Wire Line
-	4500 2300 4900 2300
+	4500 2300 4750 2300
 $Comp
 L power-board:D_Zener_AKA D2
 U 1 1 5F1CDEB1
@@ -816,6 +752,97 @@ Wire Wire Line
 Wire Wire Line
 	4500 2750 4450 2750
 Connection ~ 4450 2750
+Wire Wire Line
+	2100 4200 2550 4200
+Wire Wire Line
+	2700 4200 3200 4200
+Wire Wire Line
+	800  4200 1350 4200
+Wire Wire Line
+	1500 4200 2000 4200
+Wire Wire Line
+	5100 6350 4600 6350
+Wire Wire Line
+	4750 4950 4550 4950
+Connection ~ 4550 4950
+Wire Wire Line
+	1150 3800 1500 3800
+Wire Wire Line
+	2700 4600 2700 4700
+$Comp
+L Device:R_US R29
+U 1 1 5F183712
+P 3850 4500
+F 0 "R29" H 3918 4546 50  0000 L CNN
+F 1 "0" H 3918 4455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3890 4490 50  0001 C CNN
+F 3 "~" H 3850 4500 50  0001 C CNN
+	1    3850 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 4300 3850 4300
+Wire Wire Line
+	3850 4300 3850 4350
+Wire Wire Line
+	3850 4650 4750 4650
+Wire Wire Line
+	3950 2300 4050 2300
+Wire Wire Line
+	4050 2300 4050 2150
+Wire Wire Line
+	4050 2150 5000 2150
+Connection ~ 4050 2300
+Wire Wire Line
+	4050 2300 4100 2300
+Connection ~ 3300 2300
+Wire Wire Line
+	3450 1550 4650 1550
+Wire Wire Line
+	3450 1850 3450 2300
+Wire Wire Line
+	3300 2300 3450 2300
+Connection ~ 3450 2300
+Wire Wire Line
+	3450 2300 3650 2300
+Wire Wire Line
+	2750 2300 2850 2300
+Wire Wire Line
+	2100 2300 2450 2300
+Text Label 2150 2300 0    50   ~ 0
+V_solar
+$Comp
+L Device:R_US R19
+U 1 1 5F08D648
+P 2600 2300
+F 0 "R19" H 2668 2346 50  0000 L CNN
+F 1 "1" H 2668 2255 50  0000 L CNN
+F 2 "Resistor_SMD:R_2512_6332Metric" V 2640 2290 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20035/dcrcwe3.pdf" H 2600 2300 50  0001 C CNN
+F 4 "CRCW25121R00FKEG" H 2600 2300 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 2600 2300 50  0001 C CNN "Vendor"
+F 6 "541-1.00AAFCT-ND" H 2600 2300 50  0001 C CNN "Vendor Part Number"
+	1    2600 2300
+	0    -1   -1   0   
+$EndComp
+Text HLabel 2100 2300 0    50   Input ~ 0
+Solar_panels
+Wire Wire Line
+	4750 2300 4750 3100
+Wire Wire Line
+	4750 3100 7850 3100
+Wire Wire Line
+	7850 3100 7850 2000
+Connection ~ 4750 2300
+Wire Wire Line
+	4750 2300 4900 2300
+Connection ~ 7850 2000
+Wire Wire Line
+	7850 2000 8150 2000
+Wire Wire Line
+	9300 2000 9900 2000
+Wire Wire Line
+	8150 2000 9000 2000
 $Comp
 L Device:R_US R20
 U 1 1 5F1D83DD
@@ -830,40 +857,4 @@ F 6 "541-1.00AAFCT-ND" H 9150 2000 50  0001 C CNN "Vendor Part Number"
 	1    9150 2000
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1550 1550 2350 1550
-Wire Wire Line
-	2250 4250 2700 4250
-Wire Wire Line
-	2850 4250 3350 4250
-Wire Wire Line
-	950  4250 1500 4250
-Wire Wire Line
-	1650 4250 2150 4250
-Wire Wire Line
-	5100 6350 4600 6350
-Wire Wire Line
-	4750 4950 4550 4950
-Connection ~ 4550 4950
-Wire Wire Line
-	1300 3850 1650 3850
-Wire Wire Line
-	2850 4650 2850 4750
-$Comp
-L Device:R_US R?
-U 1 1 5F183712
-P 3850 4500
-F 0 "R?" H 3918 4546 50  0000 L CNN
-F 1 "0" H 3918 4455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3890 4490 50  0001 C CNN
-F 3 "~" H 3850 4500 50  0001 C CNN
-	1    3850 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3800 4300 3850 4300
-Wire Wire Line
-	3850 4300 3850 4350
-Wire Wire Line
-	3850 4650 4750 4650
 $EndSCHEMATC
