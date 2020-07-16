@@ -375,7 +375,7 @@ F 3 "" H 7200 4650 50  0001 C CNN
 	1    7200 4650
 	1    0    0    -1  
 $EndComp
-Text HLabel 3800 4300 0    50   Input ~ 0
+Text HLabel 3600 4300 0    50   Input ~ 0
 Vdd_IN
 Wire Wire Line
 	4750 4450 4550 4450
@@ -443,9 +443,9 @@ Wire Wire Line
 	5100 6550 4600 6550
 Wire Wire Line
 	5100 6650 4600 6650
-Text Label 4600 6550 0    50   ~ 0
-V_cap+
 Text Label 4600 6650 0    50   ~ 0
+V_cap+
+Text Label 4600 6550 0    50   ~ 0
 V_cap-
 Connection ~ 6550 4950
 Text Label 6900 4950 2    50   ~ 0
@@ -556,8 +556,6 @@ Wire Wire Line
 	4150 4550 4750 4550
 Wire Wire Line
 	3750 5950 4350 5950
-Text Label 3750 5950 0    50   ~ 0
-Vdd_loc
 Wire Wire Line
 	4250 4350 4550 4350
 $Comp
@@ -682,7 +680,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 4100 1500 4200
 Text Label 4000 4650 0    50   ~ 0
-Vdd_loc
+Vdd_tlv
 Connection ~ 2700 4200
 Wire Wire Line
 	2700 4200 2700 4300
@@ -767,19 +765,6 @@ Wire Wire Line
 	1150 3800 1500 3800
 Wire Wire Line
 	2700 4600 2700 4700
-$Comp
-L Device:R_US R29
-U 1 1 5F183712
-P 3850 4500
-F 0 "R29" H 3918 4546 50  0000 L CNN
-F 1 "0" H 3918 4455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3890 4490 50  0001 C CNN
-F 3 "~" H 3850 4500 50  0001 C CNN
-	1    3850 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3800 4300 3850 4300
 Wire Wire Line
 	3850 4300 3850 4350
 Wire Wire Line
@@ -855,4 +840,37 @@ F 6 "541-1.00AAFCT-ND" H 9150 2000 50  0001 C CNN "Vendor Part Number"
 	1    9150 2000
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Device:R_US R29
+U 1 1 5F183712
+P 3850 4500
+F 0 "R29" H 3918 4546 50  0000 L CNN
+F 1 "0" H 3918 4455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3890 4490 50  0001 C CNN
+F 3 "~" H 3850 4500 50  0001 C CNN
+	1    3850 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R30
+U 1 1 5F12BE3B
+P 3750 5550
+F 0 "R30" H 3818 5596 50  0000 L CNN
+F 1 "0" H 3818 5505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3790 5540 50  0001 C CNN
+F 3 "~" H 3750 5550 50  0001 C CNN
+	1    3750 5550
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3600 4300 3750 4300
+Wire Wire Line
+	3750 4300 3750 5400
+Connection ~ 3750 4300
+Wire Wire Line
+	3750 4300 3850 4300
+Wire Wire Line
+	3750 5700 3750 5950
+Text Label 3850 5950 0    50   ~ 0
+Vdd_adc
 $EndSCHEMATC

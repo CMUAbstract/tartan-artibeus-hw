@@ -374,29 +374,25 @@ Wire Wire Line
 	1550 2650 1550 2250
 Wire Wire Line
 	1550 2250 2100 2250
-Text Label 2100 2250 2    50   ~ 0
-comm_en
 Text Label 2100 2350 2    50   ~ 0
+comm_en
+Text Label 2100 2250 2    50   ~ 0
 exp_en
 Text Label 2100 2450 2    50   ~ 0
 gnss_en
 Wire Wire Line
 	1250 2450 1250 2650
 Wire Wire Line
-	1250 2450 1000 2450
-Wire Wire Line
 	1350 2650 1350 2350
 Wire Wire Line
 	1350 2350 1000 2350
 Wire Wire Line
 	1450 2650 1450 2250
-Wire Wire Line
-	1450 2250 1000 2250
 Text Label 1000 2350 0    50   ~ 0
 scl
-Text Label 1000 2450 0    50   ~ 0
+Text Label 900  2450 0    50   ~ 0
 sda
-Text Label 1000 2250 0    50   ~ 0
+Text Label 1150 2250 0    50   ~ 0
 adc_int
 Text Notes 1600 1350 0    50   ~ 0
 pins 1-6 still available
@@ -435,4 +431,8 @@ Wire Wire Line
 	6350 1750 6800 1750
 Text Label 6800 1750 2    50   ~ 0
 GNSS
+Wire Wire Line
+	900  2450 1250 2450
+Wire Wire Line
+	1450 2250 1150 2250
 $EndSCHEMATC
