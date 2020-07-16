@@ -35,17 +35,6 @@ Text Label 8250 850  0    50   ~ 0
 Vdd
 Text Label 8200 1900 0    50   ~ 0
 Vdd
-$Comp
-L power:GND #PWR05
-U 1 1 5EF98DF7
-P 8700 2450
-F 0 "#PWR05" H 8700 2200 50  0001 C CNN
-F 1 "GND" H 8705 2277 50  0000 C CNN
-F 2 "" H 8700 2450 50  0001 C CNN
-F 3 "" H 8700 2450 50  0001 C CNN
-	1    8700 2450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8700 2300 8700 2400
 Wire Wire Line
@@ -567,19 +556,6 @@ Connection ~ 8200 2000
 Wire Wire Line
 	8200 2000 8400 2000
 $Comp
-L power:GND #PWR014
-U 1 1 5F1281A9
-P 8200 2400
-F 0 "#PWR014" H 8200 2150 50  0001 C CNN
-F 1 "GND" H 8205 2227 50  0000 C CNN
-F 2 "" H 8200 2400 50  0001 C CNN
-F 3 "" H 8200 2400 50  0001 C CNN
-	1    8200 2400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8200 2300 8200 2400
-$Comp
 L Device:C C14
 U 1 1 5F12AEA1
 P 9350 2050
@@ -835,8 +811,6 @@ Wire Wire Line
 Wire Wire Line
 	8850 2400 8700 2400
 Connection ~ 8700 2400
-Wire Wire Line
-	8700 2400 8700 2450
 NoConn ~ 5050 4550
 Wire Wire Line
 	4950 4550 5050 4550
@@ -851,4 +825,30 @@ F 3 "http://www.vishay.com.hk/docs/66597/sip32431.pdf" H 8750 3750 50  0001 C CN
 	1    8750 3750
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 5F10CE33
+P 8200 2450
+F 0 "#PWR0112" H 8200 2200 50  0001 C CNN
+F 1 "GND" H 8205 2277 50  0000 C CNN
+F 2 "" H 8200 2450 50  0001 C CNN
+F 3 "" H 8200 2450 50  0001 C CNN
+	1    8200 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 2300 8200 2450
+$Comp
+L power:GND #PWR0113
+U 1 1 5F110A9D
+P 8700 2550
+F 0 "#PWR0113" H 8700 2300 50  0001 C CNN
+F 1 "GND" H 8705 2377 50  0000 C CNN
+F 2 "" H 8700 2550 50  0001 C CNN
+F 3 "" H 8700 2550 50  0001 C CNN
+	1    8700 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 2400 8700 2550
 $EndSCHEMATC
