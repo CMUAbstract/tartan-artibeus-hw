@@ -40,8 +40,11 @@ P 3300 2450
 F 0 "C2" H 3415 2496 50  0000 L CNN
 F 1 "10uF" H 3415 2405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3338 2300 50  0001 C CNN
-F 3 "~" H 3300 2450 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 3300 2450 50  0001 C CNN
 F 4 "" H 3300 2450 50  0001 C CNN "Vendor part number"
+F 5 "C1608X7S0J106M080AC" H 3300 2450 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Digikey" H 3300 2450 50  0001 C CNN "Vendor"
+F 7 "445-9104-1-ND" H 3300 2450 50  0001 C CNN "Vendor Part Number"
 	1    3300 2450
 	1    0    0    -1  
 $EndComp
@@ -52,8 +55,11 @@ P 2850 2450
 F 0 "C1" H 2965 2496 50  0000 L CNN
 F 1 "10uF" H 2965 2405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2888 2300 50  0001 C CNN
-F 3 "~" H 2850 2450 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 2850 2450 50  0001 C CNN
 F 4 "" H 2850 2450 50  0001 C CNN "Vendor part number"
+F 5 "C1608X7S0J106M080AC" H 2850 2450 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Digikey" H 2850 2450 50  0001 C CNN "Vendor"
+F 7 "445-9104-1-ND" H 2850 2450 50  0001 C CNN "Vendor Part Number"
 	1    2850 2450
 	1    0    0    -1  
 $EndComp
@@ -77,7 +83,10 @@ P 5450 1900
 F 0 "U1" H 5525 2475 50  0000 C CNN
 F 1 "SPV1040" H 5525 2384 50  0000 C CNN
 F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 5450 2000 50  0001 C CNN
-F 3 "" H 5450 2000 50  0001 C CNN
+F 3 "https://static6.arrow.com/aropdfconversion/b99892bb5a969e46e906e6f0532fd491a5cf484a/582515621117054cd00287506.pdf" H 5450 2000 50  0001 C CNN
+F 4 "SPV1040T" H 5450 1900 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Arrow" H 5450 1900 50  0001 C CNN "Vendor"
+F 6 "SPV1040T" H 5450 1900 50  0001 C CNN "Vendor Part Number"
 	1    5450 1900
 	1    0    0    -1  
 $EndComp
@@ -106,8 +115,11 @@ P 4650 1700
 F 0 "C3" H 4765 1746 50  0000 L CNN
 F 1 "100nF" H 4765 1655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4688 1550 50  0001 C CNN
-F 3 "~" H 4650 1700 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 4650 1700 50  0001 C CNN
 F 4 "" H 4650 1700 50  0001 C CNN "Vendor part number"
+F 5 "C0603C104K8RACAUTO" H 4650 1700 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Digikey" H 4650 1700 50  0001 C CNN "Vendor"
+F 7 "	399-17574-1-ND" H 4650 1700 50  0001 C CNN "Vendor Part Number"
 	1    4650 1700
 	1    0    0    -1  
 $EndComp
@@ -160,8 +172,11 @@ P 4900 2450
 F 0 "C4" H 5015 2496 50  0000 L CNN
 F 1 "4.7uF" H 5015 2405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4938 2300 50  0001 C CNN
-F 3 "~" H 4900 2450 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCJ188C70J475KE02-01.pdf" H 4900 2450 50  0001 C CNN
 F 4 "" H 4900 2450 50  0001 C CNN "Vendor part number"
+F 5 "GCJ188C70J475KE02D" H 4900 2450 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Digikey" H 4900 2450 50  0001 C CNN "Vendor"
+F 7 "490-16480-1-ND" H 4900 2450 50  0001 C CNN "Vendor Part Number"
 	1    4900 2450
 	1    0    0    -1  
 $EndComp
@@ -216,8 +231,11 @@ P 6150 2450
 F 0 "C5" H 6265 2496 50  0000 L CNN
 F 1 "1nF" H 6265 2405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6188 2300 50  0001 C CNN
-F 3 "~" H 6150 2450 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/kemet/C0603C102K8RACTU/399-8984-1-ND/3522501" H 6150 2450 50  0001 C CNN
 F 4 "" H 6150 2450 50  0001 C CNN "Vendor part number"
+F 5 "C0603C102K8RACTU" H 6150 2450 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Digikey" H 6150 2450 50  0001 C CNN "Vendor"
+F 7 "399-8984-1-ND" H 6150 2450 50  0001 C CNN "Vendor Part Number"
 	1    6150 2450
 	1    0    0    -1  
 $EndComp
@@ -243,7 +261,10 @@ P 3450 1700
 F 0 "R1" H 3518 1746 50  0000 L CNN
 F 1 "1k" H 3518 1655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3490 1690 50  0001 C CNN
-F 3 "~" H 3450 1700 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20043/crcwhpe3.pdf" H 3450 1700 50  0001 C CNN
+F 4 "CRCW06031K00FKEAHP" H 3450 1700 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 3450 1700 50  0001 C CNN "Vendor"
+F 6 "541-1.00KSCT-ND" H 3450 1700 50  0001 C CNN "Vendor Part Number"
 	1    3450 1700
 	1    0    0    -1  
 $EndComp
@@ -252,9 +273,12 @@ L Device:R_US R2
 U 1 1 5EF697CE
 P 6850 2150
 F 0 "R2" H 6918 2196 50  0000 L CNN
-F 1 "330k" H 6918 2105 50  0000 L CNN
+F 1 "510k" H 6918 2105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6890 2140 50  0001 C CNN
-F 3 "~" H 6850 2150 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 6850 2150 50  0001 C CNN
+F 4 "ERJ-PA3F5103V" H 6850 2150 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 6850 2150 50  0001 C CNN "Vendor"
+F 6 "P510KBYCT-ND" H 6850 2150 50  0001 C CNN "Vendor Part Number"
 	1    6850 2150
 	1    0    0    -1  
 $EndComp
@@ -263,9 +287,12 @@ L Device:R_US R3
 U 1 1 5EF6A5DE
 P 6850 2500
 F 0 "R3" H 6918 2546 50  0000 L CNN
-F 1 "105k" H 6918 2455 50  0000 L CNN
+F 1 "160k" H 6918 2455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6890 2490 50  0001 C CNN
-F 3 "~" H 6850 2500 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PA3F1603V/P160KBYCT-ND/5036142" H 6850 2500 50  0001 C CNN
+F 4 "ERJ-PA3F1603V" H 6850 2500 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 6850 2500 50  0001 C CNN "Vendor"
+F 6 "P160KBYCT-ND" H 6850 2500 50  0001 C CNN "Vendor Part Number"
 	1    6850 2500
 	1    0    0    -1  
 $EndComp
@@ -295,8 +322,11 @@ P 7400 2500
 F 0 "C6" H 7515 2546 50  0000 L CNN
 F 1 "10uF" H 7515 2455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7438 2350 50  0001 C CNN
-F 3 "~" H 7400 2500 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 7400 2500 50  0001 C CNN
 F 4 "" H 7400 2500 50  0001 C CNN "Vendor part number"
+F 5 "C1608X7S0J106M080AC" H 7400 2500 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Digikey" H 7400 2500 50  0001 C CNN "Vendor"
+F 7 "445-9104-1-ND" H 7400 2500 50  0001 C CNN "Vendor Part Number"
 	1    7400 2500
 	1    0    0    -1  
 $EndComp
@@ -360,7 +390,10 @@ P 4750 4350
 F 0 "U3" H 5550 4737 60  0000 C CNN
 F 1 "TLV8544DT" H 5550 4631 60  0000 C CNN
 F 2 "ta-powr:TLV8544DT" H 5800 3600 60  0001 C CNN
-F 3 "" H 4750 4350 60  0000 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tlv8544.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1595014292298" H 4750 4350 60  0000 C CNN
+F 4 "TLV8544DT" H 4750 4350 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 4750 4350 50  0001 C CNN "Vendor"
+F 6 "296-49508-1-ND" H 4750 4350 50  0001 C CNN "Vendor Part Number"
 	1    4750 4350
 	1    0    0    -1  
 $EndComp
@@ -417,6 +450,9 @@ F 0 "U4" H 5500 7131 50  0000 C CNN
 F 1 "ADS1115-Q1" H 5500 7040 50  0000 C CNN
 F 2 "Package_SO:TSSOP-10_3x3mm_P0.5mm" H 5500 5950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ads1015.pdf" H 5450 5550 50  0001 C CNN
+F 4 "ADS1115BQDGSRQ1" H 5500 6450 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 5500 6450 50  0001 C CNN "Vendor"
+F 6 "296-45221-1-ND" H 5500 6450 50  0001 C CNN "Vendor Part Number"
 	1    5500 6450
 	1    0    0    -1  
 $EndComp
@@ -494,8 +530,11 @@ P 4350 6100
 F 0 "C17" H 4465 6146 50  0000 L CNN
 F 1 "1uF" H 4465 6055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4388 5950 50  0001 C CNN
-F 3 "~" H 4350 6100 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 4350 6100 50  0001 C CNN
 F 4 "" H 4350 6100 50  0001 C CNN "Vendor part number"
+F 5 "C0603C105K8RACTU" H 4350 6100 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Digikey" H 4350 6100 50  0001 C CNN "Vendor"
+F 7 "399-11133-1-ND" H 4350 6100 50  0001 C CNN "Vendor Part Number"
 	1    4350 6100
 	1    0    0    -1  
 $EndComp
@@ -522,7 +561,10 @@ P 800 3950
 F 0 "R21" H 868 3996 50  0000 L CNN
 F 1 "4M" H 868 3905 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 840 3940 50  0001 C CNN
-F 3 "~" H 800 3950 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-packaging.pdf" H 800 3950 50  0001 C CNN
+F 4 "RMCF0603FT4M02" H 800 3950 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 800 3950 50  0001 C CNN "Vendor"
+F 6 "RMCF0603FT4M02CT-ND" H 800 3950 50  0001 C CNN "Vendor Part Number"
 	1    800  3950
 	1    0    0    -1  
 $EndComp
@@ -533,7 +575,10 @@ P 800 4450
 F 0 "R22" H 868 4496 50  0000 L CNN
 F 1 "6M" H 868 4405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 840 4440 50  0001 C CNN
-F 3 "~" H 800 4450 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 800 4450 50  0001 C CNN
+F 4 "RMCF0603FT6M04" H 800 4450 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 800 4450 50  0001 C CNN "Vendor"
+F 6 "RMCF0603FT6M04CT-ND" H 800 4450 50  0001 C CNN "Vendor Part Number"
 	1    800  4450
 	1    0    0    -1  
 $EndComp
@@ -565,7 +610,10 @@ P 1500 3950
 F 0 "R23" H 1568 3996 50  0000 L CNN
 F 1 "4M" H 1568 3905 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1540 3940 50  0001 C CNN
-F 3 "~" H 1500 3950 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-packaging.pdf" H 1500 3950 50  0001 C CNN
+F 4 "RMCF0603FT4M02" H 1500 3950 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 1500 3950 50  0001 C CNN "Vendor"
+F 6 "RMCF0603FT4M02CT-ND" H 1500 3950 50  0001 C CNN "Vendor Part Number"
 	1    1500 3950
 	1    0    0    -1  
 $EndComp
@@ -576,7 +624,10 @@ P 1500 4450
 F 0 "R24" H 1568 4496 50  0000 L CNN
 F 1 "6M" H 1568 4405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1540 4440 50  0001 C CNN
-F 3 "~" H 1500 4450 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 1500 4450 50  0001 C CNN
+F 4 "RMCF0603FT6M04" H 1500 4450 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 1500 4450 50  0001 C CNN "Vendor"
+F 6 "RMCF0603FT6M04CT-ND" H 1500 4450 50  0001 C CNN "Vendor Part Number"
 	1    1500 4450
 	1    0    0    -1  
 $EndComp
@@ -606,7 +657,10 @@ P 2700 3950
 F 0 "R27" H 2768 3996 50  0000 L CNN
 F 1 "4M" H 2768 3905 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2740 3940 50  0001 C CNN
-F 3 "~" H 2700 3950 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-packaging.pdf" H 2700 3950 50  0001 C CNN
+F 4 "RMCF0603FT4M02" H 2700 3950 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 2700 3950 50  0001 C CNN "Vendor"
+F 6 "RMCF0603FT4M02CT-ND" H 2700 3950 50  0001 C CNN "Vendor Part Number"
 	1    2700 3950
 	1    0    0    -1  
 $EndComp
@@ -617,7 +671,10 @@ P 2700 4450
 F 0 "R28" H 2768 4496 50  0000 L CNN
 F 1 "6M" H 2768 4405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2740 4440 50  0001 C CNN
-F 3 "~" H 2700 4450 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 2700 4450 50  0001 C CNN
+F 4 "RMCF0603FT6M04" H 2700 4450 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 2700 4450 50  0001 C CNN "Vendor"
+F 6 "RMCF0603FT6M04CT-ND" H 2700 4450 50  0001 C CNN "Vendor Part Number"
 	1    2700 4450
 	1    0    0    -1  
 $EndComp
@@ -643,7 +700,10 @@ P 2100 3950
 F 0 "R25" H 2168 3996 50  0000 L CNN
 F 1 "4M" H 2168 3905 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2140 3940 50  0001 C CNN
-F 3 "~" H 2100 3950 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-packaging.pdf" H 2100 3950 50  0001 C CNN
+F 4 "RMCF0603FT4M02" H 2100 3950 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 2100 3950 50  0001 C CNN "Vendor"
+F 6 "RMCF0603FT4M02CT-ND" H 2100 3950 50  0001 C CNN "Vendor Part Number"
 	1    2100 3950
 	1    0    0    -1  
 $EndComp
@@ -654,7 +714,10 @@ P 2100 4450
 F 0 "R26" H 2168 4496 50  0000 L CNN
 F 1 "6M" H 2168 4405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2140 4440 50  0001 C CNN
-F 3 "~" H 2100 4450 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 2100 4450 50  0001 C CNN
+F 4 "RMCF0603FT6M04" H 2100 4450 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 2100 4450 50  0001 C CNN "Vendor"
+F 6 "RMCF0603FT6M04CT-ND" H 2100 4450 50  0001 C CNN "Vendor Part Number"
 	1    2100 4450
 	1    0    0    -1  
 $EndComp
@@ -847,7 +910,10 @@ P 3850 4500
 F 0 "R29" H 3918 4546 50  0000 L CNN
 F 1 "0" H 3918 4455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3890 4490 50  0001 C CNN
-F 3 "~" H 3850 4500 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20043/crcwhpe3.pdf" H 3850 4500 50  0001 C CNN
+F 4 "CRCW06030000Z0EAHP" H 3850 4500 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 3850 4500 50  0001 C CNN "Vendor"
+F 6 "541-0.0SBCT-ND" H 3850 4500 50  0001 C CNN "Vendor Part Number"
 	1    3850 4500
 	1    0    0    -1  
 $EndComp
@@ -858,7 +924,10 @@ P 3750 5550
 F 0 "R30" H 3818 5596 50  0000 L CNN
 F 1 "0" H 3818 5505 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3790 5540 50  0001 C CNN
-F 3 "~" H 3750 5550 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20043/crcwhpe3.pdf" H 3750 5550 50  0001 C CNN
+F 4 "CRCW06030000Z0EAHP" H 3750 5550 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 3750 5550 50  0001 C CNN "Vendor"
+F 6 "541-0.0SBCT-ND" H 3750 5550 50  0001 C CNN "Vendor Part Number"
 	1    3750 5550
 	1    0    0    1   
 $EndComp
