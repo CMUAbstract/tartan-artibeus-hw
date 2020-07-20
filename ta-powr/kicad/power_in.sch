@@ -390,7 +390,7 @@ P 4750 4350
 F 0 "U3" H 5550 4737 60  0000 C CNN
 F 1 "TLV8544DT" H 5550 4631 60  0000 C CNN
 F 2 "ta-powr:TLV8544DT" H 5800 3600 60  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/tlv8544.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1595014292298" H 4750 4350 60  0000 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tlv8544.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1595014292298" H 4750 4350 60  0001 C CNN
 F 4 "TLV8544DT" H 4750 4350 50  0001 C CNN "Manufacturer Part Number"
 F 5 "Digikey" H 4750 4350 50  0001 C CNN "Vendor"
 F 6 "296-49508-1-ND" H 4750 4350 50  0001 C CNN "Vendor Part Number"
