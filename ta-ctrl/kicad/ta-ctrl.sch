@@ -145,16 +145,16 @@ Wire Wire Line
 Wire Wire Line
 	3400 850  3400 950 
 Wire Wire Line
-	1050 850  1050 950 
+	1050 850  1050 900 
 $Comp
 L power:GND #PWR?
 U 1 1 5F17F9A1
-P 1050 950
-F 0 "#PWR?" H 1050 700 50  0001 C CNN
-F 1 "GND" H 1055 777 50  0000 C CNN
-F 2 "" H 1050 950 50  0001 C CNN
-F 3 "" H 1050 950 50  0001 C CNN
-	1    1050 950 
+P 1050 900
+F 0 "#PWR?" H 1050 650 50  0001 C CNN
+F 1 "GND" H 1055 727 50  0000 C CNN
+F 2 "" H 1050 900 50  0001 C CNN
+F 3 "" H 1050 900 50  0001 C CNN
+	1    1050 900 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -209,7 +209,7 @@ Pin 1 needs to point up\ntoward the center of the \nboard
 Wire Wire Line
 	1450 2100 1450 2750
 Text Label 1000 2750 0    50   ~ 0
-Comm_nRST
+Comm_RST
 Wire Wire Line
 	1000 2750 1450 2750
 Text Label 2800 2200 2    50   ~ 0
@@ -316,8 +316,6 @@ Wire Wire Line
 	1650 1650 2500 1650
 Text Label 1250 1600 0    50   ~ 0
 Exp_CK
-Text Label 1150 1500 0    50   ~ 0
-Exp_RST
 Wire Wire Line
 	1550 850  1550 1600
 Wire Wire Line
@@ -372,6 +370,34 @@ S 1400 4000 3100 1900
 U 5F1ADB0C
 F0 "MCU" 50
 F1 "mcu.sch" 50
+F2 "Vdd" I L 1400 4200 50 
+F3 "TST" I L 1400 4350 50 
+F4 "RST" I L 1400 4450 50 
+F5 "Comm_RX1" O R 4500 4100 50 
+F6 "Comm_TX1" I R 4500 4200 50 
+F7 "Exp_RX" O R 4500 4500 50 
+F8 "Exp_TX" I R 4500 4600 50 
+F9 "Exp_CTS" O R 4500 4700 50 
+F10 "Exp_RTS" I R 4500 4800 50 
+F11 "GNSS_RX" O R 4500 4900 50 
+F12 "GNSS_TX" I R 4500 5000 50 
+F13 "GNSS_CTS" O R 4500 5100 50 
+F14 "GNSS_RTS" I R 4500 5200 50 
+F15 "SDA" B L 1400 4600 50 
+F16 "SCL" B L 1400 4700 50 
+F17 "Comm_CTS1" O R 4500 4300 50 
+F18 "Comm_RTS1" I R 4500 4400 50 
+F19 "Comm_EN" O L 1400 4950 50 
+F20 "Exp_EN" O L 1400 5050 50 
+F21 "GNSS_EN" O L 1400 5150 50 
+F22 "ADC_INT" I L 1400 5250 50 
+F23 "DBG1" O R 4500 5650 50 
+F24 "DBG2" O R 4500 5750 50 
+F25 "DBG0" O R 4500 5550 50 
+F26 "Exp_BOOT" O L 1400 5550 50 
+F27 "Comm_RST" O R 4500 5350 50 
+F28 "Exp_CK" O L 1400 5750 50 
+F29 "Exp_RST" O L 1400 5650 50 
 $EndSheet
 $Sheet
 S 6600 3850 3350 2000
@@ -379,4 +405,134 @@ U 5F1AF90A
 F0 "Sensors" 50
 F1 "sensors.sch" 50
 $EndSheet
+NoConn ~ 2850 950 
+NoConn ~ 2800 1050
+NoConn ~ 2750 1150
+NoConn ~ 2700 1250
+NoConn ~ 2250 2600
+NoConn ~ 2200 2700
+NoConn ~ 2150 2800
+NoConn ~ 2100 2900
+Text Label 1200 4200 0    50   ~ 0
+Vdd
+Wire Wire Line
+	1200 4200 1400 4200
+Text Label 5050 4100 2    50   ~ 0
+Comm_RX1_l
+Wire Wire Line
+	4500 4100 5050 4100
+Text Label 5050 4200 2    50   ~ 0
+Comm_TX1_l
+Wire Wire Line
+	4500 4200 5050 4200
+Text Label 5050 4300 2    50   ~ 0
+Comm_CTS1_l
+Text Label 5050 4400 2    50   ~ 0
+Comm_RTS1_l
+Text Label 4950 4500 2    50   ~ 0
+Exp_RX_l
+Text Label 4950 4600 2    50   ~ 0
+Exp_TX_l
+Wire Wire Line
+	4500 4300 5050 4300
+Wire Wire Line
+	4500 4400 5050 4400
+Wire Wire Line
+	4500 4500 4950 4500
+Wire Wire Line
+	4500 4600 4950 4600
+Text Label 4950 4700 2    50   ~ 0
+Exp_CTS_l
+Text Label 4950 4800 2    50   ~ 0
+Exp_RTS_l
+Wire Wire Line
+	4500 4800 4950 4800
+Wire Wire Line
+	4500 4700 4950 4700
+Text Label 1200 4350 0    50   ~ 0
+TST
+Text Label 1200 4450 0    50   ~ 0
+RST
+Text Label 1200 4600 0    50   ~ 0
+sda
+Text Label 1200 4700 0    50   ~ 0
+scl
+Text Label 1000 4950 0    50   ~ 0
+Comm_EN
+Text Label 1000 5050 0    50   ~ 0
+Exp_EN
+Text Label 1000 5150 0    50   ~ 0
+GNSS_EN
+Wire Wire Line
+	1000 4950 1400 4950
+Wire Wire Line
+	1000 5050 1400 5050
+Wire Wire Line
+	1000 5150 1400 5150
+Wire Wire Line
+	1200 4350 1400 4350
+Wire Wire Line
+	1200 4450 1400 4450
+Wire Wire Line
+	1200 4600 1400 4600
+Wire Wire Line
+	1200 4700 1400 4700
+Text Label 1000 5250 0    50   ~ 0
+adc_int
+Wire Wire Line
+	1000 5250 1400 5250
+Text Label 950  5550 0    50   ~ 0
+EXP_BOOT
+Wire Wire Line
+	950  5550 1400 5550
+Text Label 950  5650 0    50   ~ 0
+Exp_RST
+Wire Wire Line
+	950  5650 1400 5650
+Text Label 950  5750 0    50   ~ 0
+Exp_CK
+Wire Wire Line
+	950  5750 1400 5750
+NoConn ~ 850  950 
+NoConn ~ 950  950 
+Wire Wire Line
+	850  850  850  950 
+Wire Wire Line
+	950  850  950  950 
+Text Label 900  1200 0    50   ~ 0
+DBG0
+Text Label 1000 1300 0    50   ~ 0
+DBG1
+Text Label 1150 1400 0    50   ~ 0
+DBG2
+Text Label 1150 1500 0    50   ~ 0
+Exp_RST
+Wire Wire Line
+	1350 850  1350 1400
+Wire Wire Line
+	1350 1400 1150 1400
+Wire Wire Line
+	1250 850  1250 1300
+Wire Wire Line
+	1250 1300 1000 1300
+Wire Wire Line
+	1150 850  1150 1200
+Wire Wire Line
+	1150 1200 900  1200
+Wire Wire Line
+	4500 5350 4950 5350
+Text Label 4950 5350 2    50   ~ 0
+Comm_RST
+Text Label 4850 5550 2    50   ~ 0
+DBG0
+Text Label 4850 5650 2    50   ~ 0
+DBG1
+Text Label 4850 5750 2    50   ~ 0
+DBG2
+Wire Wire Line
+	4500 5550 4850 5550
+Wire Wire Line
+	4500 5650 4850 5650
+Wire Wire Line
+	4500 5750 4850 5750
 $EndSCHEMATC
