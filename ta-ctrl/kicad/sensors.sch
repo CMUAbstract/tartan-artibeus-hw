@@ -144,7 +144,7 @@ F 3 "~" H 5550 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4100 1450 5000 1450
+	4100 1450 4550 1450
 Connection ~ 4100 1450
 Connection ~ 5000 1450
 Wire Wire Line
@@ -210,4 +210,169 @@ Wire Wire Line
 Connection ~ 2050 3600
 Wire Wire Line
 	2050 3600 2400 3600
+$Comp
+L Device:R_US R?
+U 1 1 5F2B2546
+P 4550 1950
+F 0 "R?" H 4618 1996 50  0000 L CNN
+F 1 "10k" H 4618 1905 50  0000 L CNN
+F 2 "" V 4590 1940 50  0001 C CNN
+F 3 "~" H 4550 1950 50  0001 C CNN
+	1    4550 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2100 4550 2100
+Wire Wire Line
+	4550 1800 4550 1450
+Connection ~ 4550 1450
+Wire Wire Line
+	4550 1450 5000 1450
+$Comp
+L Device:R_US R?
+U 1 1 5F2B49B6
+P 2100 2250
+F 0 "R?" H 2168 2296 50  0000 L CNN
+F 1 "10k" H 2168 2205 50  0000 L CNN
+F 2 "" V 2140 2240 50  0001 C CNN
+F 3 "~" H 2100 2250 50  0001 C CNN
+	1    2100 2250
+	1    0    0    -1  
+$EndComp
+Text Label 4400 1450 2    50   ~ 0
+Vdd_LSM
+Wire Wire Line
+	2100 2400 3000 2400
+Text Label 1850 1950 0    50   ~ 0
+Vdd_LSM
+Wire Wire Line
+	1850 1950 2100 1950
+Wire Wire Line
+	2100 1950 2100 2100
+$Comp
+L power:GND #PWR?
+U 1 1 5F2B83DE
+P 4850 2200
+F 0 "#PWR?" H 4850 1950 50  0001 C CNN
+F 1 "GND" H 4855 2027 50  0000 C CNN
+F 2 "" H 4850 2200 50  0001 C CNN
+F 3 "" H 4850 2200 50  0001 C CNN
+	1    4850 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2200 4850 2200
+$Comp
+L power:GND #PWR?
+U 1 1 5F2B9646
+P 2450 2500
+F 0 "#PWR?" H 2450 2250 50  0001 C CNN
+F 1 "GND" H 2455 2327 50  0000 C CNN
+F 2 "" H 2450 2500 50  0001 C CNN
+F 3 "" H 2450 2500 50  0001 C CNN
+	1    2450 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 2500 3000 2500
+NoConn ~ 2850 2700
+Wire Wire Line
+	2850 2700 3000 2700
+Text HLabel 5200 2500 2    50   BiDi ~ 0
+DRDY_M
+Wire Wire Line
+	4400 2300 4750 2300
+Wire Wire Line
+	4750 2300 4750 2500
+Wire Wire Line
+	4750 2500 5200 2500
+Text HLabel 5200 2650 2    50   BiDi ~ 0
+INT_M
+Wire Wire Line
+	4400 2400 4650 2400
+Wire Wire Line
+	4650 2400 4650 2650
+Wire Wire Line
+	4650 2650 5200 2650
+Wire Wire Line
+	3000 2600 2650 2600
+Wire Wire Line
+	2650 2600 2650 2800
+Wire Wire Line
+	2650 2800 2050 2800
+Wire Wire Line
+	3000 2800 2750 2800
+Wire Wire Line
+	2750 2800 2750 2900
+Wire Wire Line
+	2750 2900 2050 2900
+Text HLabel 2050 2800 0    50   BiDi ~ 0
+INT_AG
+Text HLabel 2050 2900 0    50   BiDi ~ 0
+DEN_AG
+Wire Wire Line
+	2550 5000 3000 5000
+Wire Wire Line
+	3200 5000 3200 5150
+Wire Wire Line
+	3000 5000 3000 5250
+Wire Wire Line
+	3000 5250 3200 5250
+Connection ~ 3000 5000
+Wire Wire Line
+	3000 5000 3200 5000
+Wire Wire Line
+	3000 5250 3000 5450
+Wire Wire Line
+	3000 5450 3200 5450
+Connection ~ 3000 5250
+$Comp
+L power:GND #PWR?
+U 1 1 5F2C42B3
+P 3000 5600
+F 0 "#PWR?" H 3000 5350 50  0001 C CNN
+F 1 "GND" H 3005 5427 50  0000 C CNN
+F 2 "" H 3000 5600 50  0001 C CNN
+F 3 "" H 3000 5600 50  0001 C CNN
+	1    3000 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 5600 3000 5550
+Wire Wire Line
+	3000 5550 3200 5550
+$Comp
+L power:GND #PWR?
+U 1 1 5F2C6D5D
+P 4300 5600
+F 0 "#PWR?" H 4300 5350 50  0001 C CNN
+F 1 "GND" H 4305 5427 50  0000 C CNN
+F 2 "" H 4300 5600 50  0001 C CNN
+F 3 "" H 4300 5600 50  0001 C CNN
+	1    4300 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 5550 4300 5550
+Wire Wire Line
+	4300 5550 4300 5600
+NoConn ~ 4250 5150
+Wire Wire Line
+	4150 5150 4250 5150
+Text HLabel 4600 5250 2    50   Output ~ 0
+GNSS_TX
+Wire Wire Line
+	4150 5250 4600 5250
+Text HLabel 4600 5350 2    50   Input ~ 0
+GNSS_RX
+Wire Wire Line
+	4150 5350 4600 5350
+Text HLabel 4600 5450 2    50   Output ~ 0
+GNSS_PPS
+Wire Wire Line
+	4150 5450 4600 5450
+Text HLabel 2750 5350 0    50   Input ~ 0
+GNSS_nRST
+Wire Wire Line
+	2750 5350 3200 5350
 $EndSCHEMATC
