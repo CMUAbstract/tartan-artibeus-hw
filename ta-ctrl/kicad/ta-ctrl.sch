@@ -7,7 +7,7 @@ Sheet 1 3
 Title "Tartan Artibeus Control Board"
 Date "2020-07-21"
 Rev "v0"
-Comp "Carnegie Mellon University"
+Comp "Carnegie Mellon University -- Emily Ruppel"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -495,7 +495,7 @@ U 1 1 5F1A046A
 P 7050 1200
 F 0 "U1" H 7050 1825 50  0000 C CNN
 F 1 "LSF0204" H 7050 1734 50  0000 C CNN
-F 2 "" H 6850 1200 50  0001 C CNN
+F 2 "ta-ctrl:TSSOP-14" H 6850 1200 50  0001 C CNN
 F 3 "" H 6850 1200 50  0001 C CNN
 	1    7050 1200
 	1    0    0    -1  
@@ -506,7 +506,7 @@ U 1 1 5F1A196A
 P 9400 1250
 F 0 "U3" H 9400 1875 50  0000 C CNN
 F 1 "LSF0204" H 9400 1784 50  0000 C CNN
-F 2 "" H 9200 1250 50  0001 C CNN
+F 2 "ta-ctrl:TSSOP-14" H 9200 1250 50  0001 C CNN
 F 3 "" H 9200 1250 50  0001 C CNN
 	1    9400 1250
 	1    0    0    -1  
@@ -517,7 +517,7 @@ U 1 1 5F1A53CC
 P 8100 2500
 F 0 "U2" H 8100 3125 50  0000 C CNN
 F 1 "LSF0204" H 8100 3034 50  0000 C CNN
-F 2 "" H 7900 2500 50  0001 C CNN
+F 2 "ta-ctrl:TSSOP-14" H 7900 2500 50  0001 C CNN
 F 3 "" H 7900 2500 50  0001 C CNN
 	1    8100 2500
 	1    0    0    -1  
@@ -1124,7 +1124,7 @@ U 1 1 5F7A05A6
 P 4850 2600
 F 0 "J7" H 4850 2915 50  0000 C CNN
 F 1 "PinSocket_5_ctrl" H 4850 2824 50  0000 C CNN
-F 2 "ta-ctrl:PinSocket_1x5_right_TartanArtibeus_ctrl_cpy" H 4750 2600 50  0001 C CNN
+F 2 "ta-ctrl:PinSocket_1x5_left_TartanArtibeus_ctrl_cpy" H 4750 2600 50  0001 C CNN
 F 3 "" H 4750 2600 50  0001 C CNN
 	1    4850 2600
 	1    0    0    -1  
