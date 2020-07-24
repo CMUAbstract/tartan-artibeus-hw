@@ -60,8 +60,6 @@ Wire Wire Line
 	2650 1050 3100 1050
 Text Label 2750 1050 0    50   ~ 0
 Vdd_msp
-Text Label 7750 4750 0    50   ~ 0
-Vdd_msp
 $Comp
 L power:GND #PWR023
 U 1 1 5F18B739
@@ -262,8 +260,6 @@ Text HLabel 8100 2050 2    50   Output ~ 0
 Exp_RX
 Text HLabel 8100 2150 2    50   Input ~ 0
 Exp_TX
-Text HLabel 3000 4050 0    50   Output ~ 0
-Exp_CTS
 Text HLabel 3050 4350 0    50   Output ~ 0
 GNSS_RX
 Text HLabel 3050 4450 0    50   Input ~ 0
@@ -300,8 +296,6 @@ Wire Wire Line
 	3050 4550 3350 4550
 Wire Wire Line
 	3050 4650 3350 4650
-Wire Wire Line
-	3050 4150 3350 4150
 Wire Wire Line
 	3050 4250 3350 4250
 Text HLabel 3050 3050 0    50   Output ~ 0
@@ -345,28 +339,24 @@ Wire Wire Line
 	7650 2450 8100 2450
 Wire Wire Line
 	7650 2550 8100 2550
-Text HLabel 3050 4150 0    50   BiDi ~ 0
-Exp_CK
 Text HLabel 3050 4250 0    50   Output ~ 0
 Exp_RST
-Text HLabel 3050 4850 0    50   Input ~ 0
-DRDY_M
-Text HLabel 3050 4950 0    50   Input ~ 0
-INT_M
-Text HLabel 3050 5050 0    50   Input ~ 0
-INT_AG
 Text HLabel 3050 5150 0    50   Input ~ 0
+DRDY_M
+Text HLabel 3050 5050 0    50   Input ~ 0
+INT_M
+Text HLabel 3050 4950 0    50   Input ~ 0
+INT_AG
+Text HLabel 3050 4850 0    50   Input ~ 0
 DEN_AG
 Wire Wire Line
-	3050 5150 3350 5150
-Wire Wire Line
-	3050 5050 3350 5050
+	3050 4850 3350 4850
 Wire Wire Line
 	3050 4950 3350 4950
 Wire Wire Line
-	3050 4850 3350 4850
-Text HLabel 3000 3950 0    50   Input ~ 0
-Exp_RTS
+	3050 5050 3350 5050
+Wire Wire Line
+	3050 5150 3350 5150
 Text HLabel 3050 4650 0    50   Output ~ 0
 Comm_CTS1
 Text HLabel 3050 4550 0    50   Input ~ 0
@@ -416,17 +406,8 @@ Wire Wire Line
 	7650 3050 7800 3050
 Wire Wire Line
 	7650 3150 7800 3150
-NoConn ~ 7800 3350
-NoConn ~ 7800 3450
-NoConn ~ 7800 3550
 NoConn ~ 7800 3650
 NoConn ~ 7800 3750
-Wire Wire Line
-	7650 3350 7800 3350
-Wire Wire Line
-	7650 3450 7800 3450
-Wire Wire Line
-	7650 3550 7800 3550
 Wire Wire Line
 	7650 3650 7800 3650
 Wire Wire Line
@@ -434,10 +415,6 @@ Wire Wire Line
 NoConn ~ 7800 3950
 Wire Wire Line
 	7650 3950 7800 3950
-Wire Wire Line
-	3000 4050 3350 4050
-Wire Wire Line
-	3000 3950 3350 3950
 $Comp
 L Device:Crystal Y1
 U 1 1 5F1B1D55
@@ -498,4 +475,25 @@ $EndComp
 NoConn ~ 2900 6050
 Wire Wire Line
 	2900 5950 2900 6050
+Text HLabel 8150 3350 2    50   Input ~ 0
+Exp_RTS
+Text HLabel 8100 3550 2    50   BiDi ~ 0
+Exp_CK
+Text HLabel 8150 3450 2    50   Output ~ 0
+Exp_CTS
+Wire Wire Line
+	7650 3350 8150 3350
+Wire Wire Line
+	7650 3450 8150 3450
+Wire Wire Line
+	7650 3550 8100 3550
+NoConn ~ 3200 4150
+NoConn ~ 3200 4050
+NoConn ~ 3200 3950
+Wire Wire Line
+	3350 4150 3200 4150
+Wire Wire Line
+	3350 4050 3200 4050
+Wire Wire Line
+	3350 3950 3200 3950
 $EndSCHEMATC

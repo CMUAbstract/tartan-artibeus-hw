@@ -30,7 +30,7 @@ U 1 1 5F246320
 P 3700 2500
 F 0 "U4" H 4250 3300 50  0000 C CNN
 F 1 "LSM9DS1" H 3300 1700 50  0000 C CNN
-F 2 "Package_LGA:LGA-24L_3x3.5mm_P0.43mm" H 5200 3250 50  0001 C CNN
+F 2 "ta-ctrl:LSM9DS1TR" H 5200 3250 50  0001 C CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/1e/3f/2a/d6/25/eb/48/46/DM00103319.pdf/files/DM00103319.pdf/jcr:content/translations/en.DM00103319.pdf" H 3700 2600 50  0001 C CNN
 	1    3700 2500
 	1    0    0    -1  
@@ -74,23 +74,20 @@ Connection ~ 4550 2700
 $Comp
 L power:GND #PWR012
 U 1 1 5F249297
-P 3700 3400
-F 0 "#PWR012" H 3700 3150 50  0001 C CNN
-F 1 "GND" H 3705 3227 50  0000 C CNN
-F 2 "" H 3700 3400 50  0001 C CNN
-F 3 "" H 3700 3400 50  0001 C CNN
-	1    3700 3400
+P 3700 3500
+F 0 "#PWR012" H 3700 3250 50  0001 C CNN
+F 1 "GND" H 3705 3327 50  0000 C CNN
+F 2 "" H 3700 3500 50  0001 C CNN
+F 3 "" H 3700 3500 50  0001 C CNN
+	1    3700 3500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3600 3300 3600 3400
 Wire Wire Line
-	3600 3400 3700 3400
-Wire Wire Line
 	3800 3300 3800 3400
 Wire Wire Line
 	3800 3400 3700 3400
-Connection ~ 3700 3400
 Wire Wire Line
 	3700 1450 3500 1450
 Wire Wire Line
@@ -138,21 +135,6 @@ Connection ~ 4100 1450
 Connection ~ 5000 1450
 Wire Wire Line
 	5000 1450 5550 1450
-Wire Wire Line
-	5000 1950 5550 1950
-$Comp
-L power:GND #PWR015
-U 1 1 5F24DC36
-P 5300 2050
-F 0 "#PWR015" H 5300 1800 50  0001 C CNN
-F 1 "GND" H 5305 1877 50  0000 C CNN
-F 2 "" H 5300 2050 50  0001 C CNN
-F 3 "" H 5300 2050 50  0001 C CNN
-	1    5300 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5300 1950 5300 2050
 $Comp
 L pspice:CAP C1
 U 1 1 5F24E692
@@ -455,4 +437,27 @@ F 3 "" H 4550 3100 50  0001 C CNN
 	1    4550 3100
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5000 1950 5300 1950
+$Comp
+L power:GND #PWR015
+U 1 1 5F24DC36
+P 5300 2050
+F 0 "#PWR015" H 5300 1800 50  0001 C CNN
+F 1 "GND" H 5305 1877 50  0000 C CNN
+F 2 "" H 5300 2050 50  0001 C CNN
+F 3 "" H 5300 2050 50  0001 C CNN
+	1    5300 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 1950 5300 2050
+Connection ~ 5300 1950
+Wire Wire Line
+	5300 1950 5550 1950
+Wire Wire Line
+	3700 3400 3700 3500
+Wire Wire Line
+	3600 3400 3700 3400
+Connection ~ 3700 3400
 $EndSCHEMATC
