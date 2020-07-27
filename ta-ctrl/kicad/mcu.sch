@@ -264,9 +264,9 @@ Text HLabel 3050 4350 0    50   Output ~ 0
 GNSS_RX
 Text HLabel 3050 4450 0    50   Input ~ 0
 GNSS_TX
-Text HLabel 7950 2650 2    50   Output ~ 0
+Text HLabel 7800 1850 2    50   Output ~ 0
 GNSS_nRST
-Text HLabel 7950 2750 2    50   Input ~ 0
+Text HLabel 7800 1950 2    50   Input ~ 0
 GNSS_PPS
 Text HLabel 2750 2750 0    50   BiDi ~ 0
 SDA
@@ -298,11 +298,11 @@ Wire Wire Line
 	3050 4650 3350 4650
 Wire Wire Line
 	3050 4250 3350 4250
-Text HLabel 3050 3050 0    50   Output ~ 0
+Text HLabel 7800 3750 2    50   Output ~ 0
 Comm_EN
-Text HLabel 3050 3150 0    50   Output ~ 0
+Text HLabel 8100 2450 2    50   Output ~ 0
 Exp_EN
-Text HLabel 3050 3250 0    50   Output ~ 0
+Text HLabel 7800 2250 2    50   Output ~ 0
 GNSS_EN
 Wire Wire Line
 	3050 3250 3350 3250
@@ -310,7 +310,7 @@ Wire Wire Line
 	3050 3150 3350 3150
 Wire Wire Line
 	3050 3050 3350 3050
-Text HLabel 3050 3350 0    50   Input ~ 0
+Text HLabel 7800 3650 2    50   Input ~ 0
 ADC_INT
 Wire Wire Line
 	3050 3350 3350 3350
@@ -331,15 +331,15 @@ Wire Wire Line
 	3100 1950 3350 1950
 Wire Wire Line
 	3100 1750 3100 1950
-Text HLabel 8100 2450 2    50   Output ~ 0
+Text HLabel 7950 2750 2    50   Output ~ 0
 Exp_BOOT
-Text HLabel 8100 2550 2    50   Output ~ 0
+Text HLabel 7950 2650 2    50   Output ~ 0
 Comm_RST
 Wire Wire Line
 	7650 2450 8100 2450
 Wire Wire Line
 	7650 2550 8100 2550
-Text HLabel 3050 4250 0    50   Output ~ 0
+Text HLabel 3250 2650 0    50   Output ~ 0
 Exp_RST
 Text HLabel 3050 5150 0    50   Input ~ 0
 DRDY_M
@@ -375,7 +375,6 @@ Wire Wire Line
 	3200 3750 3350 3750
 NoConn ~ 3250 2450
 NoConn ~ 3250 2550
-NoConn ~ 3250 2650
 Wire Wire Line
 	3250 2450 3350 2450
 Wire Wire Line
@@ -383,15 +382,12 @@ Wire Wire Line
 Wire Wire Line
 	3250 2650 3350 2650
 NoConn ~ 7800 1750
-NoConn ~ 7800 1850
-NoConn ~ 7800 1950
 Wire Wire Line
 	7650 1750 7800 1750
 Wire Wire Line
 	7650 1850 7800 1850
 Wire Wire Line
 	7650 1950 7800 1950
-NoConn ~ 7800 2250
 Wire Wire Line
 	7650 2250 7800 2250
 NoConn ~ 7800 2850
@@ -406,8 +402,6 @@ Wire Wire Line
 	7650 3050 7800 3050
 Wire Wire Line
 	7650 3150 7800 3150
-NoConn ~ 7800 3650
-NoConn ~ 7800 3750
 Wire Wire Line
 	7650 3650 7800 3650
 Wire Wire Line
@@ -496,4 +490,10 @@ Wire Wire Line
 	3350 4050 3200 4050
 Wire Wire Line
 	3350 3950 3200 3950
+NoConn ~ 3050 3250
+NoConn ~ 8100 2550
+NoConn ~ 3050 3050
+NoConn ~ 3050 3150
+NoConn ~ 3050 4250
+NoConn ~ 3050 3350
 $EndSCHEMATC
