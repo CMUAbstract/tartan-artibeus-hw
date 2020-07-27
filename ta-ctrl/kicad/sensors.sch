@@ -37,7 +37,7 @@ F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/1e/3f/2
 $EndComp
 Text HLabel 3500 1450 0    50   Input ~ 0
 Vdd
-Text HLabel 7650 1850 0    50   Input ~ 0
+Text HLabel 6950 1850 0    50   Input ~ 0
 Vdd_GNSS
 Text HLabel 2550 2200 0    50   BiDi ~ 0
 SDA
@@ -279,26 +279,17 @@ Text HLabel 2050 2900 0    50   BiDi ~ 0
 DEN_AG
 Wire Wire Line
 	8600 2600 8750 2600
-Wire Wire Line
-	8600 2600 8600 2800
-Wire Wire Line
-	8600 2800 8750 2800
-Connection ~ 8600 2600
 $Comp
 L power:GND #PWR017
 U 1 1 5F2C42B3
-P 8550 2950
-F 0 "#PWR017" H 8550 2700 50  0001 C CNN
-F 1 "GND" H 8555 2777 50  0000 C CNN
-F 2 "" H 8550 2950 50  0001 C CNN
-F 3 "" H 8550 2950 50  0001 C CNN
-	1    8550 2950
+P 8650 3000
+F 0 "#PWR017" H 8650 2750 50  0001 C CNN
+F 1 "GND" H 8655 2827 50  0000 C CNN
+F 2 "" H 8650 3000 50  0001 C CNN
+F 3 "" H 8650 3000 50  0001 C CNN
+	1    8650 3000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8550 2950 8550 2900
-Wire Wire Line
-	8550 2900 8750 2900
 $Comp
 L power:GND #PWR018
 U 1 1 5F2C6D5D
@@ -329,39 +320,39 @@ Text HLabel 10150 2800 2    50   Output ~ 0
 GNSS_PPS
 Wire Wire Line
 	9700 2800 10150 2800
-Text HLabel 7650 2700 0    50   Input ~ 0
+Text HLabel 6950 2700 0    50   Input ~ 0
 GNSS_nRST
 Wire Wire Line
-	7650 2700 8300 2700
+	6950 2700 7600 2700
 $Comp
 L pspice:CAP C5
 U 1 1 5F42F89E
-P 7850 2150
-F 0 "C5" H 8028 2196 50  0000 L CNN
-F 1 "2.2uF" H 8028 2105 50  0000 L CNN
-F 2 "ta-ctrl:C_0603_1608Metric_ctrl_cpy" H 7850 2150 50  0001 C CNN
-F 3 "~" H 7850 2150 50  0001 C CNN
-	1    7850 2150
+P 7150 2150
+F 0 "C5" H 7328 2196 50  0000 L CNN
+F 1 "2.2uF" H 7328 2105 50  0000 L CNN
+F 2 "ta-ctrl:C_0603_1608Metric_ctrl_cpy" H 7150 2150 50  0001 C CNN
+F 3 "~" H 7150 2150 50  0001 C CNN
+	1    7150 2150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7850 2400 7850 2450
+	7150 2400 7150 2450
 Wire Wire Line
-	7650 1850 7850 1850
+	6950 1850 7150 1850
 Wire Wire Line
-	7850 1900 7850 1850
-Connection ~ 7850 1850
+	7150 1900 7150 1850
+Connection ~ 7150 1850
 Wire Wire Line
-	7850 1850 8300 1850
+	7150 1850 7600 1850
 $Comp
 L Device:R_US R19
 U 1 1 5F444CC6
-P 8300 2150
-F 0 "R19" H 8368 2196 50  0000 L CNN
-F 1 "DNP" H 8368 2105 50  0000 L CNN
-F 2 "ta-ctrl:R_0603_1608Metric_ctrl_cpy" V 8340 2140 50  0001 C CNN
-F 3 "~" H 8300 2150 50  0001 C CNN
-	1    8300 2150
+P 7600 2150
+F 0 "R19" H 7668 2196 50  0000 L CNN
+F 1 "DNP" H 7668 2105 50  0000 L CNN
+F 2 "ta-ctrl:R_0603_1608Metric_ctrl_cpy" V 7640 2140 50  0001 C CNN
+F 3 "~" H 7600 2150 50  0001 C CNN
+	1    7600 2150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -372,15 +363,11 @@ Connection ~ 8600 2500
 Wire Wire Line
 	8600 2500 8600 2600
 Wire Wire Line
-	8300 2000 8300 1850
-Connection ~ 8300 1850
+	7600 2000 7600 1850
+Connection ~ 7600 1850
 Wire Wire Line
-	8300 1850 8600 1850
-Wire Wire Line
-	8300 2300 8300 2700
-Connection ~ 8300 2700
-Wire Wire Line
-	8300 2700 8750 2700
+	7600 2300 7600 2700
+Connection ~ 7600 2700
 $Comp
 L Device:R_US R18
 U 1 1 5F457441
@@ -418,12 +405,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR016
 U 1 1 5F77F24C
-P 7850 2450
-F 0 "#PWR016" H 7850 2200 50  0001 C CNN
-F 1 "GND" H 7855 2277 50  0000 C CNN
-F 2 "" H 7850 2450 50  0001 C CNN
-F 3 "" H 7850 2450 50  0001 C CNN
-	1    7850 2450
+P 7150 2450
+F 0 "#PWR016" H 7150 2200 50  0001 C CNN
+F 1 "GND" H 7155 2277 50  0000 C CNN
+F 2 "" H 7150 2450 50  0001 C CNN
+F 3 "" H 7150 2450 50  0001 C CNN
+	1    7150 2450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -460,4 +447,55 @@ Wire Wire Line
 Wire Wire Line
 	3600 3400 3700 3400
 Connection ~ 3700 3400
+$Comp
+L Device:R_US R20
+U 1 1 5F2BE1E4
+P 8000 2150
+F 0 "R20" H 8068 2196 50  0000 L CNN
+F 1 "DNP" H 8068 2105 50  0000 L CNN
+F 2 "ta-ctrl:R_0603_1608Metric_ctrl_cpy" V 8040 2140 50  0001 C CNN
+F 3 "~" H 8000 2150 50  0001 C CNN
+	1    8000 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 2800 8000 2300
+Wire Wire Line
+	8000 2000 8000 1850
+Wire Wire Line
+	7600 1850 8000 1850
+Connection ~ 8000 1850
+Wire Wire Line
+	8650 3000 8650 2900
+Wire Wire Line
+	8650 2900 8750 2900
+Wire Wire Line
+	8000 2800 8400 2800
+Wire Wire Line
+	7600 2700 8750 2700
+Wire Wire Line
+	8000 1850 8600 1850
+$Comp
+L Device:R_US R21
+U 1 1 5F2E260A
+P 8400 2150
+F 0 "R21" H 8468 2196 50  0000 L CNN
+F 1 "DNP" H 8468 2105 50  0000 L CNN
+F 2 "ta-ctrl:R_0603_1608Metric_ctrl_cpy" V 8440 2140 50  0001 C CNN
+F 3 "~" H 8400 2150 50  0001 C CNN
+	1    8400 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 2000 8400 1450
+Wire Wire Line
+	8400 1450 5550 1450
+Connection ~ 5550 1450
+Wire Wire Line
+	8400 2300 8400 2800
+Connection ~ 8400 2800
+Wire Wire Line
+	8400 2800 8750 2800
+Text Label 8100 2800 0    50   ~ 0
+Vbackup
 $EndSCHEMATC
