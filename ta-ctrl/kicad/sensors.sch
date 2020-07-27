@@ -30,7 +30,7 @@ U 1 1 5F246320
 P 3700 2500
 F 0 "U4" H 4250 3300 50  0000 C CNN
 F 1 "LSM9DS1" H 3300 1700 50  0000 C CNN
-F 2 "ta-ctrl:LSM9DS1TR" H 5200 3250 50  0001 C CNN
+F 2 "ta-ctrl:LSM9DS1TRL" H 5200 3250 50  0001 C CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/1e/3f/2a/d6/25/eb/48/46/DM00103319.pdf/files/DM00103319.pdf/jcr:content/translations/en.DM00103319.pdf" H 3700 2600 50  0001 C CNN
 	1    3700 2500
 	1    0    0    -1  

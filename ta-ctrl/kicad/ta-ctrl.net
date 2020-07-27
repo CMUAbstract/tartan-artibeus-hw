@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\emily\Code\ABSTRACT\artibeus\tartan-artibeus-hw\ta-ctrl\kicad\ta-ctrl.sch)
-    (date "7/27/2020 5:02:33 PM")
+    (date "7/27/2020 9:15:07 PM")
     (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -217,7 +217,7 @@
       (tstamp 5F242093))
     (comp (ref U4)
       (value LSM9DS1)
-      (footprint ta-ctrl:LSM9DS1TR)
+      (footprint ta-ctrl:LSM9DS1TRL)
       (datasheet http://www.st.com/content/ccc/resource/technical/document/datasheet/1e/3f/2a/d6/25/eb/48/46/DM00103319.pdf/files/DM00103319.pdf/jcr:content/translations/en.DM00103319.pdf)
       (libsource (lib Sensor_Motion) (part LSM9DS1) (description "I2C SPI 9 axis IMU accelerometer gyroscope magnetometer"))
       (sheetpath (names /Sensors/) (tstamps /5F1AF90A/))
