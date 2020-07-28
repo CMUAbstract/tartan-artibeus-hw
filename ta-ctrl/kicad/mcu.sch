@@ -20,7 +20,10 @@ P 5700 3550
 F 0 "U6" H 5500 5837 60  0000 C CNN
 F 1 "MSP430FR5994IPM" H 5500 5731 60  0000 C CNN
 F 2 "ta-ctrl:MSP430FR5994IPM" H 5700 3490 60  0001 C CNN
-F 3 "" H 5700 3550 60  0000 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/msp430fr5994.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1595943774843" H 5700 3550 60  0001 C CNN
+F 4 "MSP430FR5994IPMR" H 5700 3550 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 5700 3550 50  0001 C CNN "Vendor"
+F 6 "296-45560-1-ND" H 5700 3550 50  0001 C CNN "Vendor Part Number"
 	1    5700 3550
 	1    0    0    -1  
 $EndComp
@@ -81,7 +84,10 @@ P 1400 1650
 F 0 "C8" H 1578 1696 50  0000 L CNN
 F 1 "100nF" H 1578 1605 50  0000 L CNN
 F 2 "ta-ctrl:C_0603_1608Metric_ctrl_cpy" H 1400 1650 50  0001 C CNN
-F 3 "~" H 1400 1650 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 1400 1650 50  0001 C CNN
+F 4 "C0603C104K8RACAUTO" H 1400 1650 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 1400 1650 50  0001 C CNN "Vendor"
+F 6 "399-17574-1-ND" H 1400 1650 50  0001 C CNN "Vendor Part Number"
 	1    1400 1650
 	1    0    0    -1  
 $EndComp
@@ -92,7 +98,10 @@ P 2000 1650
 F 0 "C10" H 2178 1696 50  0000 L CNN
 F 1 "100nF" H 2178 1605 50  0000 L CNN
 F 2 "ta-ctrl:C_0603_1608Metric_ctrl_cpy" H 2000 1650 50  0001 C CNN
-F 3 "~" H 2000 1650 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 2000 1650 50  0001 C CNN
+F 4 "C0603C104K8RACAUTO" H 2000 1650 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 2000 1650 50  0001 C CNN "Vendor"
+F 6 "399-17574-1-ND" H 2000 1650 50  0001 C CNN "Vendor Part Number"
 	1    2000 1650
 	1    0    0    -1  
 $EndComp
@@ -103,7 +112,10 @@ P 2600 1650
 F 0 "C12" H 2778 1696 50  0000 L CNN
 F 1 "100nF" H 2778 1605 50  0000 L CNN
 F 2 "ta-ctrl:C_0603_1608Metric_ctrl_cpy" H 2600 1650 50  0001 C CNN
-F 3 "~" H 2600 1650 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 2600 1650 50  0001 C CNN
+F 4 "C0603C104K8RACAUTO" H 2600 1650 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 2600 1650 50  0001 C CNN "Vendor"
+F 6 "399-17574-1-ND" H 2600 1650 50  0001 C CNN "Vendor Part Number"
 	1    2600 1650
 	1    0    0    -1  
 $EndComp
@@ -144,7 +156,10 @@ P 850 1650
 F 0 "C6" H 1028 1696 50  0000 L CNN
 F 1 "10uF" H 1028 1605 50  0000 L CNN
 F 2 "ta-ctrl:C_0603_1608Metric_ctrl_cpy" H 850 1650 50  0001 C CNN
-F 3 "~" H 850 1650 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 850 1650 50  0001 C CNN
+F 4 "C1608X7S0J106M080AC" H 850 1650 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 850 1650 50  0001 C CNN "Vendor"
+F 6 "445-9104-1-ND" H 850 1650 50  0001 C CNN "Vendor Part Number"
 	1    850  1650
 	1    0    0    -1  
 $EndComp
@@ -160,7 +175,10 @@ P 1850 5900
 F 0 "C9" H 2028 5946 50  0000 L CNN
 F 1 "8pF" H 2028 5855 50  0000 L CNN
 F 2 "ta-ctrl:C_0402_1005Metric" H 1850 5900 50  0001 C CNN
-F 3 "~" H 1850 5900 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1H8R0DA01-01.pdf" H 1850 5900 50  0001 C CNN
+F 4 "GRM1555C1H8R0DA01D" H 1850 5900 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 1850 5900 50  0001 C CNN "Vendor"
+F 6 "490-5867-1-ND" H 1850 5900 50  0001 C CNN "Vendor Part Number"
 	1    1850 5900
 	1    0    0    -1  
 $EndComp
@@ -171,7 +189,10 @@ P 1100 5900
 F 0 "C7" H 1278 5946 50  0000 L CNN
 F 1 "8pF" H 1278 5855 50  0000 L CNN
 F 2 "ta-ctrl:C_0402_1005Metric" H 1100 5900 50  0001 C CNN
-F 3 "~" H 1100 5900 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1H8R0DA01-01.pdf" H 1100 5900 50  0001 C CNN
+F 4 "GRM1555C1H8R0DA01D" H 1100 5900 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 1100 5900 50  0001 C CNN "Vendor"
+F 6 "490-5867-1-ND" H 1100 5900 50  0001 C CNN "Vendor Part Number"
 	1    1100 5900
 	1    0    0    -1  
 $EndComp
@@ -214,7 +235,10 @@ P 3200 6000
 F 0 "C13" H 3378 6046 50  0000 L CNN
 F 1 "4pF" H 3378 5955 50  0000 L CNN
 F 2 "ta-ctrl:C_0402_1005Metric" H 3200 6000 50  0001 C CNN
-F 3 "~" H 3200 6000 50  0001 C CNN
+F 3 "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx?la=en-us" H 3200 6000 50  0001 C CNN
+F 4 "GJM1555C1H4R0BB01D" H 3200 6000 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 3200 6000 50  0001 C CNN "Vendor"
+F 6 "490-8100-1-ND" H 3200 6000 50  0001 C CNN "Vendor Part Number"
 	1    3200 6000
 	1    0    0    -1  
 $EndComp
@@ -416,7 +440,10 @@ P 1500 5650
 F 0 "Y1" H 1500 5918 50  0000 C CNN
 F 1 "32.768kHz" H 1500 5827 50  0000 C CNN
 F 2 "ta-ctrl:ECS327934QSTR" H 1500 5650 50  0001 C CNN
-F 3 "~" H 1500 5650 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/122/ECX-34Q-938174.pdf" H 1500 5650 50  0001 C CNN
+F 4 "ECS-.327-6-34QCS-TR" H 1500 5650 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Mouser" H 1500 5650 50  0001 C CNN "Vendor"
+F 6 "520-.327-6-34QCST" H 1500 5650 50  0001 C CNN "Vendor Part Number"
 	1    1500 5650
 	1    0    0    -1  
 $EndComp
@@ -441,7 +468,10 @@ P 2450 6000
 F 0 "C11" H 2628 6046 50  0000 L CNN
 F 1 "4pF" H 2628 5955 50  0000 L CNN
 F 2 "ta-ctrl:C_0402_1005Metric" H 2450 6000 50  0001 C CNN
-F 3 "~" H 2450 6000 50  0001 C CNN
+F 3 "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx?la=en-us" H 2450 6000 50  0001 C CNN
+F 4 "GJM1555C1H4R0BB01D" H 2450 6000 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 2450 6000 50  0001 C CNN "Vendor"
+F 6 "490-8100-1-ND" H 2450 6000 50  0001 C CNN "Vendor Part Number"
 	1    2450 6000
 	1    0    0    -1  
 $EndComp

@@ -497,6 +497,9 @@ F 0 "U1" H 7050 1825 50  0000 C CNN
 F 1 "LSF0204" H 7050 1734 50  0000 C CNN
 F 2 "ta-ctrl:TSSOP-14" H 6850 1200 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/lsf0204-q1.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1595462922658" H 6850 1200 50  0001 C CNN
+F 4 "LSF0204QPWRQ1" H 7050 1200 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 7050 1200 50  0001 C CNN "Vendor"
+F 6 "296-51425-1-ND" H 7050 1200 50  0001 C CNN "Vendor Part Number"
 	1    7050 1200
 	1    0    0    -1  
 $EndComp
@@ -508,6 +511,9 @@ F 0 "U3" H 9400 1875 50  0000 C CNN
 F 1 "LSF0204" H 9400 1784 50  0000 C CNN
 F 2 "ta-ctrl:TSSOP-14" H 9200 1250 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/lsf0204-q1.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1595462922658" H 9200 1250 50  0001 C CNN
+F 4 "LSF0204QPWRQ1" H 9400 1250 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 9400 1250 50  0001 C CNN "Vendor"
+F 6 "296-51425-1-ND" H 9400 1250 50  0001 C CNN "Vendor Part Number"
 	1    9400 1250
 	1    0    0    -1  
 $EndComp
@@ -519,6 +525,9 @@ F 0 "U2" H 8100 3125 50  0000 C CNN
 F 1 "LSF0204" H 8100 3034 50  0000 C CNN
 F 2 "ta-ctrl:TSSOP-14" H 7900 2500 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/lsf0204-q1.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1595462922658" H 7900 2500 50  0001 C CNN
+F 4 "LSF0204QPWRQ1" H 8100 2500 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 8100 2500 50  0001 C CNN "Vendor"
+F 6 "296-51425-1-ND" H 8100 2500 50  0001 C CNN "Vendor Part Number"
 	1    8100 2500
 	1    0    0    -1  
 $EndComp
@@ -730,9 +739,12 @@ L Device:R_US R13
 U 1 1 5F2D4BDC
 P 9500 2000
 F 0 "R13" H 9568 2046 50  0000 L CNN
-F 1 "10K" H 9568 1955 50  0000 L CNN
+F 1 "10k" H 9568 1955 50  0000 L CNN
 F 2 "ta-ctrl:R_0603_1608Metric_ctrl_cpy" V 9540 1990 50  0001 C CNN
-F 3 "~" H 9500 2000 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW060310K0FKEAHP/541-10-0KSCT-ND/2222780" H 9500 2000 50  0001 C CNN
+F 4 "CRCW060310K0FKEAHP" H 9500 2000 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 9500 2000 50  0001 C CNN "Vendor"
+F 6 "541-10.0KSCT-ND" H 9500 2000 50  0001 C CNN "Vendor Part Number"
 	1    9500 2000
 	1    0    0    -1  
 $EndComp
@@ -741,9 +753,12 @@ L Device:R_US R14
 U 1 1 5F2D5FF2
 P 9850 2000
 F 0 "R14" H 9918 2046 50  0000 L CNN
-F 1 "10K" H 9918 1955 50  0000 L CNN
+F 1 "10k" H 9918 1955 50  0000 L CNN
 F 2 "ta-ctrl:R_0603_1608Metric_ctrl_cpy" V 9890 1990 50  0001 C CNN
-F 3 "~" H 9850 2000 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW060310K0FKEAHP/541-10-0KSCT-ND/2222780" H 9850 2000 50  0001 C CNN
+F 4 "CRCW060310K0FKEAHP" H 9850 2000 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 9850 2000 50  0001 C CNN "Vendor"
+F 6 "541-10.0KSCT-ND" H 9850 2000 50  0001 C CNN "Vendor Part Number"
 	1    9850 2000
 	1    0    0    -1  
 $EndComp

@@ -32,6 +32,9 @@ F 0 "U4" H 4250 3300 50  0000 C CNN
 F 1 "LSM9DS1" H 3300 1700 50  0000 C CNN
 F 2 "ta-ctrl:LSM9DS1TRL" H 5200 3250 50  0001 C CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/1e/3f/2a/d6/25/eb/48/46/DM00103319.pdf/files/DM00103319.pdf/jcr:content/translations/en.DM00103319.pdf" H 3700 2600 50  0001 C CNN
+F 4 "LSM9DS1TR" H 3700 2500 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 3700 2500 50  0001 C CNN "Vendor"
+F 6 "497-14946-1-ND" H 3700 2500 50  0001 C CNN "Vendor Part Number"
 	1    3700 2500
 	1    0    0    -1  
 $EndComp
@@ -114,7 +117,10 @@ P 5000 1700
 F 0 "C3" H 5178 1746 50  0000 L CNN
 F 1 "10uF" H 5178 1655 50  0000 L CNN
 F 2 "ta-ctrl:C_0603_1608Metric_ctrl_cpy" H 5000 1700 50  0001 C CNN
-F 3 "~" H 5000 1700 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 5000 1700 50  0001 C CNN
+F 4 "C1608X7S0J106M080AC" H 5000 1700 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 5000 1700 50  0001 C CNN "Vendor"
+F 6 "445-9104-1-ND" H 5000 1700 50  0001 C CNN "Vendor Part Number"
 	1    5000 1700
 	1    0    0    -1  
 $EndComp
@@ -125,7 +131,10 @@ P 5550 1700
 F 0 "C4" H 5728 1746 50  0000 L CNN
 F 1 "100nF" H 5728 1655 50  0000 L CNN
 F 2 "ta-ctrl:C_0603_1608Metric_ctrl_cpy" H 5550 1700 50  0001 C CNN
-F 3 "~" H 5550 1700 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 5550 1700 50  0001 C CNN
+F 4 "C0603C104K8RACAUTO" H 5550 1700 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 5550 1700 50  0001 C CNN "Vendor"
+F 6 "399-17574-1-ND" H 5550 1700 50  0001 C CNN "Vendor Part Number"
 	1    5550 1700
 	1    0    0    -1  
 $EndComp
@@ -142,7 +151,10 @@ P 1700 3250
 F 0 "C1" H 1878 3296 50  0000 L CNN
 F 1 "10nF" H 1878 3205 50  0000 L CNN
 F 2 "ta-ctrl:C_0603_1608Metric_ctrl_cpy" H 1700 3250 50  0001 C CNN
-F 3 "~" H 1700 3250 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" H 1700 3250 50  0001 C CNN
+F 4 "C0603C103F3GACTU" H 1700 3250 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 1700 3250 50  0001 C CNN "Vendor"
+F 6 "399-8985-1-ND" H 1700 3250 50  0001 C CNN "Vendor Part Number"
 	1    1700 3250
 	1    0    0    -1  
 $EndComp
@@ -153,7 +165,10 @@ P 2400 3350
 F 0 "C2" H 2578 3396 50  0000 L CNN
 F 1 "100nF" H 2578 3305 50  0000 L CNN
 F 2 "ta-ctrl:C_0603_1608Metric_ctrl_cpy" H 2400 3350 50  0001 C CNN
-F 3 "~" H 2400 3350 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 2400 3350 50  0001 C CNN
+F 4 "C0603C104K8RACAUTO" H 2400 3350 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 2400 3350 50  0001 C CNN "Vendor"
+F 6 "399-17574-1-ND" H 2400 3350 50  0001 C CNN "Vendor Part Number"
 	1    2400 3350
 	1    0    0    -1  
 $EndComp
@@ -188,7 +203,10 @@ P 4550 1950
 F 0 "R17" H 4618 1996 50  0000 L CNN
 F 1 "10k" H 4618 1905 50  0000 L CNN
 F 2 "ta-ctrl:R_0603_1608Metric_ctrl_cpy" V 4590 1940 50  0001 C CNN
-F 3 "~" H 4550 1950 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW060310K0FKEAHP/541-10-0KSCT-ND/2222780" H 4550 1950 50  0001 C CNN
+F 4 "CRCW060310K0FKEAHP" H 4550 1950 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 4550 1950 50  0001 C CNN "Vendor"
+F 6 "541-10.0KSCT-ND" H 4550 1950 50  0001 C CNN "Vendor Part Number"
 	1    4550 1950
 	1    0    0    -1  
 $EndComp
@@ -206,7 +224,10 @@ P 2100 2250
 F 0 "R15" H 2168 2296 50  0000 L CNN
 F 1 "10k" H 2168 2205 50  0000 L CNN
 F 2 "ta-ctrl:R_0603_1608Metric_ctrl_cpy" V 2140 2240 50  0001 C CNN
-F 3 "~" H 2100 2250 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW060310K0FKEAHP/541-10-0KSCT-ND/2222780" H 2100 2250 50  0001 C CNN
+F 4 "CRCW060310K0FKEAHP" H 2100 2250 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 2100 2250 50  0001 C CNN "Vendor"
+F 6 "541-10.0KSCT-ND" H 2100 2250 50  0001 C CNN "Vendor Part Number"
 	1    2100 2250
 	1    0    0    -1  
 $EndComp
@@ -331,7 +352,10 @@ P 7150 2150
 F 0 "C5" H 7328 2196 50  0000 L CNN
 F 1 "2.2uF" H 7328 2105 50  0000 L CNN
 F 2 "ta-ctrl:C_0603_1608Metric_ctrl_cpy" H 7150 2150 50  0001 C CNN
-F 3 "~" H 7150 2150 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 7150 2150 50  0001 C CNN
+F 4 "C0603C225K8RACTU" H 7150 2150 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 7150 2150 50  0001 C CNN "Vendor"
+F 6 "399-11681-1-ND" H 7150 2150 50  0001 C CNN "Vendor Part Number"
 	1    7150 2150
 	1    0    0    -1  
 $EndComp
