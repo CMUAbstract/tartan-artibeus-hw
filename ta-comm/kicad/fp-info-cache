@@ -1,4 +1,4 @@
-18387456226108076
+18390651127437076
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -80941,6 +80941,13 @@ PinSocket_1x4_TartanArtibeus
 4
 4
 ta-comm
+PinSocket_1x5_TartanArtibeus
+
+
+0
+5
+5
+ta-comm
 PinSocket_1x16_TartanArtibeus
 
 
@@ -80975,6 +80982,13 @@ Integrated Circuit
 0
 38
 29
+ta-comm
+SOTFL50P160X78-3N
+FDY300NZ
+MOSFET (N-Channel)
+0
+3
+3
 ta-comm
 STA0693A
 

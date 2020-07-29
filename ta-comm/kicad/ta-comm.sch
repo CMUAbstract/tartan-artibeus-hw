@@ -499,36 +499,10 @@ F 11 "http://uk.rs-online.com/web/p/products/1885949" H 3700 900 50  0001 L CNN 
 	1    3150 1750
 	-1   0    0    -1  
 $EndComp
-$Comp
-L ta-comm:MCT06030C3302FP500 R7
-U 1 1 5EA36BBC
-P 3250 2550
-F 0 "R7" H 3600 2775 50  0000 C CNN
-F 1 "MCT06030C3302FP500" H 3600 2684 50  0000 C CNN
-F 2 "ta-comm:RESC1608X55N" H 3800 2600 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf" H 3800 2500 50  0001 L CNN
-F 4 "VISHAY - MCT06030C3302FP500 - RES, 33K, 1%, 0603, THIN FILM" H 3800 2400 50  0001 L CNN "Description"
-F 5 "0.55" H 3800 2300 50  0001 L CNN "Height"
-F 6 "Vishay" H 3800 2200 50  0001 L CNN "Manufacturer_Name"
-F 7 "MCT06030C3302FP500" H 3800 2100 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "594-MCT06030C3302FP5" H 3800 2000 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=594-MCT06030C3302FP5" H 3800 1900 50  0001 L CNN "Mouser Price/Stock"
-	1    3250 2550
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	3250 2550 3250 2750
-Text Label 3250 2750 0    50   ~ 0
+Text Label 4850 1750 0    50   ~ 0
 VDD_FILT
-Wire Wire Line
-	3250 1850 3250 1750
-Wire Wire Line
-	3250 1750 3150 1750
-Wire Wire Line
-	3250 1750 3300 1750
-Connection ~ 3250 1750
-Text Label 3300 1750 0    50   ~ 0
-D0
+Text Label 3350 2150 2    50   ~ 0
+RST
 Wire Wire Line
 	2450 1750 2150 1750
 Connection ~ 2150 1750
@@ -1276,10 +1250,10 @@ Wire Wire Line
 	9900 4000 9900 4200
 Connection ~ 9500 4000
 $Comp
-L ta-comm:A-1JB J4
+L ta-comm:A-1JB J8
 U 1 1 5EB95218
 P 7900 3450
-F 0 "J4" H 8450 3550 50  0000 L CNN
+F 0 "J8" H 8450 3550 50  0000 L CNN
 F 1 "A-1JB" H 8450 3450 50  0000 L CNN
 F 2 "ta-comm:A1JB" H 9150 3950 50  0001 L CNN
 F 3 "https://www.amphenolrf.com/media/downloads/3960/CA-1JB.pdf" H 9150 3850 50  0001 L CNN
@@ -1357,90 +1331,6 @@ $EndComp
 Wire Wire Line
 	9800 3450 10400 3450
 $Comp
-L ta-comm:MCT06030C1000FP500 R17
-U 1 1 5EBAED4F
-P 6050 7950
-F 0 "R17" H 6400 8175 50  0000 C CNN
-F 1 "MCT06030C1000FP500" H 6400 8084 50  0000 C CNN
-F 2 "ta-comm:RESC1608X55N" H 6600 8000 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf" H 6600 7900 50  0001 L CNN
-F 4 "Thin Film Resistors - SMD .1W 100ohm 1% 0603 50ppm Auto" H 6600 7800 50  0001 L CNN "Description"
-F 5 "0.55" H 6600 7700 50  0001 L CNN "Height"
-F 6 "Vishay" H 6600 7600 50  0001 L CNN "Manufacturer_Name"
-F 7 "MCT06030C1000FP500" H 6600 7500 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "594-MCT06030C1000FP5" H 6600 7400 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=594-MCT06030C1000FP5" H 6600 7300 50  0001 L CNN "Mouser Price/Stock"
-F 10 "1885546" H 6600 7200 50  0001 L CNN "RS Part Number"
-F 11 "http://uk.rs-online.com/web/p/products/1885546" H 6600 7100 50  0001 L CNN "RS Price/Stock"
-	1    6050 7950
-	-1   0    0    -1  
-$EndComp
-$Comp
-L ta-comm:MCT06030C1000FP500 R18
-U 1 1 5EBB7BFE
-P 6050 7600
-F 0 "R18" H 6400 7825 50  0000 C CNN
-F 1 "MCT06030C1000FP500" H 6400 7734 50  0000 C CNN
-F 2 "ta-comm:RESC1608X55N" H 6600 7650 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf" H 6600 7550 50  0001 L CNN
-F 4 "Thin Film Resistors - SMD .1W 100ohm 1% 0603 50ppm Auto" H 6600 7450 50  0001 L CNN "Description"
-F 5 "0.55" H 6600 7350 50  0001 L CNN "Height"
-F 6 "Vishay" H 6600 7250 50  0001 L CNN "Manufacturer_Name"
-F 7 "MCT06030C1000FP500" H 6600 7150 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "594-MCT06030C1000FP5" H 6600 7050 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=594-MCT06030C1000FP5" H 6600 6950 50  0001 L CNN "Mouser Price/Stock"
-F 10 "1885546" H 6600 6850 50  0001 L CNN "RS Part Number"
-F 11 "http://uk.rs-online.com/web/p/products/1885546" H 6600 6750 50  0001 L CNN "RS Price/Stock"
-	1    6050 7600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L ta-comm:MCT06030C1000FP500 R19
-U 1 1 5EBB819C
-P 6050 7250
-F 0 "R19" H 6400 7475 50  0000 C CNN
-F 1 "MCT06030C1000FP500" H 6400 7384 50  0000 C CNN
-F 2 "ta-comm:RESC1608X55N" H 6600 7300 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf" H 6600 7200 50  0001 L CNN
-F 4 "Thin Film Resistors - SMD .1W 100ohm 1% 0603 50ppm Auto" H 6600 7100 50  0001 L CNN "Description"
-F 5 "0.55" H 6600 7000 50  0001 L CNN "Height"
-F 6 "Vishay" H 6600 6900 50  0001 L CNN "Manufacturer_Name"
-F 7 "MCT06030C1000FP500" H 6600 6800 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "594-MCT06030C1000FP5" H 6600 6700 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=594-MCT06030C1000FP5" H 6600 6600 50  0001 L CNN "Mouser Price/Stock"
-F 10 "1885546" H 6600 6500 50  0001 L CNN "RS Part Number"
-F 11 "http://uk.rs-online.com/web/p/products/1885546" H 6600 6400 50  0001 L CNN "RS Price/Stock"
-	1    6050 7250
-	-1   0    0    -1  
-$EndComp
-$Comp
-L ta-comm:MCT06030C1000FP500 R20
-U 1 1 5EBB8B45
-P 6050 6900
-F 0 "R20" H 6400 7125 50  0000 C CNN
-F 1 "MCT06030C1000FP500" H 6400 7034 50  0000 C CNN
-F 2 "ta-comm:RESC1608X55N" H 6600 6950 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf" H 6600 6850 50  0001 L CNN
-F 4 "Thin Film Resistors - SMD .1W 100ohm 1% 0603 50ppm Auto" H 6600 6750 50  0001 L CNN "Description"
-F 5 "0.55" H 6600 6650 50  0001 L CNN "Height"
-F 6 "Vishay" H 6600 6550 50  0001 L CNN "Manufacturer_Name"
-F 7 "MCT06030C1000FP500" H 6600 6450 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "594-MCT06030C1000FP5" H 6600 6350 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=594-MCT06030C1000FP5" H 6600 6250 50  0001 L CNN "Mouser Price/Stock"
-F 10 "1885546" H 6600 6150 50  0001 L CNN "RS Part Number"
-F 11 "http://uk.rs-online.com/web/p/products/1885546" H 6600 6050 50  0001 L CNN "RS Price/Stock"
-	1    6050 6900
-	-1   0    0    -1  
-$EndComp
-Text Label 6050 7950 0    50   ~ 0
-RTS1
-Text Label 6050 7600 0    50   ~ 0
-CTS1
-Text Label 6050 7250 0    50   ~ 0
-RX1
-Text Label 6050 6900 0    50   ~ 0
-TX1
-$Comp
 L Connector_Generic:Conn_01x16 J2
 U 1 1 5EBBB3C3
 P 4200 7200
@@ -1451,48 +1341,10 @@ F 3 "~" H 4200 7200 50  0001 C CNN
 	1    4200 7200
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5000 7400 5150 7400
-Wire Wire Line
-	5150 7400 5150 6900
-Wire Wire Line
-	5150 6900 5350 6900
-Wire Wire Line
-	5350 7250 5250 7250
-Wire Wire Line
-	5250 7250 5250 7500
-Wire Wire Line
-	5250 7500 4900 7500
-Wire Wire Line
-	4900 7500 4900 7400
-Wire Wire Line
-	5350 7600 4800 7600
-Wire Wire Line
-	4800 7600 4800 7400
-Wire Wire Line
-	4700 7400 4700 7950
-Wire Wire Line
-	4700 7950 5350 7950
-Wire Wire Line
-	3700 7400 3700 7500
-$Comp
-L power:GND #PWR016
-U 1 1 5EBED8E0
-P 3700 7500
-F 0 "#PWR016" H 3700 7250 50  0001 C CNN
-F 1 "GND" H 3705 7327 50  0000 C CNN
-F 2 "" H 3700 7500 50  0001 C CNN
-F 3 "" H 3700 7500 50  0001 C CNN
-	1    3700 7500
-	1    0    0    -1  
-$EndComp
-Text Label 3800 7400 3    50   ~ 0
-D0
 NoConn ~ 3500 7400
 NoConn ~ 3600 7400
 NoConn ~ 3900 7400
 NoConn ~ 4000 7400
-NoConn ~ 4100 7400
 NoConn ~ 4200 7400
 NoConn ~ 4300 7400
 NoConn ~ 4400 7400
@@ -1502,8 +1354,8 @@ $Comp
 L Connector_Generic:Conn_01x16 J1
 U 1 1 5EC21165
 P 4200 1500
-F 0 "J1" V 4325 1446 50  0000 C CNN
-F 1 "Conn_01x16" V 4416 1446 50  0000 C CNN
+F 0 "J1" V 3550 1450 50  0000 C CNN
+F 1 "Conn_01x16" V 3650 1450 50  0000 C CNN
 F 2 "ta-comm:PinSocket_1x16_TartanArtibeus" H 4200 1500 50  0001 C CNN
 F 3 "~" H 4200 1500 50  0001 C CNN
 	1    4200 1500
@@ -1535,112 +1387,6 @@ NoConn ~ 4300 1300
 NoConn ~ 4400 1300
 NoConn ~ 4500 1300
 NoConn ~ 4600 1300
-$Comp
-L ta-comm:MCT06030C1000FP500 R13
-U 1 1 5EC8162F
-P 6050 750
-F 0 "R13" H 6400 975 50  0000 C CNN
-F 1 "MCT06030C1000FP500" H 6400 884 50  0000 C CNN
-F 2 "ta-comm:RESC1608X55N" H 6600 800 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf" H 6600 700 50  0001 L CNN
-F 4 "Thin Film Resistors - SMD .1W 100ohm 1% 0603 50ppm Auto" H 6600 600 50  0001 L CNN "Description"
-F 5 "0.55" H 6600 500 50  0001 L CNN "Height"
-F 6 "Vishay" H 6600 400 50  0001 L CNN "Manufacturer_Name"
-F 7 "MCT06030C1000FP500" H 6600 300 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "594-MCT06030C1000FP5" H 6600 200 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=594-MCT06030C1000FP5" H 6600 100 50  0001 L CNN "Mouser Price/Stock"
-F 10 "1885546" H 6600 0   50  0001 L CNN "RS Part Number"
-F 11 "http://uk.rs-online.com/web/p/products/1885546" H 6600 -100 50  0001 L CNN "RS Price/Stock"
-	1    6050 750 
-	-1   0    0    -1  
-$EndComp
-$Comp
-L ta-comm:MCT06030C1000FP500 R14
-U 1 1 5EC8797B
-P 6050 1100
-F 0 "R14" H 6400 1325 50  0000 C CNN
-F 1 "MCT06030C1000FP500" H 6400 1234 50  0000 C CNN
-F 2 "ta-comm:RESC1608X55N" H 6600 1150 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf" H 6600 1050 50  0001 L CNN
-F 4 "Thin Film Resistors - SMD .1W 100ohm 1% 0603 50ppm Auto" H 6600 950 50  0001 L CNN "Description"
-F 5 "0.55" H 6600 850 50  0001 L CNN "Height"
-F 6 "Vishay" H 6600 750 50  0001 L CNN "Manufacturer_Name"
-F 7 "MCT06030C1000FP500" H 6600 650 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "594-MCT06030C1000FP5" H 6600 550 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=594-MCT06030C1000FP5" H 6600 450 50  0001 L CNN "Mouser Price/Stock"
-F 10 "1885546" H 6600 350 50  0001 L CNN "RS Part Number"
-F 11 "http://uk.rs-online.com/web/p/products/1885546" H 6600 250 50  0001 L CNN "RS Price/Stock"
-	1    6050 1100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L ta-comm:MCT06030C1000FP500 R15
-U 1 1 5EC881DA
-P 6050 1450
-F 0 "R15" H 6400 1675 50  0000 C CNN
-F 1 "MCT06030C1000FP500" H 6400 1584 50  0000 C CNN
-F 2 "ta-comm:RESC1608X55N" H 6600 1500 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf" H 6600 1400 50  0001 L CNN
-F 4 "Thin Film Resistors - SMD .1W 100ohm 1% 0603 50ppm Auto" H 6600 1300 50  0001 L CNN "Description"
-F 5 "0.55" H 6600 1200 50  0001 L CNN "Height"
-F 6 "Vishay" H 6600 1100 50  0001 L CNN "Manufacturer_Name"
-F 7 "MCT06030C1000FP500" H 6600 1000 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "594-MCT06030C1000FP5" H 6600 900 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=594-MCT06030C1000FP5" H 6600 800 50  0001 L CNN "Mouser Price/Stock"
-F 10 "1885546" H 6600 700 50  0001 L CNN "RS Part Number"
-F 11 "http://uk.rs-online.com/web/p/products/1885546" H 6600 600 50  0001 L CNN "RS Price/Stock"
-	1    6050 1450
-	-1   0    0    -1  
-$EndComp
-$Comp
-L ta-comm:MCT06030C1000FP500 R16
-U 1 1 5EC88B28
-P 6050 1800
-F 0 "R16" H 6400 2025 50  0000 C CNN
-F 1 "MCT06030C1000FP500" H 6400 1934 50  0000 C CNN
-F 2 "ta-comm:RESC1608X55N" H 6600 1850 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf" H 6600 1750 50  0001 L CNN
-F 4 "Thin Film Resistors - SMD .1W 100ohm 1% 0603 50ppm Auto" H 6600 1650 50  0001 L CNN "Description"
-F 5 "0.55" H 6600 1550 50  0001 L CNN "Height"
-F 6 "Vishay" H 6600 1450 50  0001 L CNN "Manufacturer_Name"
-F 7 "MCT06030C1000FP500" H 6600 1350 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "594-MCT06030C1000FP5" H 6600 1250 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=594-MCT06030C1000FP5" H 6600 1150 50  0001 L CNN "Mouser Price/Stock"
-F 10 "1885546" H 6600 1050 50  0001 L CNN "RS Part Number"
-F 11 "http://uk.rs-online.com/web/p/products/1885546" H 6600 950 50  0001 L CNN "RS Price/Stock"
-	1    6050 1800
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	5000 1300 5150 1300
-Wire Wire Line
-	5150 1300 5150 1800
-Wire Wire Line
-	5150 1800 5350 1800
-Wire Wire Line
-	4900 1300 4900 1200
-Wire Wire Line
-	4900 1200 5250 1200
-Wire Wire Line
-	5250 1200 5250 1450
-Wire Wire Line
-	5250 1450 5350 1450
-Wire Wire Line
-	5350 1100 4800 1100
-Wire Wire Line
-	4800 1100 4800 1300
-Wire Wire Line
-	5350 750  4700 750 
-Wire Wire Line
-	4700 750  4700 1300
-Text Label 6050 750  0    50   ~ 0
-RTS0
-Text Label 6050 1100 0    50   ~ 0
-CTS0
-Text Label 6050 1450 0    50   ~ 0
-RX0
-Text Label 6050 1800 0    50   ~ 0
-TX0
 $Comp
 L ta-comm:MCT06030C1001FP500 R6
 U 1 1 5ECA2872
@@ -1818,14 +1564,14 @@ F 3 "~" H 8950 1250 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J5
+L Connector_Generic:Conn_01x04 J7
 U 1 1 5ECD3D24
-P 9550 1250
-F 0 "J5" H 9468 825 50  0000 C CNN
-F 1 "Conn_01x04" H 9468 916 50  0000 C CNN
-F 2 "ta-comm:MountingHoles_TartanArtibeus" H 9550 1250 50  0001 C CNN
-F 3 "~" H 9550 1250 50  0001 C CNN
-	1    9550 1250
+P 5900 1400
+F 0 "J7" H 5818 975 50  0000 C CNN
+F 1 "Conn_01x04" H 5818 1066 50  0000 C CNN
+F 2 "ta-comm:MountingHoles_TartanArtibeus" H 5900 1400 50  0001 C CNN
+F 3 "~" H 5900 1400 50  0001 C CNN
+	1    5900 1400
 	-1   0    0    1   
 $EndComp
 Text Label 8750 1050 2    50   ~ 0
@@ -1861,25 +1607,25 @@ Wire Wire Line
 Wire Wire Line
 	8600 1250 8750 1250
 Wire Wire Line
-	9750 1050 9750 1150
+	6100 1200 6100 1300
 Wire Wire Line
-	9750 1150 9750 1250
-Connection ~ 9750 1150
+	6100 1300 6100 1400
+Connection ~ 6100 1300
 Wire Wire Line
-	9750 1250 9750 1350
-Connection ~ 9750 1250
+	6100 1400 6100 1500
+Connection ~ 6100 1400
 $Comp
 L power:GND #PWR048
 U 1 1 5ECF4C46
-P 9750 1350
-F 0 "#PWR048" H 9750 1100 50  0001 C CNN
-F 1 "GND" H 9755 1177 50  0000 C CNN
-F 2 "" H 9750 1350 50  0001 C CNN
-F 3 "" H 9750 1350 50  0001 C CNN
-	1    9750 1350
+P 6100 1500
+F 0 "#PWR048" H 6100 1250 50  0001 C CNN
+F 1 "GND" H 6105 1327 50  0000 C CNN
+F 2 "" H 6100 1500 50  0001 C CNN
+F 3 "" H 6100 1500 50  0001 C CNN
+	1    6100 1500
 	1    0    0    -1  
 $EndComp
-Connection ~ 9750 1350
+Connection ~ 6100 1500
 $Comp
 L ta-comm:MCT06030C1001FP500 R1
 U 1 1 5E9E896F
@@ -2015,4 +1761,147 @@ Text Notes 6300 3200 0    50   ~ 0
 VCTL=H
 Text Notes 6300 5200 0    50   ~ 0
 VCTL=L
+Text Label 4700 1300 1    50   ~ 0
+RTS0
+Text Label 4800 1300 1    50   ~ 0
+CTS0
+Text Label 4900 1300 1    50   ~ 0
+RX0
+Text Label 5000 1300 1    50   ~ 0
+TX0
+Text Label 5000 7400 3    50   ~ 0
+TX1
+Text Label 4900 7400 3    50   ~ 0
+RX1
+Text Label 4800 7400 3    50   ~ 0
+CTS1
+Text Label 4700 7400 3    50   ~ 0
+RTS1
+NoConn ~ 3700 7400
+NoConn ~ 3800 7400
+Text Label 4100 7400 3    50   ~ 0
+RST
+$Comp
+L Connector_Generic:Conn_01x04 J4
+U 1 1 5F2670C0
+P 8950 1950
+F 0 "J4" H 9030 1942 50  0000 L CNN
+F 1 "Conn_01x04" H 9030 1851 50  0000 L CNN
+F 2 "ta-comm:PinSocket_1x4_TartanArtibeus" H 8950 1950 50  0001 C CNN
+F 3 "~" H 8950 1950 50  0001 C CNN
+	1    8950 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J6
+U 1 1 5F269249
+P 9650 2000
+F 0 "J6" H 9568 2417 50  0000 C CNN
+F 1 "Conn_01x05" H 9568 2326 50  0000 C CNN
+F 2 "ta-comm:PinSocket_1x5_TartanArtibeus" H 9650 2000 50  0001 C CNN
+F 3 "~" H 9650 2000 50  0001 C CNN
+	1    9650 2000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J5
+U 1 1 5F26C0AA
+P 9650 1200
+F 0 "J5" H 9568 775 50  0000 C CNN
+F 1 "Conn_01x05" H 9568 866 50  0000 C CNN
+F 2 "ta-comm:PinSocket_1x5_TartanArtibeus" H 9650 1200 50  0001 C CNN
+F 3 "~" H 9650 1200 50  0001 C CNN
+	1    9650 1200
+	-1   0    0    1   
+$EndComp
+NoConn ~ 9850 1000
+NoConn ~ 9850 1100
+NoConn ~ 9850 1200
+NoConn ~ 9850 1300
+NoConn ~ 9850 1400
+NoConn ~ 8750 1850
+NoConn ~ 8750 2050
+NoConn ~ 8750 2150
+NoConn ~ 9850 1800
+NoConn ~ 9850 1900
+NoConn ~ 9850 2100
+NoConn ~ 9850 2200
+Wire Wire Line
+	8750 1950 8600 1950
+$Comp
+L power:GND #PWR016
+U 1 1 5F2B6B2F
+P 8600 1950
+F 0 "#PWR016" H 8600 1700 50  0001 C CNN
+F 1 "GND" H 8605 1777 50  0000 C CNN
+F 2 "" H 8600 1950 50  0001 C CNN
+F 3 "" H 8600 1950 50  0001 C CNN
+	1    8600 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 2000 10000 2000
+$Comp
+L power:GND #PWR050
+U 1 1 5F2BC261
+P 10000 2000
+F 0 "#PWR050" H 10000 1750 50  0001 C CNN
+F 1 "GND" H 10005 1827 50  0000 C CNN
+F 2 "" H 10000 2000 50  0001 C CNN
+F 3 "" H 10000 2000 50  0001 C CNN
+	1    10000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L ta-comm:FDY300NZ Q1
+U 1 1 5F33C612
+P 3350 2150
+F 0 "Q1" H 3780 2296 50  0000 L CNN
+F 1 "FDY300NZ" H 3780 2205 50  0000 L CNN
+F 2 "ta-comm:SOTFL50P160X78-3N" H 3800 2100 50  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/FDY300NZ-D.pdf" H 3800 2000 50  0001 L CNN
+F 4 "Trans MOSFET N-CH 20V 0.6A 3-Pin SC-89" H 3800 1900 50  0001 L CNN "Description"
+F 5 "0.78" H 3800 1800 50  0001 L CNN "Height"
+F 6 "ON Semiconductor" H 3800 1700 50  0001 L CNN "Manufacturer_Name"
+F 7 "FDY300NZ" H 3800 1600 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "FDY300NZ" H 3800 1500 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/fdy300nz/on-semiconductor" H 3800 1400 50  0001 L CNN "Arrow Price/Stock"
+F 10 "512-FDY300NZ" H 3800 1300 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FDY300NZ?qs=QGk6feVlqMK1iUZo3Em7Lw%3D%3D" H 3800 1200 50  0001 L CNN "Mouser Price/Stock"
+	1    3350 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR051
+U 1 1 5F361D50
+P 3650 2350
+F 0 "#PWR051" H 3650 2100 50  0001 C CNN
+F 1 "GND" H 3655 2177 50  0000 C CNN
+F 2 "" H 3650 2350 50  0001 C CNN
+F 3 "" H 3650 2350 50  0001 C CNN
+	1    3650 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L ta-comm:MCT06030C3302FP500 R7
+U 1 1 5EA36BBC
+P 4850 1750
+F 0 "R7" H 5200 1975 50  0000 C CNN
+F 1 "MCT06030C3302FP500" H 5200 1884 50  0000 C CNN
+F 2 "ta-comm:RESC1608X55N" H 5400 1800 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf" H 5400 1700 50  0001 L CNN
+F 4 "VISHAY - MCT06030C3302FP500 - RES, 33K, 1%, 0603, THIN FILM" H 5400 1600 50  0001 L CNN "Description"
+F 5 "0.55" H 5400 1500 50  0001 L CNN "Height"
+F 6 "Vishay" H 5400 1400 50  0001 L CNN "Manufacturer_Name"
+F 7 "MCT06030C3302FP500" H 5400 1300 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "594-MCT06030C3302FP5" H 5400 1200 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=594-MCT06030C3302FP5" H 5400 1100 50  0001 L CNN "Mouser Price/Stock"
+	1    4850 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4150 1750 3650 1750
+Wire Wire Line
+	3150 1750 3650 1750
+Connection ~ 3650 1750
 $EndSCHEMATC

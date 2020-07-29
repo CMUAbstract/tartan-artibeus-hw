@@ -15,6 +15,7 @@ C20,1,CC0603KRX7R6BB224,603-CC603KRX7R6BB224,https://componentsearchengine.com/g
 C4; C17; C18,3,0603ZC105KAT2A,581-0603ZC105KAT2A,https://componentsearchengine.com/ga/part.php?partID=562505,1 uF +/- 10%; 10 VDC; X7R; -55 - +125 C
 C2,1,GRM188R71A225KE15D,81-GRM188R71A225KE15,https://componentsearchengine.com/ga/part.php?partID=284939,2.2 uF +/- 10%; 10 VDC; X7R; -55 - +125 C
 LED1; LED2,2,LG Q396-PS-35,720-LGQ396A3964,https://componentsearchengine.com/ga/part.php?partID=326177,Green LED (573 nm); If 20 mA; Vf 2.4 V; -30 - +85 C
+Q1,1,FDY300NZ,512-FDY300NZ,https://componentsearchengine.com/part/229011490/model/download,MOSFET for NRST; 1 N-channel; Vds 20 V; Id 600 mA; Vgs 12 V; Qg 1.1 nC; -55 - +150 C
 Y1,1,FOX924B-27,559-FOX924B-27,https://componentsearchengine.com/ga/part.php?partID=323443,TCXO oscillator; 27 MHz; 3.3 V; 2.5 PPM; 15 pF; 6 mA; -30 - +85 C
 IC1,1,CC1110F32RHHR,595-CC1110F32RHHR,https://componentsearchengine.com/ga/part.php?partID=276680,MCU
 IC2,1,F2972NEGK,972-F2972NEGK,https://componentsearchengine.com/ga/part.php?partID=1440270,RF Switch
