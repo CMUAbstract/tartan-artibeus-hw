@@ -822,10 +822,10 @@ NoConn ~ 4550 7550
 NoConn ~ 4350 7550
 NoConn ~ 4250 7550
 $Comp
-L Connector_Generic:Conn_02x06_Odd_Even J4
+L Connector_Generic:Conn_02x06_Odd_Even J8
 U 1 1 5F1C48F2
 P 9800 3800
-F 0 "J4" H 9850 3275 50  0000 C CNN
+F 0 "J8" H 9850 3275 50  0000 C CNN
 F 1 "Conn_02x06_Odd_Even" H 9850 3366 50  0000 C CNN
 F 2 "ta-expt:PinSocket_6x2_TartanArtibeus" H 9800 3800 50  0001 C CNN
 F 3 "~" H 9800 3800 50  0001 C CNN
@@ -960,10 +960,10 @@ F 3 "" H 2200 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J3
+L Connector_Generic:Conn_01x04 J4
 U 1 1 5F20BEB9
 P 1200 7200
-F 0 "J3" H 1280 7192 50  0000 L CNN
+F 0 "J4" H 1280 7192 50  0000 L CNN
 F 1 "Conn_01x04" H 1280 7101 50  0000 L CNN
 F 2 "ta-expt:PinSocket_4x1_TartanArtibeus" H 1200 7200 50  0001 C CNN
 F 3 "~" H 1200 7200 50  0001 C CNN
@@ -1143,10 +1143,10 @@ Wire Wire Line
 	9750 950  9750 1350
 Connection ~ 9750 1350
 $Comp
-L Connector_Generic:Conn_01x04 J5
+L Connector_Generic:Conn_01x04 J7
 U 1 1 5F269F00
 P 9800 5200
-F 0 "J5" H 9718 5517 50  0000 C CNN
+F 0 "J7" H 9718 5517 50  0000 C CNN
 F 1 "Conn_01x04" H 9718 5426 50  0000 C CNN
 F 2 "ta-expt:MountingHoles_TartanArtibeus" H 9800 5200 50  0001 C CNN
 F 3 "~" H 9800 5200 50  0001 C CNN
@@ -1297,10 +1297,10 @@ F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZA220JAT2A" H 64
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR031
 U 1 1 5F199C49
 P 4350 700
-F 0 "#PWR?" H 4350 450 50  0001 C CNN
+F 0 "#PWR031" H 4350 450 50  0001 C CNN
 F 1 "GND" H 4355 527 50  0000 C CNN
 F 2 "" H 4350 700 50  0001 C CNN
 F 3 "" H 4350 700 50  0001 C CNN
@@ -1312,14 +1312,72 @@ Wire Wire Line
 Wire Wire Line
 	4450 700  4350 700 
 $Comp
-L power:GND #PWR?
-U 1 1 5F1A332F
-P 4450 7550
-F 0 "#PWR?" H 4450 7300 50  0001 C CNN
-F 1 "GND" H 4455 7377 50  0000 C CNN
-F 2 "" H 4450 7550 50  0001 C CNN
-F 3 "" H 4450 7550 50  0001 C CNN
-	1    4450 7550
+L Connector_Generic:Conn_01x04 J3
+U 1 1 5F2138DD
+P 7700 5300
+F 0 "J3" H 7618 4875 50  0000 C CNN
+F 1 "Conn_01x04" H 7618 4966 50  0000 C CNN
+F 2 "ta-expt:PinSocket_4x1_TartanArtibeus" H 7700 5300 50  0001 C CNN
+F 3 "~" H 7700 5300 50  0001 C CNN
+	1    7700 5300
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J6
+U 1 1 5F217B40
+P 8400 6050
+F 0 "J6" H 8318 6467 50  0000 C CNN
+F 1 "Conn_01x05" H 8318 6376 50  0000 C CNN
+F 2 "ta-expt:PinSocket_1x5_TartanArtibeus" H 8400 6050 50  0001 C CNN
+F 3 "~" H 8400 6050 50  0001 C CNN
+	1    8400 6050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J5
+U 1 1 5F2152E2
+P 8400 5250
+F 0 "J5" H 8318 4825 50  0000 C CNN
+F 1 "Conn_01x05" H 8318 4916 50  0000 C CNN
+F 2 "ta-expt:PinSocket_1x5_TartanArtibeus" H 8400 5250 50  0001 C CNN
+F 3 "~" H 8400 5250 50  0001 C CNN
+	1    8400 5250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR032
+U 1 1 5F222EE1
+P 7350 5300
+F 0 "#PWR032" H 7350 5050 50  0001 C CNN
+F 1 "GND" H 7355 5127 50  0000 C CNN
+F 2 "" H 7350 5300 50  0001 C CNN
+F 3 "" H 7350 5300 50  0001 C CNN
+	1    7350 5300
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7500 5300 7350 5300
+NoConn ~ 8600 5050
+NoConn ~ 8600 5150
+NoConn ~ 8600 5250
+NoConn ~ 8600 5350
+NoConn ~ 8600 5450
+$Comp
+L power:GND #PWR033
+U 1 1 5F22D3EC
+P 8750 6050
+F 0 "#PWR033" H 8750 5800 50  0001 C CNN
+F 1 "GND" H 8755 5877 50  0000 C CNN
+F 2 "" H 8750 6050 50  0001 C CNN
+F 3 "" H 8750 6050 50  0001 C CNN
+	1    8750 6050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8600 5850
+NoConn ~ 8600 5950
+NoConn ~ 8600 6150
+NoConn ~ 8600 6250
+Wire Wire Line
+	8750 6050 8600 6050
+NoConn ~ 4450 7550
 $EndSCHEMATC
