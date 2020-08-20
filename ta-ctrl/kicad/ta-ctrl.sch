@@ -446,11 +446,8 @@ Exp_CK
 Wire Wire Line
 	950  5850 1400 5850
 NoConn ~ 850  950 
-NoConn ~ 950  950 
 Wire Wire Line
 	850  850  850  950 
-Wire Wire Line
-	950  850  950  950 
 Text Label 900  1200 0    50   ~ 0
 DBG0
 Text Label 1000 1300 0    50   ~ 0
@@ -1191,9 +1188,20 @@ F30 "DRDY_M" I R 4500 5300 50
 F31 "INT_M" I R 4500 5400 50 
 F32 "INT_AG" I R 4500 5500 50 
 F33 "DEN_AG" I R 4500 5600 50 
+F34 "BURN" O L 1400 4600 50 
 $EndSheet
 Wire Wire Line
 	4500 5500 6600 5500
 Wire Wire Line
 	4500 5600 6600 5600
+Text Label 700  1100 0    50   ~ 0
+BURN
+Wire Wire Line
+	950  1100 700  1100
+Wire Wire Line
+	950  850  950  1100
+Text Label 1150 4600 0    50   ~ 0
+BURN
+Wire Wire Line
+	1150 4600 1400 4600
 $EndSCHEMATC

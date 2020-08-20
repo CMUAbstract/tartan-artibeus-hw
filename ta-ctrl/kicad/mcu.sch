@@ -397,10 +397,7 @@ Wire Wire Line
 	3200 3650 3350 3650
 Wire Wire Line
 	3200 3750 3350 3750
-NoConn ~ 3250 2450
 NoConn ~ 3250 2550
-Wire Wire Line
-	3250 2450 3350 2450
 Wire Wire Line
 	3250 2550 3350 2550
 Wire Wire Line
@@ -526,4 +523,8 @@ NoConn ~ 3050 3050
 NoConn ~ 3050 3150
 NoConn ~ 3050 4250
 NoConn ~ 3050 3350
+Text HLabel 2850 2450 0    50   Output ~ 0
+BURN
+Wire Wire Line
+	2850 2450 3350 2450
 $EndSCHEMATC
