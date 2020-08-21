@@ -379,24 +379,8 @@ Wire Wire Line
 Text Label 9500 2000 0    50   ~ 0
 V_out
 Connection ~ 8150 2000
-Text Notes 7900 3350 0    50   ~ 0
-Put outlines for cap footprints \non back of board if you can. \nRealistically we just need to \nmake sure we have both sets\nof through-holes routed
-Text Label 8400 2000 0    50   ~ 0
+Text Label 8200 2000 0    50   ~ 0
 V_cap
-$Comp
-L power-board:TLV8544DT U3
-U 1 1 5F094EAB
-P 4750 4350
-F 0 "U3" H 5550 4737 60  0000 C CNN
-F 1 "TLV8544DT" H 5550 4631 60  0000 C CNN
-F 2 "ta-powr:TLV8544DT" H 5800 3600 60  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/tlv8544.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1595014292298" H 4750 4350 60  0001 C CNN
-F 4 "TLV8544DT" H 4750 4350 50  0001 C CNN "Manufacturer Part Number"
-F 5 "Digikey" H 4750 4350 50  0001 C CNN "Vendor"
-F 6 "296-49508-1-ND" H 4750 4350 50  0001 C CNN "Vendor Part Number"
-	1    4750 4350
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR023
 U 1 1 5F0AFB8D
@@ -416,13 +400,9 @@ Wire Wire Line
 	4550 4450 4550 4350
 Wire Wire Line
 	4550 4350 4750 4350
-Text Label 550  3800 0    50   ~ 0
+Text Label 1500 3800 0    50   ~ 0
 V_solar
-Wire Wire Line
-	4750 4850 4550 4850
-Wire Wire Line
-	4550 4850 4550 4950
-Text Label 1150 3800 0    50   ~ 0
+Text Label 1550 5550 0    50   ~ 0
 V_harv
 Wire Wire Line
 	6350 4350 6550 4350
@@ -430,32 +410,12 @@ Wire Wire Line
 	6550 4350 6550 4450
 Wire Wire Line
 	6550 4450 6350 4450
-Wire Wire Line
-	6350 4950 6550 4950
-Wire Wire Line
-	6550 4950 6550 4850
-Wire Wire Line
-	6550 4850 6350 4850
 Text Label 2450 3800 0    50   ~ 0
 V_cap
-Text Label 1850 3800 0    50   ~ 0
+Text Label 2550 5550 0    50   ~ 0
 V_out
 Text Notes 4900 5450 0    50   ~ 0
 Attach the IN+ pins to their respective\nnets as close as possible to the shunt\nresistor.
-$Comp
-L power-board:ADS1115-Q1 U4
-U 1 1 5F08FE03
-P 5500 6450
-F 0 "U4" H 5500 7131 50  0000 C CNN
-F 1 "ADS1115-Q1" H 5500 7040 50  0000 C CNN
-F 2 "Package_SO:TSSOP-10_3x3mm_P0.5mm" H 5500 5950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ads1015.pdf" H 5450 5550 50  0001 C CNN
-F 4 "ADS1115BQDGSRQ1" H 5500 6450 50  0001 C CNN "Manufacturer Part Number"
-F 5 "Digikey" H 5500 6450 50  0001 C CNN "Vendor"
-F 6 "296-45221-1-ND" H 5500 6450 50  0001 C CNN "Vendor Part Number"
-	1    5500 6450
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR021
 U 1 1 5F094A52
@@ -472,30 +432,17 @@ Wire Wire Line
 Text Label 4600 6350 0    50   ~ 0
 V_sol+
 Wire Wire Line
-	5100 6450 4600 6450
-Text Label 4600 6450 0    50   ~ 0
-V_sol-
-Wire Wire Line
 	5100 6550 4600 6550
 Wire Wire Line
 	5100 6650 4600 6650
 Text Label 4600 6650 0    50   ~ 0
 V_cap+
-Text Label 4600 6550 0    50   ~ 0
-V_cap-
-Connection ~ 6550 4950
-Text Label 6900 4950 2    50   ~ 0
-V_cap-
 Connection ~ 6550 4350
 Text Label 6900 4350 2    50   ~ 0
 V_cap+
 Connection ~ 4550 4350
 Text Label 4250 4350 0    50   ~ 0
 V_sol+
-Text Label 4250 4950 0    50   ~ 0
-V_sol-
-Wire Wire Line
-	4250 4950 4550 4950
 Text HLabel 6400 6450 2    50   BiDi ~ 0
 SCL
 Wire Wire Line
@@ -538,9 +485,6 @@ F 7 "399-11133-1-ND" H 4350 6100 50  0001 C CNN "Vendor Part Number"
 	1    4350 6100
 	1    0    0    -1  
 $EndComp
-Connection ~ 4350 5950
-Wire Wire Line
-	4350 5950 5500 5950
 $Comp
 L power:GND #PWR020
 U 1 1 5F0C24D7
@@ -557,48 +501,48 @@ Wire Wire Line
 $Comp
 L Device:R_US R21
 U 1 1 5F0C923D
-P 800 3950
-F 0 "R21" H 868 3996 50  0000 L CNN
-F 1 "4M" H 868 3905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 840 3940 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-packaging.pdf" H 800 3950 50  0001 C CNN
-F 4 "RMCF0603FT4M02" H 800 3950 50  0001 C CNN "Manufacturer Part Number"
-F 5 "Digikey" H 800 3950 50  0001 C CNN "Vendor"
-F 6 "RMCF0603FT4M02CT-ND" H 800 3950 50  0001 C CNN "Vendor Part Number"
-	1    800  3950
+P 1750 3950
+F 0 "R21" H 1818 3996 50  0000 L CNN
+F 1 "4M" H 1818 3905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1790 3940 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-packaging.pdf" H 1750 3950 50  0001 C CNN
+F 4 "RMCF0603FT4M02" H 1750 3950 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 1750 3950 50  0001 C CNN "Vendor"
+F 6 "RMCF0603FT4M02CT-ND" H 1750 3950 50  0001 C CNN "Vendor Part Number"
+	1    1750 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R22
 U 1 1 5F0CA6E7
-P 800 4450
-F 0 "R22" H 868 4496 50  0000 L CNN
-F 1 "6M" H 868 4405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 840 4440 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 800 4450 50  0001 C CNN
-F 4 "RMCF0603FT6M04" H 800 4450 50  0001 C CNN "Manufacturer Part Number"
-F 5 "Digikey" H 800 4450 50  0001 C CNN "Vendor"
-F 6 "RMCF0603FT6M04CT-ND" H 800 4450 50  0001 C CNN "Vendor Part Number"
-	1    800  4450
+P 1750 4450
+F 0 "R22" H 1818 4496 50  0000 L CNN
+F 1 "6M" H 1818 4405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1790 4440 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 1750 4450 50  0001 C CNN
+F 4 "RMCF0603FT6M04" H 1750 4450 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 1750 4450 50  0001 C CNN "Vendor"
+F 6 "RMCF0603FT6M04CT-ND" H 1750 4450 50  0001 C CNN "Vendor Part Number"
+	1    1750 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR025
 U 1 1 5F0CAAC2
-P 800 4700
-F 0 "#PWR025" H 800 4450 50  0001 C CNN
-F 1 "GND" H 805 4527 50  0000 C CNN
-F 2 "" H 800 4700 50  0001 C CNN
-F 3 "" H 800 4700 50  0001 C CNN
-	1    800  4700
+P 1750 4700
+F 0 "#PWR025" H 1750 4450 50  0001 C CNN
+F 1 "GND" H 1755 4527 50  0000 C CNN
+F 2 "" H 1750 4700 50  0001 C CNN
+F 3 "" H 1750 4700 50  0001 C CNN
+	1    1750 4700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	800  4600 800  4700
+	1750 4600 1750 4700
 Wire Wire Line
-	550  3800 800  3800
+	1500 3800 1750 3800
 Wire Wire Line
-	4150 4550 4750 4550
+	4150 4550 4450 4550
 Wire Wire Line
 	3750 5950 4350 5950
 Wire Wire Line
@@ -606,50 +550,19 @@ Wire Wire Line
 $Comp
 L Device:R_US R23
 U 1 1 5F0F4549
-P 1500 3950
-F 0 "R23" H 1568 3996 50  0000 L CNN
-F 1 "4M" H 1568 3905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1540 3940 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-packaging.pdf" H 1500 3950 50  0001 C CNN
-F 4 "RMCF0603FT4M02" H 1500 3950 50  0001 C CNN "Manufacturer Part Number"
-F 5 "Digikey" H 1500 3950 50  0001 C CNN "Vendor"
-F 6 "RMCF0603FT4M02CT-ND" H 1500 3950 50  0001 C CNN "Vendor Part Number"
-	1    1500 3950
+P 1900 5700
+F 0 "R23" H 1968 5746 50  0000 L CNN
+F 1 "4M" H 1968 5655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1940 5690 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-packaging.pdf" H 1900 5700 50  0001 C CNN
+F 4 "RMCF0603FT4M02" H 1900 5700 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 1900 5700 50  0001 C CNN "Vendor"
+F 6 "RMCF0603FT4M02CT-ND" H 1900 5700 50  0001 C CNN "Vendor Part Number"
+	1    1900 5700
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_US R24
-U 1 1 5F0F6171
-P 1500 4450
-F 0 "R24" H 1568 4496 50  0000 L CNN
-F 1 "6M" H 1568 4405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1540 4440 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 1500 4450 50  0001 C CNN
-F 4 "RMCF0603FT6M04" H 1500 4450 50  0001 C CNN "Manufacturer Part Number"
-F 5 "Digikey" H 1500 4450 50  0001 C CNN "Vendor"
-F 6 "RMCF0603FT6M04CT-ND" H 1500 4450 50  0001 C CNN "Vendor Part Number"
-	1    1500 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR026
-U 1 1 5F0F6838
-P 1500 4700
-F 0 "#PWR026" H 1500 4450 50  0001 C CNN
-F 1 "GND" H 1505 4527 50  0000 C CNN
-F 2 "" H 1500 4700 50  0001 C CNN
-F 3 "" H 1500 4700 50  0001 C CNN
-	1    1500 4700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1500 4600 1500 4700
-Wire Wire Line
-	4100 4750 4750 4750
 Wire Wire Line
 	6550 4350 6900 4350
-Wire Wire Line
-	6550 4950 6900 4950
 $Comp
 L Device:R_US R27
 U 1 1 5F115E44
@@ -692,56 +605,43 @@ $EndComp
 Wire Wire Line
 	2450 3800 2700 3800
 Wire Wire Line
-	6350 4550 7000 4550
+	6350 4550 6550 4550
 $Comp
 L Device:R_US R25
 U 1 1 5F124388
-P 2100 3950
-F 0 "R25" H 2168 3996 50  0000 L CNN
-F 1 "4M" H 2168 3905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2140 3940 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-packaging.pdf" H 2100 3950 50  0001 C CNN
-F 4 "RMCF0603FT4M02" H 2100 3950 50  0001 C CNN "Manufacturer Part Number"
-F 5 "Digikey" H 2100 3950 50  0001 C CNN "Vendor"
-F 6 "RMCF0603FT4M02CT-ND" H 2100 3950 50  0001 C CNN "Vendor Part Number"
-	1    2100 3950
+P 2800 5700
+F 0 "R25" H 2868 5746 50  0000 L CNN
+F 1 "4M" H 2868 5655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2840 5690 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-packaging.pdf" H 2800 5700 50  0001 C CNN
+F 4 "RMCF0603FT4M02" H 2800 5700 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 2800 5700 50  0001 C CNN "Vendor"
+F 6 "RMCF0603FT4M02CT-ND" H 2800 5700 50  0001 C CNN "Vendor Part Number"
+	1    2800 5700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R26
 U 1 1 5F12438E
-P 2100 4450
-F 0 "R26" H 2168 4496 50  0000 L CNN
-F 1 "6M" H 2168 4405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2140 4440 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 2100 4450 50  0001 C CNN
-F 4 "RMCF0603FT6M04" H 2100 4450 50  0001 C CNN "Manufacturer Part Number"
-F 5 "Digikey" H 2100 4450 50  0001 C CNN "Vendor"
-F 6 "RMCF0603FT6M04CT-ND" H 2100 4450 50  0001 C CNN "Vendor Part Number"
-	1    2100 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR027
-U 1 1 5F124394
-P 2100 4700
-F 0 "#PWR027" H 2100 4450 50  0001 C CNN
-F 1 "GND" H 2105 4527 50  0000 C CNN
-F 2 "" H 2100 4700 50  0001 C CNN
-F 3 "" H 2100 4700 50  0001 C CNN
-	1    2100 4700
+P 2800 6200
+F 0 "R26" H 2868 6246 50  0000 L CNN
+F 1 "6M" H 2868 6155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2840 6190 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 2800 6200 50  0001 C CNN
+F 4 "RMCF0603FT6M04" H 2800 6200 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 2800 6200 50  0001 C CNN "Vendor"
+F 6 "RMCF0603FT6M04CT-ND" H 2800 6200 50  0001 C CNN "Vendor Part Number"
+	1    2800 6200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2100 4600 2100 4700
-Wire Wire Line
-	1850 3800 2100 3800
+	2550 5550 2800 5550
 Wire Wire Line
 	2700 4100 2700 4200
 Wire Wire Line
-	800  4100 800  4200
+	1750 4100 1750 4200
 Wire Wire Line
-	1500 4100 1500 4200
+	1900 5850 1900 5950
 Text Label 4000 4650 0    50   ~ 0
 Vdd_tlv
 Connection ~ 2700 4200
@@ -749,35 +649,26 @@ Wire Wire Line
 	2700 4200 2700 4300
 Text Label 3200 4200 2    50   ~ 0
 V_cap_meas
-Text Label 2550 4200 2    50   ~ 0
-V_out_meas
+Text Label 3250 5950 2    50   ~ 0
+I_out_neg
 Wire Wire Line
-	2100 4100 2100 4200
-Connection ~ 2100 4200
+	2800 5850 2800 5950
+Connection ~ 2800 5950
 Wire Wire Line
-	2100 4200 2100 4300
-Connection ~ 1500 4200
+	2800 5950 2800 6050
+Connection ~ 1750 4200
 Wire Wire Line
-	1500 4200 1500 4300
-Connection ~ 800  4200
-Wire Wire Line
-	800  4200 800  4300
-Text Label 2000 4200 2    50   ~ 0
-V_harv_meas
-Text Label 1350 4200 2    50   ~ 0
+	1750 4200 1750 4300
+Text Label 2400 5950 2    50   ~ 0
+I_harv_neg
+Text Label 2300 4200 2    50   ~ 0
 V_solar_meas
 Text Label 4150 4550 0    50   ~ 0
 V_solar_meas
-Text Label 4100 4750 0    50   ~ 0
-V_harv_meas
 Text Label 7000 4550 2    50   ~ 0
 V_cap_meas
 Wire Wire Line
 	6350 4650 7200 4650
-Wire Wire Line
-	6350 4750 7000 4750
-Text Label 7000 4750 2    50   ~ 0
-V_out_meas
 Wire Wire Line
 	2850 2300 3300 2300
 Connection ~ 2850 2300
@@ -812,20 +703,17 @@ Wire Wire Line
 	4500 2750 4450 2750
 Connection ~ 4450 2750
 Wire Wire Line
-	2100 4200 2550 4200
+	2800 5950 3250 5950
 Wire Wire Line
 	2700 4200 3200 4200
 Wire Wire Line
-	800  4200 1350 4200
+	1750 4200 2300 4200
 Wire Wire Line
-	1500 4200 2000 4200
+	1900 5950 2400 5950
 Wire Wire Line
 	5100 6350 4600 6350
 Wire Wire Line
-	4750 4950 4550 4950
-Connection ~ 4550 4950
-Wire Wire Line
-	1150 3800 1500 3800
+	1550 5550 1900 5550
 Wire Wire Line
 	2700 4600 2700 4700
 Wire Wire Line
@@ -862,12 +750,12 @@ L Device:R_US R19
 U 1 1 5F08D648
 P 2600 2300
 F 0 "R19" H 2668 2346 50  0000 L CNN
-F 1 "1" H 2668 2255 50  0000 L CNN
-F 2 "Resistor_SMD:R_2512_6332Metric" V 2640 2290 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/20035/dcrcwe3.pdf" H 2600 2300 50  0001 C CNN
-F 4 "CRCW25121R00FKEG" H 2600 2300 50  0001 C CNN "Manufacturer Part Number"
-F 5 "Digikey" H 2600 2300 50  0001 C CNN "Vendor"
-F 6 "541-1.00AAFCT-ND" H 2600 2300 50  0001 C CNN "Vendor Part Number"
+F 1 "1m" H 2668 2255 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 2640 2290 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/wslp-1763037.pdf" H 2600 2300 50  0001 C CNN
+F 4 "Mouser" H 2600 2300 50  0001 C CNN "Vendor"
+F 5 "WSLP12061L000FEA" H 2600 2300 50  0001 C CNN "Manufacturer Part Number"
+F 6 "71-WSLP12061L000FEA" H 2600 2300 50  0001 C CNN "Vendor Part Number"
 	1    2600 2300
 	0    -1   -1   0   
 $EndComp
@@ -888,21 +776,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 2000 9900 2000
 Wire Wire Line
-	8150 2000 9000 2000
-$Comp
-L Device:R_US R20
-U 1 1 5F1D83DD
-P 9150 2000
-F 0 "R20" H 9218 2046 50  0000 L CNN
-F 1 "1" H 9218 1955 50  0000 L CNN
-F 2 "Resistor_SMD:R_2512_6332Metric" V 9190 1990 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/20035/dcrcwe3.pdf" H 9150 2000 50  0001 C CNN
-F 4 "CRCW25121R00FKEG" H 9150 2000 50  0001 C CNN "Manufacturer Part Number"
-F 5 "Digikey" H 9150 2000 50  0001 C CNN "Vendor"
-F 6 "541-1.00AAFCT-ND" H 9150 2000 50  0001 C CNN "Vendor Part Number"
-	1    9150 2000
-	0    -1   -1   0   
-$EndComp
+	8150 2000 8450 2000
 $Comp
 L Device:R_US R29
 U 1 1 5F183712
@@ -942,4 +816,180 @@ Wire Wire Line
 	3750 5700 3750 5950
 Text Label 3850 5950 0    50   ~ 0
 Vdd_adc
+$Comp
+L Device:R_US R20
+U 1 1 5F1D83DD
+P 9150 2000
+F 0 "R20" H 9218 2046 50  0000 L CNN
+F 1 "1m" H 9218 1955 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 9190 1990 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/wslp-1763037.pdf" H 9150 2000 50  0001 C CNN
+F 4 "Mouser" H 9150 2000 50  0001 C CNN "Vendor"
+F 5 "WSLP12061L000FEA" H 9150 2000 50  0001 C CNN "Manufacturer Part Number"
+F 6 "71-WSLP12061L000FEA" H 9150 2000 50  0001 C CNN "Vendor Part Number"
+	1    9150 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4250 4950 4750 4950
+$Comp
+L power-board:TLV8544DT U3
+U 1 1 5F094EAB
+P 4750 4350
+F 0 "U3" H 5550 4737 60  0000 C CNN
+F 1 "TLV8544DT" H 5550 4631 60  0000 C CNN
+F 2 "ta-powr:TLV8544DT" H 5800 3600 60  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tlv8544.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1595014292298" H 4750 4350 60  0001 C CNN
+F 4 "TLV8544DT" H 4750 4350 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 4750 4350 50  0001 C CNN "Vendor"
+F 6 "296-49508-1-ND" H 4750 4350 50  0001 C CNN "Vendor Part Number"
+	1    4750 4350
+	1    0    0    -1  
+$EndComp
+Text Label 4250 4850 0    50   ~ 0
+I_harv_neg
+Text Label 4250 4950 0    50   ~ 0
+I_harv
+Wire Wire Line
+	4250 4850 4750 4850
+Wire Wire Line
+	1900 6500 2350 6500
+Text Label 2350 6500 2    50   ~ 0
+I_harv
+$Comp
+L Device:R_US R24
+U 1 1 5F49D71F
+P 1900 6200
+F 0 "R24" H 1968 6246 50  0000 L CNN
+F 1 "6M" H 1968 6155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1940 6190 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 1900 6200 50  0001 C CNN
+F 4 "RMCF0603FT6M04" H 1900 6200 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 1900 6200 50  0001 C CNN "Vendor"
+F 6 "RMCF0603FT6M04CT-ND" H 1900 6200 50  0001 C CNN "Vendor Part Number"
+	1    1900 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 5950 1900 6050
+Connection ~ 1900 5950
+Wire Wire Line
+	1900 6350 1900 6500
+Wire Wire Line
+	2800 6600 3300 6600
+Wire Wire Line
+	2800 6350 2800 6600
+Text Label 3300 6600 2    50   ~ 0
+I_out
+Wire Wire Line
+	4450 4550 4450 4750
+Wire Wire Line
+	4450 4750 4750 4750
+Connection ~ 4450 4550
+Wire Wire Line
+	4450 4550 4750 4550
+Wire Wire Line
+	6550 4550 6550 4750
+Wire Wire Line
+	6550 4750 6350 4750
+Connection ~ 6550 4550
+Wire Wire Line
+	6550 4550 7000 4550
+Wire Wire Line
+	6350 4950 6750 4950
+Text Label 6750 4950 2    50   ~ 0
+I_out
+Text Label 6750 4850 2    50   ~ 0
+I_out_neg
+Wire Wire Line
+	6350 4850 6750 4850
+$Comp
+L Device:C C21
+U 1 1 5F4CB4E5
+P 8450 2300
+F 0 "C21" H 8565 2346 50  0000 L CNN
+F 1 "100uF" H 8565 2255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 8488 2150 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EE70J107ME15-01.pdf" H 8450 2300 50  0001 C CNN
+F 4 "490-10534-1-ND" H 8450 2300 50  0001 C CNN "Vendor part number"
+F 5 "GRM32EE70J107ME15L" H 8450 2300 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Digikey" H 8450 2300 50  0001 C CNN "Vendor"
+F 7 "490-10534-1-ND" H 8450 2300 50  0001 C CNN "Vendor Part Number"
+	1    8450 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 2000 8450 2150
+Wire Wire Line
+	8900 2000 8900 2150
+Connection ~ 8900 2000
+Wire Wire Line
+	8900 2000 9000 2000
+$Comp
+L power:GND #PWR029
+U 1 1 5F4E7CBC
+P 8450 2650
+F 0 "#PWR029" H 8450 2400 50  0001 C CNN
+F 1 "GND" H 8455 2477 50  0000 C CNN
+F 2 "" H 8450 2650 50  0001 C CNN
+F 3 "" H 8450 2650 50  0001 C CNN
+	1    8450 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 2450 8450 2650
+$Comp
+L power:GND #PWR030
+U 1 1 5F4F10B0
+P 8900 2650
+F 0 "#PWR030" H 8900 2400 50  0001 C CNN
+F 1 "GND" H 8905 2477 50  0000 C CNN
+F 2 "" H 8900 2650 50  0001 C CNN
+F 3 "" H 8900 2650 50  0001 C CNN
+	1    8900 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 2450 8900 2650
+$Comp
+L Device:C C22
+U 1 1 5F4FA401
+P 8900 2300
+F 0 "C22" H 9015 2346 50  0000 L CNN
+F 1 "100uF" H 9015 2255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 8938 2150 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EE70J107ME15-01.pdf" H 8900 2300 50  0001 C CNN
+F 4 "490-10534-1-ND" H 8900 2300 50  0001 C CNN "Vendor part number"
+F 5 "GRM32EE70J107ME15L" H 8900 2300 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Digikey" H 8900 2300 50  0001 C CNN "Vendor"
+F 7 "490-10534-1-ND" H 8900 2300 50  0001 C CNN "Vendor Part Number"
+	1    8900 2300
+	1    0    0    -1  
+$EndComp
+Connection ~ 8450 2000
+Wire Wire Line
+	8450 2000 8900 2000
+$Comp
+L power-board:ADS1115-Q1 U4
+U 1 1 5F08FE03
+P 5500 6450
+F 0 "U4" H 5500 7131 50  0000 C CNN
+F 1 "ADS1115-Q1" H 5500 7040 50  0000 C CNN
+F 2 "Package_SO:TSSOP-10_3x3mm_P0.5mm" H 5500 5950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ads1015.pdf" H 5450 5550 50  0001 C CNN
+F 4 "ADS1115BQDGSRQ1" H 5500 6450 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 5500 6450 50  0001 C CNN "Vendor"
+F 6 "296-45221-1-ND" H 5500 6450 50  0001 C CNN "Vendor Part Number"
+	1    5500 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 5950 4350 5950
+Connection ~ 4350 5950
+Wire Wire Line
+	5100 6450 4600 6450
+Text Label 4600 6450 0    50   ~ 0
+I_harv
+Text Label 4600 6550 0    50   ~ 0
+I_out
 $EndSCHEMATC

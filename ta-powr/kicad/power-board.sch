@@ -394,26 +394,18 @@ Text Label 900  2450 0    50   ~ 0
 sda
 Text Label 1150 2250 0    50   ~ 0
 adc_int
-Text Notes 1600 1350 0    50   ~ 0
-pins 1-6 still available
 NoConn ~ 1750 1200
 NoConn ~ 1650 1200
 NoConn ~ 1550 1200
-NoConn ~ 1450 1200
 NoConn ~ 1350 1200
 Wire Wire Line
 	1350 1150 1350 1200
-Wire Wire Line
-	1450 1150 1450 1200
 Wire Wire Line
 	1550 1150 1550 1200
 Wire Wire Line
 	1650 1150 1650 1200
 Wire Wire Line
 	1750 1150 1750 1200
-NoConn ~ 1250 1200
-Wire Wire Line
-	1250 1150 1250 1200
 $Comp
 L power-board:PinSocket_5 J6
 U 1 1 5F0FE717
@@ -435,4 +427,27 @@ Wire Wire Line
 	900  2450 1250 2450
 Wire Wire Line
 	1450 2250 1150 2250
+$Comp
+L power:GND #PWR?
+U 1 1 5F3EE243
+P 1450 1250
+AR Path="/5EF1389E/5F3EE243" Ref="#PWR?"  Part="1" 
+AR Path="/5F3EE243" Ref="#PWR05"  Part="1" 
+F 0 "#PWR05" H 1450 1000 50  0001 C CNN
+F 1 "GND" H 1455 1077 50  0000 C CNN
+F 2 "" H 1450 1250 50  0001 C CNN
+F 3 "" H 1450 1250 50  0001 C CNN
+	1    1450 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 1150 1450 1250
+Text Label 1050 1400 0    50   ~ 0
+Vcap
+Wire Wire Line
+	1250 1400 1050 1400
+Wire Wire Line
+	1250 1150 1250 1400
+Text Label 5700 2450 0    50   ~ 0
+Vcap
 $EndSCHEMATC

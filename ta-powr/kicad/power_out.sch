@@ -80,20 +80,6 @@ Wire Wire Line
 Wire Wire Line
 	8050 5300 8200 5300
 $Comp
-L power-board:TPS3806 U6
-U 1 1 5EF51EF0
-P 4450 4750
-F 0 "U6" H 4450 5215 50  0000 C CNN
-F 1 "TPS3806" H 4450 5124 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 4350 4750 50  0001 C CNN
-F 3 "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps3806i33-q1" H 4350 4750 50  0001 C CNN
-F 4 "TPS3806I33QDBVRQ1" H 4450 4750 50  0001 C CNN "Manufacturer Part Number"
-F 5 "Mouser" H 4450 4750 50  0001 C CNN "Vendor"
-F 6 "595-PS3806I33QDBVRQ1" H 4450 4750 50  0001 C CNN "Vendor Part Number"
-	1    4450 4750
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR09
 U 1 1 5EF5307D
 P 5150 5050
@@ -108,7 +94,7 @@ Wire Wire Line
 	4950 5000 5150 5000
 Wire Wire Line
 	5150 5000 5150 5050
-Text Label 3450 4550 0    50   ~ 0
+Text Label 3200 4550 0    50   ~ 0
 Vcap_loc
 $Comp
 L Device:R_US R12
@@ -128,7 +114,6 @@ Wire Wire Line
 	4950 4750 5150 4750
 Wire Wire Line
 	5150 4750 5150 4500
-Connection ~ 3900 4550
 Wire Wire Line
 	3900 4550 3950 4550
 Wire Wire Line
@@ -138,74 +123,62 @@ Wire Wire Line
 $Comp
 L Device:R_US R4
 U 1 1 5F053DA5
-P 3200 4700
-F 0 "R4" H 3268 4746 50  0000 L CNN
-F 1 "330k" H 3268 4655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3240 4690 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603FT453K/RMCF0603FT453KCT-ND/2418067" H 3200 4700 50  0001 C CNN
-F 4 "RNCF0603DTE330K" H 3200 4700 50  0001 C CNN "Manufacturer Part Number"
-F 5 "Digikey" H 3200 4700 50  0001 C CNN "Vendor"
-F 6 "RNCF0603DTE330KCT-ND" H 3200 4700 50  0001 C CNN "Vendor Part Number"
-	1    3200 4700
+P 3100 4700
+F 0 "R4" H 3168 4746 50  0000 L CNN
+F 1 "330k" H 3168 4655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3140 4690 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603FT453K/RMCF0603FT453KCT-ND/2418067" H 3100 4700 50  0001 C CNN
+F 4 "RNCF0603DTE330K" H 3100 4700 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 3100 4700 50  0001 C CNN "Vendor"
+F 6 "RNCF0603DTE330KCT-ND" H 3100 4700 50  0001 C CNN "Vendor Part Number"
+	1    3100 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R5
 U 1 1 5F054A6B
-P 3200 5050
-F 0 "R5" H 3268 5096 50  0000 L CNN
-F 1 "453k" H 3268 5005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3240 5040 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603FT453K/RMCF0603FT453KCT-ND/2418067" H 3200 5050 50  0001 C CNN
-F 4 "RMCF0603FT453K" H 3200 5050 50  0001 C CNN "Manufacturer Part Number"
-F 5 "Digikey" H 3200 5050 50  0001 C CNN "Vendor"
-F 6 "RMCF0603FT453KCT-ND" H 3200 5050 50  0001 C CNN "Vendor Part Number"
-	1    3200 5050
+P 3100 5050
+F 0 "R5" H 3168 5096 50  0000 L CNN
+F 1 "453k" H 3168 5005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3140 5040 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603FT453K/RMCF0603FT453KCT-ND/2418067" H 3100 5050 50  0001 C CNN
+F 4 "RMCF0603FT453K" H 3100 5050 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 3100 5050 50  0001 C CNN "Vendor"
+F 6 "RMCF0603FT453KCT-ND" H 3100 5050 50  0001 C CNN "Vendor Part Number"
+	1    3100 5050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R6
 U 1 1 5F054DE9
-P 3200 5400
-F 0 "R6" H 3268 5446 50  0000 L CNN
-F 1 "237k" H 3268 5355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3240 5390 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 3200 5400 50  0001 C CNN
-F 4 "RMCF0603FT237K" H 3200 5400 50  0001 C CNN "Manufacturer Part Number"
-F 5 "Digikey" H 3200 5400 50  0001 C CNN "Vendor"
-F 6 "RMCF0603FT237KCT-ND" H 3200 5400 50  0001 C CNN "Vendor Part Number"
-	1    3200 5400
+P 3100 5400
+F 0 "R6" H 3168 5446 50  0000 L CNN
+F 1 "237k" H 3168 5355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3140 5390 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 3100 5400 50  0001 C CNN
+F 4 "RMCF0603FT237K" H 3100 5400 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Digikey" H 3100 5400 50  0001 C CNN "Vendor"
+F 6 "RMCF0603FT237KCT-ND" H 3100 5400 50  0001 C CNN "Vendor Part Number"
+	1    3100 5400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3200 4550 3900 4550
+	3100 4850 3100 4900
 Wire Wire Line
-	3200 4850 3200 4900
-Wire Wire Line
-	3200 5200 3200 5250
+	3100 5200 3100 5250
 $Comp
 L power:GND #PWR02
 U 1 1 5F057F66
-P 3200 5700
-F 0 "#PWR02" H 3200 5450 50  0001 C CNN
-F 1 "GND" H 3205 5527 50  0000 C CNN
-F 2 "" H 3200 5700 50  0001 C CNN
-F 3 "" H 3200 5700 50  0001 C CNN
-	1    3200 5700
+P 3100 5700
+F 0 "#PWR02" H 3100 5450 50  0001 C CNN
+F 1 "GND" H 3105 5527 50  0000 C CNN
+F 2 "" H 3100 5700 50  0001 C CNN
+F 3 "" H 3100 5700 50  0001 C CNN
+	1    3100 5700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3200 5700 3200 5550
-Wire Wire Line
-	3200 4900 3950 4900
-Wire Wire Line
-	3950 4900 3950 4750
-Connection ~ 3200 4900
-Wire Wire Line
-	3200 5250 3950 5250
-Wire Wire Line
-	3950 5250 3950 5000
-Connection ~ 3200 5250
+	3100 5700 3100 5550
 $Comp
 L Device:R_US R14
 U 1 1 5F05BEFE
@@ -467,7 +440,7 @@ $Comp
 L Device:C C9
 U 1 1 5F0D2DB1
 P 5450 2150
-F 0 "C9" H 5700 1950 50  0000 L CNN
+F 0 "C9" H 5600 2200 50  0000 L CNN
 F 1 "10uF" H 5565 2105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5488 2000 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 5450 2150 50  0001 C CNN
@@ -938,4 +911,141 @@ F 3 "" H 8700 2550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8700 2400 8700 2550
+$Comp
+L Device:C C18
+U 1 1 5F4002ED
+P 1550 4800
+F 0 "C18" H 1665 4846 50  0000 L CNN
+F 1 "100nF" H 1665 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1588 4650 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 1550 4800 50  0001 C CNN
+F 4 "399-17574-1-ND" H 1550 4800 50  0001 C CNN "Vendor Part Number"
+F 5 "C0603C104K8RACAUTO" H 1550 4800 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Digikey" H 1550 4800 50  0001 C CNN "Vendor"
+	1    1550 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 5000 3950 5200
+$Comp
+L power:GND #PWR014
+U 1 1 5F417AFD
+P 1550 5000
+F 0 "#PWR014" H 1550 4750 50  0001 C CNN
+F 1 "GND" H 1555 4827 50  0000 C CNN
+F 2 "" H 1550 5000 50  0001 C CNN
+F 3 "" H 1550 5000 50  0001 C CNN
+	1    1550 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 4950 1550 5000
+Connection ~ 3100 4900
+$Comp
+L power-board:TPS3806 U6
+U 1 1 5EF51EF0
+P 4450 4750
+F 0 "U6" H 4450 5215 50  0000 C CNN
+F 1 "TPS3806" H 4450 5124 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 4350 4750 50  0001 C CNN
+F 3 "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps3806i33-q1" H 4350 4750 50  0001 C CNN
+F 4 "TPS3806I33QDBVRQ1" H 4450 4750 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Mouser" H 4450 4750 50  0001 C CNN "Vendor"
+F 6 "595-PS3806I33QDBVRQ1" H 4450 4750 50  0001 C CNN "Vendor Part Number"
+	1    4450 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 4550 3800 4550
+Connection ~ 3900 4550
+Wire Wire Line
+	3950 4900 3950 4750
+Wire Wire Line
+	3100 4900 3700 4900
+Connection ~ 3100 5200
+$Comp
+L Device:C C19
+U 1 1 5F444750
+P 2050 4800
+F 0 "C19" H 2165 4846 50  0000 L CNN
+F 1 "100nF" H 2165 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2088 4650 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 2050 4800 50  0001 C CNN
+F 4 "399-17574-1-ND" H 2050 4800 50  0001 C CNN "Vendor Part Number"
+F 5 "C0603C104K8RACAUTO" H 2050 4800 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Digikey" H 2050 4800 50  0001 C CNN "Vendor"
+	1    2050 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR026
+U 1 1 5F444756
+P 2050 5000
+F 0 "#PWR026" H 2050 4750 50  0001 C CNN
+F 1 "GND" H 2055 4827 50  0000 C CNN
+F 2 "" H 2050 5000 50  0001 C CNN
+F 3 "" H 2050 5000 50  0001 C CNN
+	1    2050 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 4950 2050 5000
+$Comp
+L Device:C C20
+U 1 1 5F448467
+P 2500 4800
+F 0 "C20" H 2615 4846 50  0000 L CNN
+F 1 "100nF" H 2615 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2538 4650 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 2500 4800 50  0001 C CNN
+F 4 "399-17574-1-ND" H 2500 4800 50  0001 C CNN "Vendor Part Number"
+F 5 "C0603C104K8RACAUTO" H 2500 4800 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Digikey" H 2500 4800 50  0001 C CNN "Vendor"
+	1    2500 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR027
+U 1 1 5F44846D
+P 2500 5000
+F 0 "#PWR027" H 2500 4750 50  0001 C CNN
+F 1 "GND" H 2505 4827 50  0000 C CNN
+F 2 "" H 2500 5000 50  0001 C CNN
+F 3 "" H 2500 5000 50  0001 C CNN
+	1    2500 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 4950 2500 5000
+Wire Wire Line
+	1550 4650 1550 4250
+Wire Wire Line
+	1550 4250 3800 4250
+Wire Wire Line
+	3800 4250 3800 4550
+Connection ~ 3800 4550
+Wire Wire Line
+	3800 4550 3900 4550
+Wire Wire Line
+	2050 4650 2050 4350
+Wire Wire Line
+	2050 4350 3700 4350
+Wire Wire Line
+	3700 4350 3700 4900
+Connection ~ 3700 4900
+Wire Wire Line
+	3700 4900 3950 4900
+Wire Wire Line
+	2500 4650 2500 4450
+Wire Wire Line
+	2500 4450 3600 4450
+Wire Wire Line
+	3600 4450 3600 5200
+Wire Wire Line
+	3100 5200 3600 5200
+Connection ~ 3600 5200
+Wire Wire Line
+	3600 5200 3950 5200
+Text Notes 1700 5400 0    50   ~ 0
+Place right next\nto pins
 $EndSCHEMATC
