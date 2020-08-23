@@ -1048,4 +1048,46 @@ Wire Wire Line
 	3600 5200 3950 5200
 Text Notes 1700 5400 0    50   ~ 0
 Place right next\nto pins
+$Comp
+L Device:C C23
+U 1 1 5F45020A
+P 6250 2150
+F 0 "C23" H 6365 2196 50  0000 L CNN
+F 1 "100uF" H 6365 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 6288 2000 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EE70J107ME15-01.pdf" H 6250 2150 50  0001 C CNN
+F 4 "Digikey" H 6250 2150 50  0001 C CNN "Vendor"
+F 5 "GRM32EE70J107ME15L" H 6250 2150 50  0001 C CNN "Manufacturer Part Number"
+F 6 "490-10534-1-ND" H 6250 2150 50  0001 C CNN "Vendor Part Number"
+F 7 "490-10534-1-ND" H 6250 2150 50  0001 C CNN "Vendor part number"
+	1    6250 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 2300 6250 2300
+Connection ~ 5850 2300
+Wire Wire Line
+	5850 2000 6250 2000
+Connection ~ 5850 2000
+Wire Wire Line
+	6250 2000 6750 2000
+Connection ~ 6250 2000
+Wire Wire Line
+	6250 2300 6750 2300
+Connection ~ 6250 2300
+$Comp
+L Device:C C24
+U 1 1 5F4764A8
+P 6750 2150
+F 0 "C24" H 6865 2196 50  0000 L CNN
+F 1 "100uF" H 6865 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 6788 2000 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EE70J107ME15-01.pdf" H 6750 2150 50  0001 C CNN
+F 4 "Digikey" H 6750 2150 50  0001 C CNN "Vendor"
+F 5 "GRM32EE70J107ME15L" H 6750 2150 50  0001 C CNN "Manufacturer Part Number"
+F 6 "490-10534-1-ND" H 6750 2150 50  0001 C CNN "Vendor Part Number"
+F 7 "490-10534-1-ND" H 6750 2150 50  0001 C CNN "Vendor part number"
+	1    6750 2150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
