@@ -1,6 +1,6 @@
 label,count,id,mouser,url,description
 FB1,1,BLM18KG102SZ1D,81-BLM18KG102SZ1D,https://componentsearchengine.com/ga/part.php?partID=986569,Ferrite bead; 1 kOhm impedance; 1A max. DC current; 25%; -55 - +125 C
-R9; R13; R14; R15; R16; R17; R18; R19; R20,9,MCT06030C1000FP500,594-MCT06030C1000FP5,https://componentsearchengine.com/ga/part.php?partID=275011,100 Ohm +/- 1%; 75 V; 125 mW; 50 PPM/C; -55 - +125 C
+R9,1,MCT06030C1000FP500,594-MCT06030C1000FP5,https://componentsearchengine.com/ga/part.php?partID=275011,100 Ohm +/- 1%; 75 V; 125 mW; 50 PPM/C; -55 - +125 C
 R1; R2; R3; R4; R5; R6; R8,7,MCT06030C1001FP500,594-MCT06030C1001FP5,https://componentsearchengine.com/ga/part.php?partID=344706,1 kOhm +/- 1 %; 75 V; 125 mW; 50 PPM/C; -55 C - + 125 C
 R12,1,MCT06030C1501FP500,594-MCT06030C1501FP5,https://componentsearchengine.com/ga/part.php?partID=358101,1.5 kOhm +/- 1%; 75 V; 125 mW; 50 PPM/C; -55 C - + 125 C
 R11,1,MCT06030C6801FP500,594-MCT06030C6801FP5,https://componentsearchengine.com/ga/part.php?partID=817124,6.8 kOhm +/- 1%; 75 V; 125 mW; 50 PPM/C; -55 C - +125 C
@@ -15,10 +15,9 @@ C20,1,CC0603KRX7R6BB224,603-CC603KRX7R6BB224,https://componentsearchengine.com/g
 C4; C17; C18,3,0603ZC105KAT2A,581-0603ZC105KAT2A,https://componentsearchengine.com/ga/part.php?partID=562505,1 uF +/- 10%; 10 VDC; X7R; -55 - +125 C
 C2,1,GRM188R71A225KE15D,81-GRM188R71A225KE15,https://componentsearchengine.com/ga/part.php?partID=284939,2.2 uF +/- 10%; 10 VDC; X7R; -55 - +125 C
 LED1; LED2,2,LG Q396-PS-35,720-LGQ396A3964,https://componentsearchengine.com/ga/part.php?partID=326177,Green LED (573 nm); If 20 mA; Vf 2.4 V; -30 - +85 C
-Q1,1,FDY300NZ,512-FDY300NZ,https://componentsearchengine.com/part/229011490/model/download,MOSFET for NRST; 1 N-channel; Vds 20 V; Id 600 mA; Vgs 12 V; Qg 1.1 nC; -55 - +150 C
 Y1,1,FOX924B-27,559-FOX924B-27,https://componentsearchengine.com/ga/part.php?partID=323443,TCXO oscillator; 27 MHz; 3.3 V; 2.5 PPM; 15 pF; 6 mA; -30 - +85 C
 IC1,1,CC1110F32RHHR,595-CC1110F32RHHR,https://componentsearchengine.com/ga/part.php?partID=276680,MCU
 IC2,1,F2972NEGK,972-F2972NEGK,https://componentsearchengine.com/ga/part.php?partID=1440270,RF Switch
 IC4,1,RFFM6404TR13,772-RFFM6404TR13,https://componentsearchengine.com/ga/part.php?partID=11614616,RF Front End
-IC3,1,STA0693A,None,None,SAW Filter
+IC3,1,STA0693A,None,http://sawtron.com/portfolio/rf-139-999mhz/,SAW Filter
 J4,1,A-1JB,523-A-1JB,https://componentsearchengine.com/ga/part.php?partID=1102502,50 Ohm impedance; 6 GHz max. freq.; Straight; -40 - +155 C
