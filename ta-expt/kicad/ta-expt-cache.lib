@@ -309,39 +309,6 @@ X 2 2 0 -100 200 R 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# ta-expt_FDY300NZ
-#
-DEF ta-expt_FDY300NZ Q 0 30 Y Y 1 F N
-F0 "Q" 450 150 50 H V L CNN
-F1 "ta-expt_FDY300NZ" 450 50 50 H V L CNN
-F2 "SOTFL50P160X78-3N" 450 -50 50 H I L CNN
-F3 "https://www.onsemi.com/pub/Collateral/FDY300NZ-D.pdf" 450 -150 50 H I L CNN
-F4 "Trans MOSFET N-CH 20V 0.6A 3-Pin SC-89" 450 -250 50 H I L CNN "Description"
-F5 "0.78" 450 -350 50 H I L CNN "Height"
-F6 "ON Semiconductor" 450 -450 50 H I L CNN "Manufacturer_Name"
-F7 "FDY300NZ" 450 -550 50 H I L CNN "Manufacturer_Part_Number"
-F8 "FDY300NZ" 450 -650 50 H I L CNN "Arrow Part Number"
-F9 "https://www.arrow.com/en/products/fdy300nz/on-semiconductor" 450 -750 50 H I L CNN "Arrow Price/Stock"
-F10 "512-FDY300NZ" 450 -850 50 H I L CNN "Mouser Part Number"
-F11 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FDY300NZ?qs=QGk6feVlqMK1iUZo3Em7Lw%3D%3D" 450 -950 50 H I L CNN "Mouser Price/Stock"
-DRAW
-C 250 100 150 0 1 10 N
-P 2 0 1 6 230 -20 230 20 N
-P 2 0 1 6 230 0 300 0 N
-P 2 0 1 6 230 80 230 120 N
-P 2 0 1 6 230 220 230 180 N
-P 2 0 1 6 300 100 230 100 N
-P 2 0 1 6 300 100 300 -100 N
-P 2 0 1 6 300 200 230 200 N
-P 2 0 1 6 300 200 300 300 N
-P 3 0 1 6 100 0 200 0 200 200 N
-P 4 0 1 10 230 100 270 120 270 80 230 100 F
-X ~ 1 0 0 100 R 50 50 0 0 P
-X ~ 2 300 -200 100 U 50 50 0 0 P
-X ~ 3 300 400 100 D 50 50 0 0 P
-ENDDRAW
-ENDDEF
-#
 # ta-expt_GRM1857U1A103JA44D
 #
 DEF ta-expt_GRM1857U1A103JA44D C 0 30 Y Y 1 F N

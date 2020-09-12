@@ -144,25 +144,6 @@ $EndComp
 Text Label 4150 5500 0    50   ~ 0
 VDD_FILT
 $Comp
-L ta-expt:FDY300NZ Q2
-U 1 1 5F096B89
-P 2500 6300
-F 0 "Q2" H 2930 6446 50  0000 L CNN
-F 1 "FDY300NZ" H 2930 6355 50  0000 L CNN
-F 2 "ta-expt:SOTFL50P160X78-3N" H 2950 6250 50  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/FDY300NZ-D.pdf" H 2950 6150 50  0001 L CNN
-F 4 "Trans MOSFET N-CH 20V 0.6A 3-Pin SC-89" H 2950 6050 50  0001 L CNN "Description"
-F 5 "0.78" H 2950 5950 50  0001 L CNN "Height"
-F 6 "ON Semiconductor" H 2950 5850 50  0001 L CNN "Manufacturer_Name"
-F 7 "FDY300NZ" H 2950 5750 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "FDY300NZ" H 2950 5650 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/fdy300nz/on-semiconductor" H 2950 5550 50  0001 L CNN "Arrow Price/Stock"
-F 10 "512-FDY300NZ" H 2950 5450 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FDY300NZ?qs=QGk6feVlqMK1iUZo3Em7Lw%3D%3D" H 2950 5350 50  0001 L CNN "Mouser Price/Stock"
-	1    2500 6300
-	1    0    0    -1  
-$EndComp
-$Comp
 L ta-expt:MCT06030C1002FP500 R3
 U 1 1 5F098B01
 P 3800 6600
@@ -217,12 +198,8 @@ Wire Wire Line
 	3600 6600 3700 6600
 Connection ~ 3700 6600
 Wire Wire Line
-	2800 6500 2800 6600
-Wire Wire Line
 	2800 6600 2900 6600
-Text Label 2800 5900 0    50   ~ 0
-VDD_FILT
-Text Label 2500 6300 2    50   ~ 0
+Text Label 2800 6600 2    50   ~ 0
 BOOT0
 $Comp
 L ta-expt:597D158X9004R2T C15
@@ -791,7 +768,7 @@ USART1_CTS
 Text Label 4950 950  1    50   ~ 0
 USART1_CK
 Text Label 4850 950  1    50   ~ 0
-RST
+NRST
 NoConn ~ 5750 950 
 NoConn ~ 5650 950 
 NoConn ~ 5550 950 
@@ -1062,40 +1039,6 @@ Wire Wire Line
 Connection ~ 2250 7300
 Text Label 2200 7300 2    50   ~ 0
 VDD_FILT
-$Comp
-L ta-expt:FDY300NZ Q1
-U 1 1 5F22AD93
-P 1200 1850
-F 0 "Q1" H 1630 1996 50  0000 L CNN
-F 1 "FDY300NZ" H 1630 1905 50  0000 L CNN
-F 2 "ta-expt:SOTFL50P160X78-3N" H 1650 1800 50  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/FDY300NZ-D.pdf" H 1650 1700 50  0001 L CNN
-F 4 "Trans MOSFET N-CH 20V 0.6A 3-Pin SC-89" H 1650 1600 50  0001 L CNN "Description"
-F 5 "0.78" H 1650 1500 50  0001 L CNN "Height"
-F 6 "ON Semiconductor" H 1650 1400 50  0001 L CNN "Manufacturer_Name"
-F 7 "FDY300NZ" H 1650 1300 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "FDY300NZ" H 1650 1200 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/fdy300nz/on-semiconductor" H 1650 1100 50  0001 L CNN "Arrow Price/Stock"
-F 10 "512-FDY300NZ" H 1650 1000 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FDY300NZ?qs=QGk6feVlqMK1iUZo3Em7Lw%3D%3D" H 1650 900 50  0001 L CNN "Mouser Price/Stock"
-	1    1200 1850
-	1    0    0    -1  
-$EndComp
-Text Label 1500 1450 0    50   ~ 0
-NRST
-$Comp
-L power:GND #PWR04
-U 1 1 5F22E989
-P 1500 2050
-F 0 "#PWR04" H 1500 1800 50  0001 C CNN
-F 1 "GND" H 1505 1877 50  0000 C CNN
-F 2 "" H 1500 2050 50  0001 C CNN
-F 3 "" H 1500 2050 50  0001 C CNN
-	1    1500 2050
-	1    0    0    -1  
-$EndComp
-Text Label 1200 1850 2    50   ~ 0
-RST
 Wire Wire Line
 	9750 1750 9750 1350
 Wire Wire Line
@@ -1380,4 +1323,6 @@ NoConn ~ 8600 6250
 Wire Wire Line
 	8750 6050 8600 6050
 NoConn ~ 4450 7550
+Text Notes 3150 3900 0    50   ~ 0
+(Internally pulled up)
 $EndSCHEMATC
