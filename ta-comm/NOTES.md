@@ -308,10 +308,24 @@ Create the following in the Edge.Cuts layer:
   * Thermal spoke width: 0.254 mm
 
 * Silkscreen labels (Width: 0.5 mm; Height: 0.5 mm; Thickness: 0.1 mm):
-  * 
 
+## Generating Gerbers
 
-
-
-
-
+* Ensure that fill zones have been redrawn by running DRC (the bug icon)
+* Choose File > Plot... from Pcbnew
+  * Output directory: ../gerbers/
+  * Included Layers: F.Cu, In1.Cu, In2.Cu, B.Cu, F.Paste, B.Paste, F.SilkS,
+    B.SilkS, F.Mask, B.Mask, Edge.Cuts
+  * General Options: Plot footprint values, Plot footprint references, Exclude
+    PCB edge layer from other layers, Exclude pads from silkscreen
+  * Gerber Options: Use Protel filename extensions
+* Choose "Plot"
+* Choose "Generate Drill File"
+  * Output folder: ../gerbers/
+  * Drill File Format: Excellon, PTH and NPTH in single file, Oval Holes Drill
+    Mode: Use route command (recommended)
+  * Map File Format: PostScript
+  * Dill Origin: Absolute
+  * Drill Units: Inches
+  * Zeros Format: Decimal format
+* Choose "Generate Drill File"

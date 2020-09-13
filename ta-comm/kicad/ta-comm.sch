@@ -501,8 +501,6 @@ F 11 "http://uk.rs-online.com/web/p/products/1885949" H 3700 900 50  0001 L CNN 
 $EndComp
 Text Label 4850 1750 0    50   ~ 0
 VDD_FILT
-Text Label 3350 2150 2    50   ~ 0
-RST
 Wire Wire Line
 	2450 1750 2150 1750
 Connection ~ 2150 1750
@@ -1779,8 +1777,6 @@ Text Label 4700 7400 3    50   ~ 0
 RTS1
 NoConn ~ 3700 7400
 NoConn ~ 3800 7400
-Text Label 4100 7400 3    50   ~ 0
-RST
 $Comp
 L Connector_Generic:Conn_01x04 J4
 U 1 1 5F2670C0
@@ -1853,36 +1849,6 @@ F 3 "" H 10000 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ta-comm:FDY300NZ Q1
-U 1 1 5F33C612
-P 3350 2150
-F 0 "Q1" H 3780 2296 50  0000 L CNN
-F 1 "FDY300NZ" H 3780 2205 50  0000 L CNN
-F 2 "ta-comm:SOTFL50P160X78-3N" H 3800 2100 50  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/FDY300NZ-D.pdf" H 3800 2000 50  0001 L CNN
-F 4 "Trans MOSFET N-CH 20V 0.6A 3-Pin SC-89" H 3800 1900 50  0001 L CNN "Description"
-F 5 "0.78" H 3800 1800 50  0001 L CNN "Height"
-F 6 "ON Semiconductor" H 3800 1700 50  0001 L CNN "Manufacturer_Name"
-F 7 "FDY300NZ" H 3800 1600 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "FDY300NZ" H 3800 1500 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/fdy300nz/on-semiconductor" H 3800 1400 50  0001 L CNN "Arrow Price/Stock"
-F 10 "512-FDY300NZ" H 3800 1300 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FDY300NZ?qs=QGk6feVlqMK1iUZo3Em7Lw%3D%3D" H 3800 1200 50  0001 L CNN "Mouser Price/Stock"
-	1    3350 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR051
-U 1 1 5F361D50
-P 3650 2350
-F 0 "#PWR051" H 3650 2100 50  0001 C CNN
-F 1 "GND" H 3655 2177 50  0000 C CNN
-F 2 "" H 3650 2350 50  0001 C CNN
-F 3 "" H 3650 2350 50  0001 C CNN
-	1    3650 2350
-	1    0    0    -1  
-$EndComp
-$Comp
 L ta-comm:MCT06030C3302FP500 R7
 U 1 1 5EA36BBC
 P 4850 1750
@@ -1900,8 +1866,19 @@ F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=594-MCT06030C3302FP5" H 5
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4150 1750 3650 1750
-Wire Wire Line
 	3150 1750 3650 1750
+Wire Wire Line
+	4150 1750 3650 1750
 Connection ~ 3650 1750
+Wire Wire Line
+	3650 1750 3650 1850
+Text Label 3650 1850 2    50   ~ 0
+NRST
+Text Label 4100 7400 3    50   ~ 0
+NRST
+Connection ~ 4700 5300
+Text Label 4700 5200 0    50   ~ 0
+VDD_FILT
+Wire Wire Line
+	4700 5200 4700 5300
 $EndSCHEMATC
