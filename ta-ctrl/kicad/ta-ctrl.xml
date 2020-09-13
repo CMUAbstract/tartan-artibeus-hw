@@ -1,0 +1,1365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\emily\Code\ABSTRACT\artibeus\tartan-artibeus-hw\ta-ctrl\kicad\ta-ctrl.sch</source>
+    <date>9/1/2020 2:45:34 PM</date>
+    <tool>Eeschema (5.1.5)-3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Tartan Artibeus Control Board</title>
+        <company>Carnegie Mellon University -- Emily Ruppel</company>
+        <rev>v0</rev>
+        <date>2020-07-21</date>
+        <source>ta-ctrl.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Sensors/" tstamps="/5F1AF90A/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>sensors.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/MCU/" tstamps="/5F1ADB0C/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>mcu.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>PinSocket_16_ctrl</value>
+      <footprint>ta-ctrl:PinSocket_1x16_TartanArtibeus_ctrl_cpy</footprint>
+      <libsource lib="ta-ctrl" part="PinSocket_16_ctrl" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F175D9E</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>PinSocket_4_ctrl</value>
+      <footprint>ta-ctrl:PinSocket_1x4_TartanArtibeus_ctrl_cpy</footprint>
+      <libsource lib="ta-ctrl" part="PinSocket_4_ctrl" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F1784FF</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>PinSocket_4_ctrl</value>
+      <footprint>ta-ctrl:PinSocket_1x4_TartanArtibeus_ctrl_cpy</footprint>
+      <libsource lib="ta-ctrl" part="PinSocket_4_ctrl" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F178AFE</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>PinSocket_5_ctrl</value>
+      <footprint>ta-ctrl:PinSocket_1x5_right_TartanArtibeus_ctrl_cpy</footprint>
+      <libsource lib="ta-ctrl" part="PinSocket_5_ctrl" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F179443</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>MountingHole_ctrl</value>
+      <footprint>ta-ctrl:MountingHoles_TartanArtibeus_ctrl_cpy</footprint>
+      <libsource lib="ta-ctrl" part="MountingHole_ctrl" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F17A8CA</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>PinSocket_16_ctrl</value>
+      <footprint>ta-ctrl:PinSocket_1x16_TartanArtibeus_ctrl_cpy</footprint>
+      <libsource lib="ta-ctrl" part="PinSocket_16_ctrl" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F176777</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LSF0204</value>
+      <footprint>ta-ctrl:TSSOP-14</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/lsf0204-q1.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&amp;ts=1595462922658</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">LSF0204QPWRQ1</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">296-51425-1-ND</field>
+      </fields>
+      <libsource lib="ta-ctrl" part="LSF0204" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F1A046A</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>LSF0204</value>
+      <footprint>ta-ctrl:TSSOP-14</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/lsf0204-q1.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&amp;ts=1595462922658</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">LSF0204QPWRQ1</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">296-51425-1-ND</field>
+      </fields>
+      <libsource lib="ta-ctrl" part="LSF0204" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F1A196A</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LSF0204</value>
+      <footprint>ta-ctrl:TSSOP-14</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/lsf0204-q1.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&amp;ts=1595462922658</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">LSF0204QPWRQ1</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">296-51425-1-ND</field>
+      </fields>
+      <libsource lib="ta-ctrl" part="LSF0204" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F1A53CC</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>ta-ctrl:R_0603_1608Metric_ctrl_cpy</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/vishay-dale/CRCW060310K0FKEAHP/541-10-0KSCT-ND/2222780</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">CRCW060310K0FKEAHP</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">541-10.0KSCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2D4BDC</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>ta-ctrl:R_0603_1608Metric_ctrl_cpy</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/vishay-dale/CRCW060310K0FKEAHP/541-10-0KSCT-ND/2222780</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">CRCW060310K0FKEAHP</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">541-10.0KSCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2D5FF2</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>DNP</value>
+      <footprint>ta-ctrl:R_0603_1608Metric_ctrl_cpy</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F569929</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>DNP</value>
+      <footprint>ta-ctrl:R_0603_1608Metric_ctrl_cpy</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F56B5A3</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>DNP</value>
+      <footprint>ta-ctrl:R_0603_1608Metric_ctrl_cpy</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F578971</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>DNP</value>
+      <footprint>ta-ctrl:R_0603_1608Metric_ctrl_cpy</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F585EC7</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>DNP</value>
+      <footprint>ta-ctrl:R_0603_1608Metric_ctrl_cpy</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F61DDA3</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>DNP</value>
+      <footprint>ta-ctrl:R_0603_1608Metric_ctrl_cpy</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F61DDA9</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>DNP</value>
+      <footprint>ta-ctrl:R_0603_1608Metric_ctrl_cpy</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F61DDAF</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>DNP</value>
+      <footprint>ta-ctrl:R_0603_1608Metric_ctrl_cpy</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F61DDB5</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>DNP</value>
+      <footprint>ta-ctrl:R_0603_1608Metric_ctrl_cpy</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F62D51D</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>DNP</value>
+      <footprint>ta-ctrl:R_0603_1608Metric_ctrl_cpy</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F62D523</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>DNP</value>
+      <footprint>ta-ctrl:R_0603_1608Metric_ctrl_cpy</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F62D529</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>DNP</value>
+      <footprint>ta-ctrl:R_0603_1608Metric_ctrl_cpy</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F62D52F</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>PinSocket_5_ctrl</value>
+      <footprint>ta-ctrl:PinSocket_1x5_left_TartanArtibeus_ctrl_cpy</footprint>
+      <libsource lib="ta-ctrl" part="PinSocket_5_ctrl" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7A05A6</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>3.3V</value>
+      <footprint>ta-ctrl:D_SOD-323F</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BZX84J_SER.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">BZX84J-B3V3,115</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">1727-1671-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F1DB801</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>HT-GPS200.20</value>
+      <footprint>ta-ctrl:HT-GPS200.20</footprint>
+      <libsource lib="ta-ctrl" part="HT-GPS200.20" description=""/>
+      <sheetpath names="/Sensors/" tstamps="/5F1AF90A/"/>
+      <tstamp>5F242093</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>LSM9DS1</value>
+      <footprint>ta-ctrl:LSM9DS1TRL</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/1e/3f/2a/d6/25/eb/48/46/DM00103319.pdf/files/DM00103319.pdf/jcr:content/translations/en.DM00103319.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">LSM9DS1TR</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">497-14946-1-ND</field>
+      </fields>
+      <libsource lib="Sensor_Motion" part="LSM9DS1" description="I2C SPI 9 axis IMU accelerometer gyroscope magnetometer"/>
+      <sheetpath names="/Sensors/" tstamps="/5F1AF90A/"/>
+      <tstamp>5F246320</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>ta-ctrl:C_0603_1608Metric_ctrl_cpy</footprint>
+      <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">C1608X7S0J106M080AC</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">445-9104-1-ND</field>
+      </fields>
+      <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
+      <sheetpath names="/Sensors/" tstamps="/5F1AF90A/"/>
+      <tstamp>5F24AD8F</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>ta-ctrl:C_0603_1608Metric_ctrl_cpy</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">C0603C104K8RACAUTO</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">399-17574-1-ND</field>
+      </fields>
+      <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
+      <sheetpath names="/Sensors/" tstamps="/5F1AF90A/"/>
+      <tstamp>5F24C58A</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10nF</value>
+      <footprint>ta-ctrl:C_0603_1608Metric_ctrl_cpy</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">C0603C103F3GACTU</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">399-8985-1-ND</field>
+      </fields>
+      <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
+      <sheetpath names="/Sensors/" tstamps="/5F1AF90A/"/>
+      <tstamp>5F24E692</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>ta-ctrl:C_0603_1608Metric_ctrl_cpy</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">C0603C104K8RACAUTO</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">399-17574-1-ND</field>
+      </fields>
+      <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
+      <sheetpath names="/Sensors/" tstamps="/5F1AF90A/"/>
+      <tstamp>5F24F8D4</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>ta-ctrl:R_0603_1608Metric_ctrl_cpy</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/vishay-dale/CRCW060310K0FKEAHP/541-10-0KSCT-ND/2222780</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">CRCW060310K0FKEAHP</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">541-10.0KSCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Sensors/" tstamps="/5F1AF90A/"/>
+      <tstamp>5F2B2546</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>ta-ctrl:R_0603_1608Metric_ctrl_cpy</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/vishay-dale/CRCW060310K0FKEAHP/541-10-0KSCT-ND/2222780</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">CRCW060310K0FKEAHP</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">541-10.0KSCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Sensors/" tstamps="/5F1AF90A/"/>
+      <tstamp>5F2B49B6</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>2.2uF</value>
+      <footprint>ta-ctrl:C_0603_1608Metric_ctrl_cpy</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">C0603C225K8RACTU</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">399-11681-1-ND</field>
+      </fields>
+      <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
+      <sheetpath names="/Sensors/" tstamps="/5F1AF90A/"/>
+      <tstamp>5F42F89E</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>DNP</value>
+      <footprint>ta-ctrl:R_0603_1608Metric_ctrl_cpy</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Sensors/" tstamps="/5F1AF90A/"/>
+      <tstamp>5F444CC6</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>DNP</value>
+      <footprint>ta-ctrl:R_0603_1608Metric_ctrl_cpy</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Sensors/" tstamps="/5F1AF90A/"/>
+      <tstamp>5F457441</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>DNP</value>
+      <footprint>ta-ctrl:R_0603_1608Metric_ctrl_cpy</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Sensors/" tstamps="/5F1AF90A/"/>
+      <tstamp>5F45D839</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>DNP</value>
+      <footprint>ta-ctrl:R_0603_1608Metric_ctrl_cpy</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Sensors/" tstamps="/5F1AF90A/"/>
+      <tstamp>5F2BE1E4</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>DNP</value>
+      <footprint>ta-ctrl:R_0603_1608Metric_ctrl_cpy</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Sensors/" tstamps="/5F1AF90A/"/>
+      <tstamp>5F2E260A</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>MSP430FR5994IPM</value>
+      <footprint>ta-ctrl:MSP430FR5994IPM</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/msp430fr5994.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&amp;ts=1595943774843</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">MSP430FR5994IPMR</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">296-45560-1-ND</field>
+      </fields>
+      <libsource lib="ta-ctrl" part="MSP430FR5994IPM" description=""/>
+      <sheetpath names="/MCU/" tstamps="/5F1ADB0C/"/>
+      <tstamp>5F18628C</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>ta-ctrl:C_0603_1608Metric_ctrl_cpy</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">C0603C104K8RACAUTO</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">399-17574-1-ND</field>
+      </fields>
+      <libsource lib="pspice" part="C" description="Capacitor symbol for simulation only"/>
+      <sheetpath names="/MCU/" tstamps="/5F1ADB0C/"/>
+      <tstamp>5F18BB04</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>ta-ctrl:C_0603_1608Metric_ctrl_cpy</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">C0603C104K8RACAUTO</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">399-17574-1-ND</field>
+      </fields>
+      <libsource lib="pspice" part="C" description="Capacitor symbol for simulation only"/>
+      <sheetpath names="/MCU/" tstamps="/5F1ADB0C/"/>
+      <tstamp>5F18C90D</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>ta-ctrl:C_0603_1608Metric_ctrl_cpy</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">C0603C104K8RACAUTO</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">399-17574-1-ND</field>
+      </fields>
+      <libsource lib="pspice" part="C" description="Capacitor symbol for simulation only"/>
+      <sheetpath names="/MCU/" tstamps="/5F1ADB0C/"/>
+      <tstamp>5F18CCD0</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>ta-ctrl:C_0603_1608Metric_ctrl_cpy</footprint>
+      <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">C1608X7S0J106M080AC</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">445-9104-1-ND</field>
+      </fields>
+      <libsource lib="pspice" part="C" description="Capacitor symbol for simulation only"/>
+      <sheetpath names="/MCU/" tstamps="/5F1ADB0C/"/>
+      <tstamp>5F18EA80</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>8pF</value>
+      <footprint>ta-ctrl:C_0402_1005Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1H8R0DA01-01.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">GRM1555C1H8R0DA01D</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">490-5867-1-ND</field>
+      </fields>
+      <libsource lib="pspice" part="C" description="Capacitor symbol for simulation only"/>
+      <sheetpath names="/MCU/" tstamps="/5F1ADB0C/"/>
+      <tstamp>5F189B82</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>8pF</value>
+      <footprint>ta-ctrl:C_0402_1005Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1H8R0DA01-01.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">GRM1555C1H8R0DA01D</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">490-5867-1-ND</field>
+      </fields>
+      <libsource lib="pspice" part="C" description="Capacitor symbol for simulation only"/>
+      <sheetpath names="/MCU/" tstamps="/5F1ADB0C/"/>
+      <tstamp>5F18B631</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>4pF</value>
+      <footprint>ta-ctrl:C_0402_1005Metric</footprint>
+      <datasheet>https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx?la=en-us</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">GJM1555C1H4R0BB01D</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">490-8100-1-ND</field>
+      </fields>
+      <libsource lib="pspice" part="C" description="Capacitor symbol for simulation only"/>
+      <sheetpath names="/MCU/" tstamps="/5F1ADB0C/"/>
+      <tstamp>5F191540</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>32.768kHz</value>
+      <footprint>ta-ctrl:ECS327934QSTR</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/122/ECX-34Q-938174.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">ECS-.327-6-34QCS-TR</field>
+        <field name="Vendor">Mouser</field>
+        <field name="Vendor Part Number">520-.327-6-34QCST</field>
+      </fields>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <sheetpath names="/MCU/" tstamps="/5F1ADB0C/"/>
+      <tstamp>5F1B1D55</tstamp>
+    </comp>
+    <comp ref="Y2">
+      <value>24MHz</value>
+      <footprint>ta-ctrl:ECX-1247</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/122/ECX-1247Q-1388650.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">ECS-240-10-47Q-CES-TR</field>
+        <field name="Vendor">Mouser</field>
+        <field name="Vendor Part Number">520-240-10-47Q-CEST</field>
+      </fields>
+      <libsource lib="Device" part="Crystal_GND24" description="Four pin crystal, GND on pins 2 and 4"/>
+      <sheetpath names="/MCU/" tstamps="/5F1ADB0C/"/>
+      <tstamp>5F1B3506</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>4pF</value>
+      <footprint>ta-ctrl:C_0402_1005Metric</footprint>
+      <datasheet>https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx?la=en-us</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">GJM1555C1H4R0BB01D</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">490-8100-1-ND</field>
+      </fields>
+      <libsource lib="pspice" part="C" description="Capacitor symbol for simulation only"/>
+      <sheetpath names="/MCU/" tstamps="/5F1ADB0C/"/>
+      <tstamp>5F191546</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND24">
+      <description>Four pin crystal, GND on pins 2 and 4</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Motion" part="LSM9DS1">
+      <description>I2C SPI 9 axis IMU accelerometer gyroscope magnetometer</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/1e/3f/2a/d6/25/eb/48/46/DM00103319.pdf/files/DM00103319.pdf/jcr:content/translations/en.DM00103319.pdf</docs>
+      <footprints>
+        <fp>LGA*3x3.5mm*P0.43mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LSM9DS1</field>
+        <field name="Footprint">Package_LGA:LGA-24L_3x3.5mm_P0.43mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDDIO" type="power_in"/>
+        <pin num="2" name="SCL/SPC" type="input"/>
+        <pin num="3" name="VDDIO" type="power_in"/>
+        <pin num="4" name="SDA/SDI/SDO" type="BiDi"/>
+        <pin num="5" name="SDO_A/G" type="output"/>
+        <pin num="6" name="SDO_M" type="output"/>
+        <pin num="7" name="CS_A/G" type="input"/>
+        <pin num="8" name="CS_M" type="input"/>
+        <pin num="9" name="DRDY_M" type="output"/>
+        <pin num="10" name="INT_M" type="output"/>
+        <pin num="11" name="INT1_A/G" type="output"/>
+        <pin num="12" name="INT2_A/G" type="output"/>
+        <pin num="13" name="DEN_A/G" type="input"/>
+        <pin num="14" name="RES" type="BiDi"/>
+        <pin num="15" name="RES" type="BiDi"/>
+        <pin num="16" name="RES" type="BiDi"/>
+        <pin num="17" name="RES" type="BiDi"/>
+        <pin num="18" name="RES" type="BiDi"/>
+        <pin num="19" name="GND" type="power_in"/>
+        <pin num="20" name="GND" type="power_in"/>
+        <pin num="21" name="CAP" type="passive"/>
+        <pin num="22" name="VDD" type="power_in"/>
+        <pin num="23" name="VDD" type="power_in"/>
+        <pin num="24" name="C1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pspice" part="CAP">
+      <aliases>
+        <alias>C</alias>
+      </aliases>
+      <description>Capacitor symbol for simulation only</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ta-ctrl" part="HT-GPS200.20">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HT-GPS200.20</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vcc" type="input"/>
+        <pin num="2" name="Vcc_ant" type="input"/>
+        <pin num="3" name="nRESET" type="input"/>
+        <pin num="4" name="Vbackup" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+        <pin num="6" name="GND" type="input"/>
+        <pin num="7" name="1PPS" type="output"/>
+        <pin num="8" name="RXD" type="BiDi"/>
+        <pin num="9" name="TXD" type="BiDi"/>
+        <pin num="10" name="NC" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="ta-ctrl" part="LSF0204">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LSF0204</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VREF_A" type="BiDi"/>
+        <pin num="2" name="A1" type="BiDi"/>
+        <pin num="3" name="A2" type="BiDi"/>
+        <pin num="4" name="A3" type="BiDi"/>
+        <pin num="5" name="A4" type="BiDi"/>
+        <pin num="6" name="NC" type="BiDi"/>
+        <pin num="7" name="GND" type="BiDi"/>
+        <pin num="8" name="EN" type="BiDi"/>
+        <pin num="9" name="NC" type="BiDi"/>
+        <pin num="10" name="B4" type="BiDi"/>
+        <pin num="11" name="B3" type="BiDi"/>
+        <pin num="12" name="B2" type="BiDi"/>
+        <pin num="13" name="B1" type="BiDi"/>
+        <pin num="14" name="VREF_B" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="ta-ctrl" part="MSP430FR5994IPM">
+      <footprints>
+        <fp>PM0064A_N</fp>
+        <fp>PM0064A_M</fp>
+        <fp>PM0064A_L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MSP430FR5994IPM</field>
+        <field name="Footprint">PM0064A_N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1-0_TA0-1_DMAE0_RTCCLK_A0_C0_VREF-_VeREF-" type="BiDi"/>
+        <pin num="2" name="P1-1_TA0-2_TA1CLK_COUT_A1_C1_VREF+_VeREF+" type="BiDi"/>
+        <pin num="3" name="P1-2_TA1-1_TA0CLK_COUT_A2_C2" type="BiDi"/>
+        <pin num="4" name="P3-0_A12_C12" type="BiDi"/>
+        <pin num="5" name="P3-1_A13_C13" type="BiDi"/>
+        <pin num="6" name="P3-2_A14_C14" type="BiDi"/>
+        <pin num="7" name="P3-3_A15_C15" type="BiDi"/>
+        <pin num="8" name="P4-7" type="BiDi"/>
+        <pin num="9" name="P7-0_UCB2SIMO_UCB2SDA" type="BiDi"/>
+        <pin num="10" name="P7-1_UCB2SOMI_UCB2SCL" type="BiDi"/>
+        <pin num="11" name="P8-0" type="BiDi"/>
+        <pin num="12" name="P1-3_TA1-2_UCB0STE_A3_C3" type="BiDi"/>
+        <pin num="13" name="P1-4_TB0-1_UCA0STE_A4_C4" type="BiDi"/>
+        <pin num="14" name="P1-5_TB0-2_UCA0CLK_A5_C5" type="BiDi"/>
+        <pin num="15" name="DVSS2" type="power_in"/>
+        <pin num="16" name="DVCC2" type="power_in"/>
+        <pin num="17" name="PJ-0_TDO_TB0OUTH_SMCLK_SRSCG1_C6" type="BiDi"/>
+        <pin num="18" name="PJ-1_TDI_TCLK_MCLK_SRSCG0_C7" type="BiDi"/>
+        <pin num="19" name="PJ-2_TMS_ACLK_SROSCOFF_C8" type="BiDi"/>
+        <pin num="20" name="PJ-3_TCK_SRCPUOFF_C9" type="BiDi"/>
+        <pin num="21" name="P7-2_UCB2CLK" type="BiDi"/>
+        <pin num="22" name="P7-3_UCB2STE_TA4-1" type="BiDi"/>
+        <pin num="23" name="P7-4__TA4-0_A16" type="BiDi"/>
+        <pin num="24" name="P4-0_A8" type="BiDi"/>
+        <pin num="25" name="P4-1_A9" type="BiDi"/>
+        <pin num="26" name="P4-2_A10" type="BiDi"/>
+        <pin num="27" name="P4-3_A11" type="BiDi"/>
+        <pin num="28" name="P2-5_TB0-0_UCA1TXD_UCA1SIMO" type="BiDi"/>
+        <pin num="29" name="P2-6_TB0-1_UCA1RXD_UCA1SOMI" type="BiDi"/>
+        <pin num="30" name="TEST_SBWTCK" type="input"/>
+        <pin num="31" name="RST_NMI_SBWTDIO_N" type="BiDi"/>
+        <pin num="32" name="P2-0_TB0-6_UCA0TXD_UCA0SIMO_TB0CLK_ACLK" type="BiDi"/>
+        <pin num="33" name="P2-1_TB0-0_UCA0RXD_UCA0SOMI" type="BiDi"/>
+        <pin num="34" name="P2-2_TB0-2_UCB0CLK" type="BiDi"/>
+        <pin num="35" name="P3-4_TB0-3_SMCLK" type="BiDi"/>
+        <pin num="36" name="P3-5_TB0-4_COUT" type="BiDi"/>
+        <pin num="37" name="P3-6_TB0-5" type="BiDi"/>
+        <pin num="38" name="P3-7_TB0-6" type="BiDi"/>
+        <pin num="39" name="P1-6_TB0-3_UCB0SIMO_UCB0SDA_TA0-0" type="BiDi"/>
+        <pin num="40" name="P1-7_TB0-4_UCB0SOMI_UCB0SCL_TA1-0" type="BiDi"/>
+        <pin num="41" name="P5-0_UCB1SIMO_UCB1SDA" type="BiDi"/>
+        <pin num="42" name="P5-1_UCB1SOMI_UCB1SCL" type="BiDi"/>
+        <pin num="43" name="P5-2_UCB1CLK_TA4CLK" type="BiDi"/>
+        <pin num="44" name="P5-3_UCB1STE" type="BiDi"/>
+        <pin num="45" name="P4-4_TB0-5" type="BiDi"/>
+        <pin num="46" name="P4-5" type="BiDi"/>
+        <pin num="47" name="P4-6" type="BiDi"/>
+        <pin num="48" name="DVSS1" type="power_in"/>
+        <pin num="49" name="DVCC1" type="power_in"/>
+        <pin num="50" name="P2-7" type="BiDi"/>
+        <pin num="51" name="P2-3_TA0-0_UCA1STE_A6_C10" type="BiDi"/>
+        <pin num="52" name="P2-4_TA1-0_UCA1CLK_A7_C11" type="BiDi"/>
+        <pin num="53" name="P5-4_UCA2TXD_UCA2SIMO_TB0OUTH" type="BiDi"/>
+        <pin num="54" name="P5-5_UCA2RXD_UCA2SOMI_ACLK" type="BiDi"/>
+        <pin num="55" name="P5-6_UCA2CLK_TA4-0_SMCLK" type="BiDi"/>
+        <pin num="56" name="P5-7_UCA2STE_TA4-1_MCLK" type="BiDi"/>
+        <pin num="57" name="AVSS3" type="power_in"/>
+        <pin num="58" name="PJ-6_HFXIN" type="BiDi"/>
+        <pin num="59" name="PJ-7_HFXOUT" type="BiDi"/>
+        <pin num="60" name="AVSS2" type="power_in"/>
+        <pin num="61" name="PJ-4_LFXIN" type="BiDi"/>
+        <pin num="62" name="PJ-5_LFXOUT" type="BiDi"/>
+        <pin num="63" name="AVSS1" type="power_in"/>
+        <pin num="64" name="AVCC1" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ta-ctrl" part="MountingHole_ctrl">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">MountingHole_ctrl</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ta-ctrl" part="PinSocket_16_ctrl">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PinSocket_16_ctrl</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="9" name="~" type="passive"/>
+        <pin num="10" name="~" type="passive"/>
+        <pin num="11" name="~" type="passive"/>
+        <pin num="12" name="~" type="passive"/>
+        <pin num="13" name="~" type="passive"/>
+        <pin num="14" name="~" type="passive"/>
+        <pin num="15" name="~" type="passive"/>
+        <pin num="16" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ta-ctrl" part="PinSocket_4_ctrl">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PinSocket_4_ctrl</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ta-ctrl" part="PinSocket_5_ctrl">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PinSocket_5_ctrl</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Sensor_Motion">
+      <uri>C:\KiCad\share\kicad\library/Sensor_Motion.lib</uri>
+    </library>
+    <library logical="pspice">
+      <uri>C:\KiCad\share\kicad\library/pspice.lib</uri>
+    </library>
+    <library logical="ta-ctrl">
+      <uri>C:\Users\emily\Code\ABSTRACT\artibeus\tartan-artibeus-hw\ta-ctrl\kicad/../components/ta-ctrl.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/GNSS_nRST">
+      <node ref="R19" pin="2"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U3" pin="2"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="2" name="/GNSS_TX_l">
+      <node ref="U6" pin="54"/>
+      <node ref="U3" pin="12"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="3" name="/GNSS_RX_l">
+      <node ref="U6" pin="53"/>
+      <node ref="R12" pin="1"/>
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="4" name="/GNSS_RX">
+      <node ref="U5" pin="8"/>
+      <node ref="U3" pin="4"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="5" name="/GNSS_TX">
+      <node ref="U3" pin="3"/>
+      <node ref="U5" pin="9"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="6" name="/GNSS_PPS">
+      <node ref="U3" pin="5"/>
+      <node ref="U5" pin="7"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="7" name="/Gnss_EN">
+      <node ref="U3" pin="8"/>
+      <node ref="U6" pin="50"/>
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="8" name="/sda">
+      <node ref="U6" pin="39"/>
+      <node ref="R13" pin="2"/>
+      <node ref="U4" pin="4"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="9" name="/Vdd">
+      <node ref="D1" pin="1"/>
+      <node ref="U6" pin="64"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U1" pin="14"/>
+      <node ref="J6" pin="2"/>
+      <node ref="U3" pin="14"/>
+      <node ref="U2" pin="14"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="R17" pin="1"/>
+      <node ref="U4" pin="22"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U4" pin="23"/>
+      <node ref="U4" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="U6" pin="49"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="U6" pin="16"/>
+    </net>
+    <net code="10" name="/scl">
+      <node ref="R14" pin="2"/>
+      <node ref="U6" pin="40"/>
+      <node ref="U4" pin="2"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="11" name="/Exp_RX">
+      <node ref="J1" pin="11"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="12" name="/Exp_TX">
+      <node ref="U2" pin="3"/>
+      <node ref="R6" pin="2"/>
+      <node ref="J1" pin="10"/>
+    </net>
+    <net code="13" name="/Exp_CTS">
+      <node ref="R7" pin="2"/>
+      <node ref="J1" pin="9"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="14" name="/EXP">
+      <node ref="J5" pin="1"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="15" name="/GNSS">
+      <node ref="R20" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="U5" pin="1"/>
+      <node ref="J6" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="16" name="/Exp_EN">
+      <node ref="U2" pin="8"/>
+      <node ref="J2" pin="4"/>
+      <node ref="U6" pin="24"/>
+    </net>
+    <net code="17" name="/GNSS_PPS_l">
+      <node ref="U3" pin="10"/>
+      <node ref="R9" pin="1"/>
+      <node ref="U6" pin="52"/>
+    </net>
+    <net code="18" name="/GNSS_nRST_l">
+      <node ref="U6" pin="51"/>
+      <node ref="U3" pin="13"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="19" name="/Comm_RST">
+      <node ref="J2" pin="7"/>
+      <node ref="U6" pin="26"/>
+    </net>
+    <net code="20" name="/Exp_RTS">
+      <node ref="U2" pin="5"/>
+      <node ref="R8" pin="2"/>
+      <node ref="J1" pin="12"/>
+    </net>
+    <net code="21" name="/Comm_RX1">
+      <node ref="U1" pin="4"/>
+      <node ref="J2" pin="15"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="22" name="GND">
+      <node ref="D1" pin="2"/>
+      <node ref="Y2" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U6" pin="15"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U6" pin="48"/>
+      <node ref="U6" pin="57"/>
+      <node ref="U6" pin="60"/>
+      <node ref="U6" pin="63"/>
+      <node ref="U1" pin="7"/>
+      <node ref="C13" pin="2"/>
+      <node ref="U3" pin="7"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="R16" pin="1"/>
+      <node ref="U5" pin="5"/>
+      <node ref="U5" pin="6"/>
+      <node ref="J6" pin="3"/>
+      <node ref="J5" pin="2"/>
+      <node ref="U4" pin="14"/>
+      <node ref="U4" pin="15"/>
+      <node ref="J4" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="R18" pin="2"/>
+      <node ref="U4" pin="17"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U2" pin="7"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U4" pin="16"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J3" pin="3"/>
+      <node ref="J3" pin="4"/>
+      <node ref="U4" pin="18"/>
+      <node ref="U4" pin="19"/>
+      <node ref="U4" pin="20"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="23" name="/Comm_TX1">
+      <node ref="U1" pin="5"/>
+      <node ref="R2" pin="2"/>
+      <node ref="J2" pin="16"/>
+    </net>
+    <net code="24" name="/Comm_CTS1">
+      <node ref="R3" pin="2"/>
+      <node ref="J2" pin="14"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="25" name="/Comm_RTS">
+      <node ref="J2" pin="13"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="26" name="/Comm_RX1_l">
+      <node ref="U1" pin="11"/>
+      <node ref="U6" pin="32"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="27" name="/Comm_TX1_l">
+      <node ref="U1" pin="10"/>
+      <node ref="U6" pin="33"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="28" name="/Comm_CTS1_l">
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="12"/>
+      <node ref="U6" pin="56"/>
+    </net>
+    <net code="29" name="/Comm_RTS1_l">
+      <node ref="U1" pin="13"/>
+      <node ref="U6" pin="55"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="30" name="/Exp_TX_l">
+      <node ref="U2" pin="12"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U6" pin="29"/>
+    </net>
+    <net code="31" name="Net-(U3-Pad9)">
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="32" name="/Exp_RX_l">
+      <node ref="U2" pin="11"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U6" pin="28"/>
+    </net>
+    <net code="33" name="Net-(U3-Pad6)">
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="34" name="/Exp_CTS_l">
+      <node ref="U2" pin="13"/>
+      <node ref="U6" pin="10"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="35" name="/Exp_RTS_l">
+      <node ref="U2" pin="10"/>
+      <node ref="U6" pin="9"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="36" name="/Comm_EN">
+      <node ref="U1" pin="8"/>
+      <node ref="U6" pin="23"/>
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="37" name="/COMM">
+      <node ref="J4" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="38" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="39" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="40" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="41" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="42" name="Net-(J7-Pad4)">
+      <node ref="J7" pin="4"/>
+    </net>
+    <net code="43" name="Net-(J7-Pad5)">
+      <node ref="J7" pin="5"/>
+    </net>
+    <net code="44" name="Net-(J7-Pad3)">
+      <node ref="J7" pin="3"/>
+    </net>
+    <net code="45" name="/MCU/DRDY_M">
+      <node ref="U4" pin="9"/>
+      <node ref="U6" pin="20"/>
+    </net>
+    <net code="46" name="/MCU/INT_M">
+      <node ref="U4" pin="10"/>
+      <node ref="U6" pin="19"/>
+    </net>
+    <net code="47" name="Net-(J7-Pad1)">
+      <node ref="J7" pin="1"/>
+    </net>
+    <net code="48" name="Net-(J7-Pad2)">
+      <node ref="J7" pin="2"/>
+    </net>
+    <net code="49" name="/MCU/DEN_AG">
+      <node ref="U4" pin="13"/>
+      <node ref="U6" pin="17"/>
+    </net>
+    <net code="50" name="/MCU/INT_AG">
+      <node ref="U6" pin="18"/>
+      <node ref="U4" pin="11"/>
+    </net>
+    <net code="51" name="/BURN">
+      <node ref="J1" pin="2"/>
+      <node ref="U6" pin="12"/>
+    </net>
+    <net code="52" name="/LP_RTS">
+      <node ref="J2" pin="10"/>
+    </net>
+    <net code="53" name="/LP_TX">
+      <node ref="J2" pin="11"/>
+    </net>
+    <net code="54" name="/LP_RX">
+      <node ref="J2" pin="12"/>
+    </net>
+    <net code="55" name="/adc_int">
+      <node ref="J2" pin="3"/>
+      <node ref="U6" pin="22"/>
+    </net>
+    <net code="56" name="/EXP_BOOT">
+      <node ref="J2" pin="8"/>
+      <node ref="U6" pin="27"/>
+    </net>
+    <net code="57" name="/LP_CTS">
+      <node ref="J2" pin="9"/>
+    </net>
+    <net code="58" name="/Comm_TX0">
+      <node ref="J1" pin="16"/>
+    </net>
+    <net code="59" name="/Comm_RX0">
+      <node ref="J1" pin="15"/>
+    </net>
+    <net code="60" name="/Comm_CTS0">
+      <node ref="J1" pin="14"/>
+    </net>
+    <net code="61" name="Net-(J4-Pad3)">
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="62" name="Net-(J4-Pad4)">
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="63" name="Net-(J5-Pad3)">
+      <node ref="J5" pin="3"/>
+    </net>
+    <net code="64" name="/RST">
+      <node ref="J6" pin="5"/>
+      <node ref="U6" pin="31"/>
+    </net>
+    <net code="65" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="66" name="/Comm_RTS0">
+      <node ref="J1" pin="13"/>
+    </net>
+    <net code="67" name="/DBG0">
+      <node ref="J1" pin="4"/>
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="68" name="/DBG2">
+      <node ref="J1" pin="6"/>
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="69" name="/Exp_RST">
+      <node ref="U6" pin="14"/>
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="70" name="Net-(J5-Pad4)">
+      <node ref="J5" pin="4"/>
+    </net>
+    <net code="71" name="/DBG1">
+      <node ref="U6" pin="2"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="72" name="/Exp_CK">
+      <node ref="J1" pin="8"/>
+      <node ref="U6" pin="21"/>
+    </net>
+    <net code="73" name="/TST">
+      <node ref="J6" pin="4"/>
+      <node ref="U6" pin="30"/>
+    </net>
+    <net code="74" name="Net-(C13-Pad1)">
+      <node ref="C13" pin="1"/>
+      <node ref="U6" pin="59"/>
+      <node ref="Y2" pin="3"/>
+    </net>
+    <net code="75" name="Net-(C7-Pad1)">
+      <node ref="Y1" pin="1"/>
+      <node ref="U6" pin="61"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="76" name="Net-(C9-Pad1)">
+      <node ref="U6" pin="62"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="77" name="Net-(U6-Pad8)">
+      <node ref="U6" pin="8"/>
+    </net>
+    <net code="78" name="Net-(U6-Pad47)">
+      <node ref="U6" pin="47"/>
+    </net>
+    <net code="79" name="Net-(U6-Pad46)">
+      <node ref="U6" pin="46"/>
+    </net>
+    <net code="80" name="Net-(U6-Pad45)">
+      <node ref="U6" pin="45"/>
+    </net>
+    <net code="81" name="Net-(U6-Pad43)">
+      <node ref="U6" pin="43"/>
+    </net>
+    <net code="82" name="Net-(U6-Pad42)">
+      <node ref="U6" pin="42"/>
+    </net>
+    <net code="83" name="Net-(U6-Pad41)">
+      <node ref="U6" pin="41"/>
+    </net>
+    <net code="84" name="Net-(Y2-Pad4)">
+      <node ref="Y2" pin="4"/>
+    </net>
+    <net code="85" name="Net-(C11-Pad1)">
+      <node ref="Y2" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U6" pin="58"/>
+    </net>
+    <net code="86" name="Net-(U6-Pad11)">
+      <node ref="U6" pin="11"/>
+    </net>
+    <net code="87" name="Net-(U6-Pad34)">
+      <node ref="U6" pin="34"/>
+    </net>
+    <net code="88" name="Net-(U6-Pad13)">
+      <node ref="U6" pin="13"/>
+    </net>
+    <net code="89" name="Net-(U6-Pad7)">
+      <node ref="U6" pin="7"/>
+    </net>
+    <net code="90" name="Net-(U6-Pad44)">
+      <node ref="U6" pin="44"/>
+    </net>
+    <net code="91" name="Net-(U6-Pad5)">
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="92" name="Net-(U6-Pad4)">
+      <node ref="U6" pin="4"/>
+    </net>
+    <net code="93" name="Net-(U6-Pad25)">
+      <node ref="U6" pin="25"/>
+    </net>
+    <net code="94" name="Net-(U6-Pad6)">
+      <node ref="U6" pin="6"/>
+    </net>
+    <net code="95" name="Net-(U6-Pad38)">
+      <node ref="U6" pin="38"/>
+    </net>
+    <net code="96" name="Net-(U6-Pad37)">
+      <node ref="U6" pin="37"/>
+    </net>
+    <net code="97" name="Net-(U6-Pad36)">
+      <node ref="U6" pin="36"/>
+    </net>
+    <net code="98" name="Net-(U6-Pad35)">
+      <node ref="U6" pin="35"/>
+    </net>
+    <net code="99" name="Net-(R15-Pad2)">
+      <node ref="U4" pin="7"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="100" name="Net-(R17-Pad2)">
+      <node ref="R17" pin="2"/>
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="101" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="U4" pin="24"/>
+    </net>
+    <net code="102" name="Net-(C1-Pad1)">
+      <node ref="U4" pin="21"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="103" name="Net-(U4-Pad12)">
+      <node ref="U4" pin="12"/>
+    </net>
+    <net code="104" name="/Sensors/Vbackup">
+      <node ref="R21" pin="2"/>
+      <node ref="R20" pin="2"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="105" name="Net-(U5-Pad10)">
+      <node ref="U5" pin="10"/>
+    </net>
+    <net code="106" name="Net-(R18-Pad1)">
+      <node ref="R18" pin="1"/>
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="107" name="Net-(R16-Pad2)">
+      <node ref="R16" pin="2"/>
+      <node ref="U4" pin="5"/>
+    </net>
+  </nets>
+</export>

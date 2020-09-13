@@ -1,0 +1,1635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\emily\Code\ABSTRACT\artibeus\tartan-artibeus-hw\ta-powr\kicad\power-board.sch</source>
+    <date>8/27/2020 11:45:06 AM</date>
+    <tool>Eeschema (5.1.5)-3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Power System</title>
+        <company>Carnegie Mellon University -- Emily Ruppel</company>
+        <rev>v0</rev>
+        <date>2020-06-22</date>
+        <source>power-board.sch</source>
+        <comment number="1" value="Tartan Artibeus Power Board"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Power Out/" tstamps="/5EF1397A/">
+      <title_block>
+        <title>Output Booster and Power Switches</title>
+        <company>Carnegie Mellon University -- Emily Ruppel</company>
+        <rev>v0</rev>
+        <date>2020-06-22</date>
+        <source>power_out.sch</source>
+        <comment number="1" value="Output booster provides stable output voltage to load "/>
+        <comment number="2" value="Power switches control power to other components."/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Power In/" tstamps="/5EF1389E/">
+      <title_block>
+        <title>Input Booster and Cap</title>
+        <company>Carnegie Mellon University -- Emily Ruppel</company>
+        <rev>v0</rev>
+        <date>2020-06-22</date>
+        <source>power_in.sch</source>
+        <comment number="1" value="Input booster handles input from solar panels and charges cap"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>PinSocket_16</value>
+      <footprint>ta-powr:PinSocket_1x16_TartanArtibeus_pwr_cpy</footprint>
+      <libsource lib="power-board" part="PinSocket_16" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0E073E</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>PinSocket_16</value>
+      <footprint>ta-powr:PinSocket_1x16_TartanArtibeus_pwr_cpy</footprint>
+      <libsource lib="power-board" part="PinSocket_16" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0E10B5</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>PinSocket_4</value>
+      <footprint>ta-powr:PinSocket_1x4_TartanArtibeus_pwr_cpy</footprint>
+      <libsource lib="power-board" part="PinSocket_4" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0E9C63</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>PinSocket_4</value>
+      <footprint>ta-powr:PinSocket_1x4_TartanArtibeus_pwr_cpy</footprint>
+      <libsource lib="power-board" part="PinSocket_4" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0EAF99</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>MountingHole</value>
+      <footprint>ta-powr:MountingHoles_TartanArtibeus_pwr_cpy</footprint>
+      <libsource lib="power-board" part="MountingHole" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0EBD56</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>PinSocket_5</value>
+      <footprint>ta-powr:PinSocket_1x5_left_TartanArtibeus</footprint>
+      <libsource lib="power-board" part="PinSocket_5" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F12A0FB</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>PinSocket_5</value>
+      <footprint>ta-powr:PinSocket_1x5_right_TartanArtibeus</footprint>
+      <libsource lib="power-board" part="PinSocket_5" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0FE717</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCF0603BKC1M00/RNCF0603BKC1M00CT-ND/6594149</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">RNCF0603BKC1M00</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">RNCF0603BKC1M00CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power Out/" tstamps="/5EF1397A/"/>
+      <tstamp>5F04EE37</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>330k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603FT453K/RMCF0603FT453KCT-ND/2418067</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">RNCF0603DTE330K</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">RNCF0603DTE330KCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power Out/" tstamps="/5EF1397A/"/>
+      <tstamp>5F053DA5</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>453k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603FT453K/RMCF0603FT453KCT-ND/2418067</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">RMCF0603FT453K</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">RMCF0603FT453KCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power Out/" tstamps="/5EF1397A/"/>
+      <tstamp>5F054A6B</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>237k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">RMCF0603FT237K</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">RMCF0603FT237KCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power Out/" tstamps="/5EF1397A/"/>
+      <tstamp>5F054DE9</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>DNP</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/20043/crcwhpe3.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">CRCW06030000Z0EAHP</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">541-0.0SBCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power Out/" tstamps="/5EF1397A/"/>
+      <tstamp>5F05BEFE</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>DNP</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/20043/crcwhpe3.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">CRCW06030000Z0EAHP</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">541-0.0SBCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power Out/" tstamps="/5EF1397A/"/>
+      <tstamp>5F06716C</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>DNP</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/20043/crcwhpe3.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">CRCW06030000Z0EAHP</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">541-0.0SBCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power Out/" tstamps="/5EF1397A/"/>
+      <tstamp>5F06AA3B</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>TPS63000-Q1</value>
+      <footprint>Package_SON:Texas_DRC0010J_ThermalVias</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tps63000-q1.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">TPS63000IDRCRQ1</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">296-24851-1-ND</field>
+      </fields>
+      <libsource lib="Regulator_Switching" part="TPS63000-Q1" description="Buck-Boost Converter, 1.8-5.5V Input Voltage, 1.8A Switch Current, Adjustable 1.2-5.5V Output Voltage, Automotive, VSON-10"/>
+      <sheetpath names="/Power Out/" tstamps="/5EF1397A/"/>
+      <tstamp>5F070F89</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>2.2uH</value>
+      <footprint>ta-powr:IFSC1008ABER2R2M01</footprint>
+      <datasheet>https://www.vishay.com/docs/34294/s108ab01.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">IFSC1008ABER2R2M01</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">541-1389-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/Power Out/" tstamps="/5EF1397A/"/>
+      <tstamp>5F071E97</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCF0603BKC1M00/RNCF0603BKC1M00CT-ND/6594149</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">RNCF0603BKC1M00</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">RNCF0603BKC1M00CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power Out/" tstamps="/5EF1397A/"/>
+      <tstamp>5F08A8CC</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>DNP</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/20043/crcwhpe3.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">CRCW06030000Z0EAHP</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">541-0.0SBCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power Out/" tstamps="/5EF1397A/"/>
+      <tstamp>5F0964E9</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCF0603BKC1M00/RNCF0603BKC1M00CT-ND/6594149</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">RNCF0603BKC1M00</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">RNCF0603BKC1M00CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power Out/" tstamps="/5EF1397A/"/>
+      <tstamp>5F0820AF</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">C1608X7S0J106M080AC</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">445-9104-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power Out/" tstamps="/5EF1397A/"/>
+      <tstamp>5F0D2DB1</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">C1608X7S0J106M080AC</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">445-9104-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power Out/" tstamps="/5EF1397A/"/>
+      <tstamp>5F0D3A1E</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">C1608X7S0J106M080AC</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">445-9104-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power Out/" tstamps="/5EF1397A/"/>
+      <tstamp>5F0E26CC</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">C0603C225K8RACTU</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">399-11681-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power Out/" tstamps="/5EF1397A/"/>
+      <tstamp>5F121ADD</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>10M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">RMCF0603JT10M0</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">RMCF0603JT10M0CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power Out/" tstamps="/5EF1397A/"/>
+      <tstamp>5F1276F4</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">C0603C225K8RACTU</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">399-11681-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power Out/" tstamps="/5EF1397A/"/>
+      <tstamp>5F12AEA1</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">C0603C225K8RACTU</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">399-11681-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power Out/" tstamps="/5EF1397A/"/>
+      <tstamp>5F12E7EE</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">C0603C225K8RACTU</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">399-11681-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power Out/" tstamps="/5EF1397A/"/>
+      <tstamp>5F12F449</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">C0603C225K8RACTU</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">399-11681-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power Out/" tstamps="/5EF1397A/"/>
+      <tstamp>5F13E31A</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">C0603C225K8RACTU</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">399-11681-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power Out/" tstamps="/5EF1397A/"/>
+      <tstamp>5F13E9C4</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">RMCF0603JT10M0</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">RMCF0603JT10M0CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power Out/" tstamps="/5EF1397A/"/>
+      <tstamp>5F15228F</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>10M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">RMCF0603JT10M0</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">RMCF0603JT10M0CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power Out/" tstamps="/5EF1397A/"/>
+      <tstamp>5F153071</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>178k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-packaging.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">RNCF0603DTE178K</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">RNCF0603DTE178KCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power Out/" tstamps="/5EF1397A/"/>
+      <tstamp>5F0BCEEC</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCF0603BKC1M00/RNCF0603BKC1M00CT-ND/6594149</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">RNCF0603BKC1M00</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">RNCF0603BKC1M00CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power Out/" tstamps="/5EF1397A/"/>
+      <tstamp>5F0BC775</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>SIP32431DNP3-T1GE4</value>
+      <footprint>ta-powr:TDFN4</footprint>
+      <datasheet>http://www.vishay.com.hk/docs/66597/sip32431.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">SIP32431DNP3-T1GE4</field>
+        <field name="Vendor">Arrow</field>
+        <field name="Vendor Part Number">SIP32431DNP3-T1GE4</field>
+      </fields>
+      <libsource lib="power-board" part="SIP32431DNP3-T1GE4" description="10 pA, Ultra Low Leakage and Quiescent Current, Load Switch with Reverse Blocking, High Enable, SC-70-6"/>
+      <sheetpath names="/Power Out/" tstamps="/5EF1397A/"/>
+      <tstamp>5F066637</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>SIP32431DNP3-T1GE4</value>
+      <footprint>ta-powr:TDFN4</footprint>
+      <datasheet>http://www.vishay.com.hk/docs/66597/sip32431.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">SIP32431DNP3-T1GE4</field>
+        <field name="Vendor">Arrow</field>
+        <field name="Vendor Part Number">SIP32431DNP3-T1GE4</field>
+      </fields>
+      <libsource lib="power-board" part="SIP32431DNP3-T1GE4" description="10 pA, Ultra Low Leakage and Quiescent Current, Load Switch with Reverse Blocking, High Enable, SC-70-6"/>
+      <sheetpath names="/Power Out/" tstamps="/5EF1397A/"/>
+      <tstamp>5F066DFD</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>SIP32431DNP3-T1GE4</value>
+      <footprint>ta-powr:TDFN4</footprint>
+      <datasheet>http://www.vishay.com.hk/docs/66597/sip32431.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">SIP32431DNP3-T1GE4</field>
+        <field name="Vendor">Arrow</field>
+        <field name="Vendor Part Number">SIP32431DNP3-T1GE4</field>
+      </fields>
+      <libsource lib="power-board" part="SIP32431DNP3-T1GE4" description="10 pA, Ultra Low Leakage and Quiescent Current, Load Switch with Reverse Blocking, High Enable, SC-70-6"/>
+      <sheetpath names="/Power Out/" tstamps="/5EF1397A/"/>
+      <tstamp>5F066050</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">C0603C104K8RACAUTO</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">399-17574-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power Out/" tstamps="/5EF1397A/"/>
+      <tstamp>5F4002ED</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>TPS3806</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps3806i33-q1</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">TPS3806I33QDBVRQ1</field>
+        <field name="Vendor">Mouser</field>
+        <field name="Vendor Part Number">595-PS3806I33QDBVRQ1</field>
+      </fields>
+      <libsource lib="power-board" part="TPS3806" description=""/>
+      <sheetpath names="/Power Out/" tstamps="/5EF1397A/"/>
+      <tstamp>5EF51EF0</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">C0603C104K8RACAUTO</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">399-17574-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power Out/" tstamps="/5EF1397A/"/>
+      <tstamp>5F444750</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">C0603C104K8RACAUTO</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">399-17574-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power Out/" tstamps="/5EF1397A/"/>
+      <tstamp>5F448467</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EE70J107ME15-01.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">GRM32EE70J107ME15L</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">490-10534-1-ND</field>
+        <field name="Vendor part number">490-10534-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power Out/" tstamps="/5EF1397A/"/>
+      <tstamp>5F45020A</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EE70J107ME15-01.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">GRM32EE70J107ME15L</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">490-10534-1-ND</field>
+        <field name="Vendor part number">490-10534-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power Out/" tstamps="/5EF1397A/"/>
+      <tstamp>5F4764A8</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">C1608X7S0J106M080AC</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">445-9104-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power In/" tstamps="/5EF1389E/"/>
+      <tstamp>5EF2C541</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">C1608X7S0J106M080AC</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">445-9104-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power In/" tstamps="/5EF1389E/"/>
+      <tstamp>5EF2BD5B</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>SPV1040</value>
+      <footprint>Package_SO:TSSOP-8_4.4x3mm_P0.65mm</footprint>
+      <datasheet>https://static6.arrow.com/aropdfconversion/b99892bb5a969e46e906e6f0532fd491a5cf484a/582515621117054cd00287506.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">SPV1040T</field>
+        <field name="Vendor">Arrow</field>
+        <field name="Vendor Part Number">SPV1040T</field>
+      </fields>
+      <libsource lib="power-board" part="SPV1040" description=""/>
+      <sheetpath names="/Power In/" tstamps="/5EF1389E/"/>
+      <tstamp>5EF50739</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">C0603C104K8RACAUTO</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">	399-17574-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power In/" tstamps="/5EF1389E/"/>
+      <tstamp>5EF583F1</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCJ188C70J475KE02-01.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">GCJ188C70J475KE02D</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">490-16480-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power In/" tstamps="/5EF1389E/"/>
+      <tstamp>5EF62967</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>schottky</value>
+      <footprint>Diode_SMD:D_SOD-123F</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/MBR120VLSFT1-D.PDF</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">NRVB120VLSFT1G</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">NRVB120VLSFT1GOSCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/Power In/" tstamps="/5EF1389E/"/>
+      <tstamp>5EF5DCC1</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>15uH</value>
+      <footprint>ta-powr:IHLP-2525CZ-8A</footprint>
+      <datasheet>https://www.vishay.com/docs/34362/lp25cz8a.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">IHLP2525CZER150M8A</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">541-2173-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/Power In/" tstamps="/5EF1389E/"/>
+      <tstamp>5EF2DBBC</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/kemet/C0603C102K8RACTU/399-8984-1-ND/3522501</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">C0603C102K8RACTU</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">399-8984-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power In/" tstamps="/5EF1389E/"/>
+      <tstamp>5EF675DD</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/20043/crcwhpe3.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">CRCW06031K00FKEAHP</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">541-1.00KSCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power In/" tstamps="/5EF1389E/"/>
+      <tstamp>5EF3D6FE</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>510k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">ERJ-PA3F5103V</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">P510KBYCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power In/" tstamps="/5EF1389E/"/>
+      <tstamp>5EF697CE</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>160k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PA3F1603V/P160KBYCT-ND/5036142</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">ERJ-PA3F1603V</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">P160KBYCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power In/" tstamps="/5EF1389E/"/>
+      <tstamp>5EF6A5DE</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">C1608X7S0J106M080AC</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">445-9104-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power In/" tstamps="/5EF1389E/"/>
+      <tstamp>5EF6ECE0</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>5.6F</value>
+      <footprint>ta-powr:FT0H565ZF</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/Power In/" tstamps="/5EF1389E/"/>
+      <tstamp>5EF71DFF</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">C0603C105K8RACTU</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">399-11133-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power In/" tstamps="/5EF1389E/"/>
+      <tstamp>5F0C01BD</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>4M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-packaging.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">RMCF0603FT4M02</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">RMCF0603FT4M02CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power In/" tstamps="/5EF1389E/"/>
+      <tstamp>5F0C923D</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>6M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">RMCF0603FT6M04</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">RMCF0603FT6M04CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power In/" tstamps="/5EF1389E/"/>
+      <tstamp>5F0CA6E7</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>4M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-packaging.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">RMCF0603FT4M02</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">RMCF0603FT4M02CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power In/" tstamps="/5EF1389E/"/>
+      <tstamp>5F0F4549</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>4M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-packaging.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">RMCF0603FT4M02</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">RMCF0603FT4M02CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power In/" tstamps="/5EF1389E/"/>
+      <tstamp>5F115E44</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>6M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">RMCF0603FT6M04</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">RMCF0603FT6M04CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power In/" tstamps="/5EF1389E/"/>
+      <tstamp>5F115E4A</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>4M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-packaging.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">RMCF0603FT4M02</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">RMCF0603FT4M02CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power In/" tstamps="/5EF1389E/"/>
+      <tstamp>5F124388</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>6M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">RMCF0603FT6M04</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">RMCF0603FT6M04CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power In/" tstamps="/5EF1389E/"/>
+      <tstamp>5F12438E</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>D_Zener_AKA</value>
+      <footprint>Package_TO_SOT_SMD:SOT-89-3</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/916/BZV49_SERIES-1320033.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">BZV49-C5V6</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">1727-5388-1-ND</field>
+      </fields>
+      <libsource lib="power-board" part="D_Zener_AKA" description="Zener diode, small symbol"/>
+      <sheetpath names="/Power In/" tstamps="/5EF1389E/"/>
+      <tstamp>5F1CDEB1</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>1m</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/427/wslp-1763037.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">WSLP12061L000FEA</field>
+        <field name="Vendor">Mouser</field>
+        <field name="Vendor Part Number">71-WSLP12061L000FEA</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power In/" tstamps="/5EF1389E/"/>
+      <tstamp>5F08D648</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/20043/crcwhpe3.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">CRCW06030000Z0EAHP</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">541-0.0SBCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power In/" tstamps="/5EF1389E/"/>
+      <tstamp>5F183712</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/20043/crcwhpe3.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">CRCW06030000Z0EAHP</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">541-0.0SBCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power In/" tstamps="/5EF1389E/"/>
+      <tstamp>5F12BE3B</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>1m</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/427/wslp-1763037.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">WSLP12061L000FEA</field>
+        <field name="Vendor">Mouser</field>
+        <field name="Vendor Part Number">71-WSLP12061L000FEA</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power In/" tstamps="/5EF1389E/"/>
+      <tstamp>5F1D83DD</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>TLV8544DT</value>
+      <footprint>ta-powr:TLV8544DT</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tlv8544.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&amp;ts=1595014292298</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">TLV8544DT</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">296-49508-1-ND</field>
+      </fields>
+      <libsource lib="power-board" part="TLV8544DT" description=""/>
+      <sheetpath names="/Power In/" tstamps="/5EF1389E/"/>
+      <tstamp>5F094EAB</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>6M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">RMCF0603FT6M04</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">RMCF0603FT6M04CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power In/" tstamps="/5EF1389E/"/>
+      <tstamp>5F49D71F</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EE70J107ME15-01.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">GRM32EE70J107ME15L</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">490-10534-1-ND</field>
+        <field name="Vendor part number">490-10534-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power In/" tstamps="/5EF1389E/"/>
+      <tstamp>5F4CB4E5</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EE70J107ME15-01.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">GRM32EE70J107ME15L</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">490-10534-1-ND</field>
+        <field name="Vendor part number">490-10534-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power In/" tstamps="/5EF1389E/"/>
+      <tstamp>5F4FA401</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>ADS1115-Q1</value>
+      <footprint>Package_SO:TSSOP-10_3x3mm_P0.5mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ads1015.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">ADS1115BQDGSRQ1</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part Number">296-45221-1-ND</field>
+      </fields>
+      <libsource lib="power-board" part="ADS1115-Q1" description="Ultra-Small, Low-Power, I2C-Compatible, 3.3-kSPS, 12-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"/>
+      <sheetpath names="/Power In/" tstamps="/5EF1389E/"/>
+      <tstamp>5F08FE03</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP1">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="TPS63000">
+      <aliases>
+        <alias>TPS63000-Q1</alias>
+        <alias>TPS63001</alias>
+        <alias>TPS63002</alias>
+      </aliases>
+      <description>Buck-Boost Converter, 1.8-5.5V Input Voltage, 1.8A Switch Current, Adjustable 1.2-5.5V Output Voltage, VSON-10</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tps63000.pdf</docs>
+      <footprints>
+        <fp>Texas*DRC0010J*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS63000</field>
+        <field name="Footprint">Package_SON:Texas_DRC0010J_ThermalVias</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="power_out"/>
+        <pin num="2" name="L2" type="input"/>
+        <pin num="3" name="PGND" type="power_in"/>
+        <pin num="4" name="L1" type="input"/>
+        <pin num="5" name="VIN" type="power_in"/>
+        <pin num="6" name="EN" type="input"/>
+        <pin num="7" name="PS/SYNC" type="input"/>
+        <pin num="8" name="VINA" type="power_in"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="FB" type="input"/>
+        <pin num="11" name="PGND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="power-board" part="ADS1115-Q1">
+      <aliases>
+        <alias>ADS1115IDGS</alias>
+      </aliases>
+      <description>Ultra-Small, Low-Power, I2C-Compatible, 3.3-kSPS, 12-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ads1015.pdf</docs>
+      <footprints>
+        <fp>TSSOP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADS1115-Q1</field>
+        <field name="Footprint">Package_SO:TSSOP-10_3x3mm_P0.5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADDR" type="input"/>
+        <pin num="2" name="ALERT/RDY" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="AIN0" type="input"/>
+        <pin num="5" name="AIN1" type="input"/>
+        <pin num="6" name="AIN2" type="input"/>
+        <pin num="7" name="AIN3" type="input"/>
+        <pin num="8" name="VDD" type="power_in"/>
+        <pin num="9" name="SDA" type="BiDi"/>
+        <pin num="10" name="SCL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="power-board" part="D_Zener_AKA">
+      <description>Zener diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener_AKA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+        <pin num="3" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="power-board" part="MountingHole">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="power-board" part="PinSocket_16">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PinSocket_16</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="9" name="~" type="passive"/>
+        <pin num="10" name="~" type="passive"/>
+        <pin num="11" name="~" type="passive"/>
+        <pin num="12" name="~" type="passive"/>
+        <pin num="13" name="~" type="passive"/>
+        <pin num="14" name="~" type="passive"/>
+        <pin num="15" name="~" type="passive"/>
+        <pin num="16" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="power-board" part="PinSocket_4">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PinSocket_4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="power-board" part="PinSocket_5">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PinSocket_5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="power-board" part="SIP32431DNP3-T1GE4">
+      <description>10 pA, Ultra Low Leakage and Quiescent Current, Load Switch with Reverse Blocking, High Enable, SC-70-6</description>
+      <docs>http://www.vishay.com.hk/docs/66597/sip32431.pdf</docs>
+      <footprints>
+        <fp>*SC?70*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SIP32431DNP3-T1GE4</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-363_SC-70-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="passive"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="IN" type="passive"/>
+        <pin num="4" name="ON" type="input"/>
+        <pin num="5" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="power-board" part="SPV1040">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SPV1040</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MPP-SET" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="LX" type="input"/>
+        <pin num="4" name="VOUT" type="output"/>
+        <pin num="5" name="VCTRL" type="BiDi"/>
+        <pin num="6" name="ICTRL-" type="input"/>
+        <pin num="7" name="ICTRL+" type="input"/>
+        <pin num="8" name="XSHUT" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="power-board" part="TLV8544DT">
+      <footprints>
+        <fp>D14_TEX</fp>
+        <fp>D14_TEX-M</fp>
+        <fp>D14_TEX-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV8544DT</field>
+        <field name="Footprint">D14_TEX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUTA" type="output"/>
+        <pin num="2" name="INA" type="BiDi"/>
+        <pin num="3" name="+INA" type="input"/>
+        <pin num="4" name="V+" type="power_in"/>
+        <pin num="5" name="+INB" type="input"/>
+        <pin num="6" name="INB" type="BiDi"/>
+        <pin num="7" name="OUTB" type="output"/>
+        <pin num="8" name="OUTC" type="output"/>
+        <pin num="9" name="INC" type="BiDi"/>
+        <pin num="10" name="+INC" type="input"/>
+        <pin num="11" name="V" type="power_in"/>
+        <pin num="12" name="+IND" type="input"/>
+        <pin num="13" name="IND" type="BiDi"/>
+        <pin num="14" name="OUTD" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="power-board" part="TPS3806">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS3806</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RSTSENSE" type="output"/>
+        <pin num="2" name="GND" type="output"/>
+        <pin num="3" name="RST" type="output"/>
+        <pin num="4" name="VDD" type="input"/>
+        <pin num="5" name="LSENSE" type="input"/>
+        <pin num="6" name="HSENSE" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>C:\KiCad\share\kicad\library/Regulator_Switching.lib</uri>
+    </library>
+    <library logical="power-board">
+      <uri>C:\Users\emily\Code\ABSTRACT\artibeus\tartan-artibeus-hw\ta-powr\kicad/power-board.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/scl">
+      <node ref="J2" pin="2"/>
+      <node ref="U4" pin="10"/>
+    </net>
+    <net code="2" name="/sda">
+      <node ref="J2" pin="1"/>
+      <node ref="U4" pin="9"/>
+    </net>
+    <net code="3" name="/adc_int">
+      <node ref="J2" pin="3"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="4" name="/comm_en">
+      <node ref="R16" pin="1"/>
+      <node ref="J2" pin="5"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="5" name="/gnss_en">
+      <node ref="R18" pin="1"/>
+      <node ref="J2" pin="6"/>
+      <node ref="U8" pin="4"/>
+    </net>
+    <net code="6" name="/exp_en">
+      <node ref="U7" pin="4"/>
+      <node ref="R17" pin="1"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="7" name="Net-(J1-Pad9)">
+      <node ref="J1" pin="9"/>
+    </net>
+    <net code="8" name="Net-(J1-Pad11)">
+      <node ref="J1" pin="11"/>
+    </net>
+    <net code="9" name="Net-(J1-Pad12)">
+      <node ref="J1" pin="12"/>
+    </net>
+    <net code="10" name="Net-(J2-Pad7)">
+      <node ref="J2" pin="7"/>
+    </net>
+    <net code="11" name="Net-(J2-Pad8)">
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="12" name="Net-(J2-Pad9)">
+      <node ref="J2" pin="9"/>
+    </net>
+    <net code="13" name="Net-(J2-Pad11)">
+      <node ref="J2" pin="11"/>
+    </net>
+    <net code="14" name="Net-(J2-Pad12)">
+      <node ref="J2" pin="12"/>
+    </net>
+    <net code="15" name="Net-(J1-Pad7)">
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="16" name="Net-(J1-Pad8)">
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="17" name="Net-(J1-Pad10)">
+      <node ref="J1" pin="10"/>
+    </net>
+    <net code="18" name="/Exp">
+      <node ref="R14" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="U7" pin="1"/>
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="19" name="GND">
+      <node ref="C5" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U7" pin="5"/>
+      <node ref="U6" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="R28" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="U7" pin="5"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U8" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U8" pin="5"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U1" pin="6"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="D2" pin="3"/>
+      <node ref="C8" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="U2" pin="9"/>
+      <node ref="U2" pin="11"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U4" pin="1"/>
+      <node ref="U8" pin="5"/>
+      <node ref="U3" pin="11"/>
+      <node ref="R6" pin="2"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C14" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="J6" pin="3"/>
+      <node ref="R18" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J7" pin="4"/>
+      <node ref="J7" pin="3"/>
+      <node ref="J7" pin="2"/>
+      <node ref="J7" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="U7" pin="2"/>
+      <node ref="U5" pin="5"/>
+      <node ref="U5" pin="5"/>
+      <node ref="R17" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="R22" pin="2"/>
+      <node ref="J4" pin="3"/>
+      <node ref="C13" pin="1"/>
+    </net>
+    <net code="20" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="21" name="Net-(J4-Pad2)">
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="22" name="/V_Solar_IN">
+      <node ref="J5" pin="5"/>
+      <node ref="J5" pin="4"/>
+      <node ref="J5" pin="3"/>
+      <node ref="J5" pin="1"/>
+      <node ref="J5" pin="2"/>
+      <node ref="R19" pin="1"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="23" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="24" name="Net-(J1-Pad5)">
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="25" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="26" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="27" name="/Vcap">
+      <node ref="U6" pin="4"/>
+      <node ref="C18" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="R25" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R20" pin="2"/>
+      <node ref="R9" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U2" pin="8"/>
+      <node ref="R4" pin="1"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="28" name="Net-(J6-Pad5)">
+      <node ref="J6" pin="5"/>
+    </net>
+    <net code="29" name="Net-(J6-Pad4)">
+      <node ref="J6" pin="4"/>
+    </net>
+    <net code="30" name="Net-(J1-Pad14)">
+      <node ref="J1" pin="14"/>
+    </net>
+    <net code="31" name="Net-(J1-Pad13)">
+      <node ref="J1" pin="13"/>
+    </net>
+    <net code="32" name="/Cntrl">
+      <node ref="C24" pin="1"/>
+      <node ref="U7" pin="3"/>
+      <node ref="R14" pin="1"/>
+      <node ref="C12" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="U5" pin="3"/>
+      <node ref="C11" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="U8" pin="3"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C10" pin="1"/>
+      <node ref="R29" pin="1"/>
+      <node ref="R30" pin="2"/>
+      <node ref="J6" pin="2"/>
+    </net>
+    <net code="33" name="/GNSS">
+      <node ref="U8" pin="1"/>
+      <node ref="R15" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="34" name="Net-(J1-Pad15)">
+      <node ref="J1" pin="15"/>
+    </net>
+    <net code="35" name="Net-(J1-Pad16)">
+      <node ref="J1" pin="16"/>
+    </net>
+    <net code="36" name="/Comm">
+      <node ref="C14" pin="1"/>
+      <node ref="U5" pin="1"/>
+      <node ref="R13" pin="2"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="37" name="Net-(J3-Pad3)">
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="38" name="Net-(J3-Pad4)">
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="39" name="Net-(J2-Pad10)">
+      <node ref="J2" pin="10"/>
+    </net>
+    <net code="40" name="Net-(J2-Pad16)">
+      <node ref="J2" pin="16"/>
+    </net>
+    <net code="41" name="Net-(J2-Pad15)">
+      <node ref="J2" pin="15"/>
+    </net>
+    <net code="42" name="Net-(J2-Pad14)">
+      <node ref="J2" pin="14"/>
+    </net>
+    <net code="43" name="Net-(J2-Pad13)">
+      <node ref="J2" pin="13"/>
+    </net>
+    <net code="44" name="/Power In/I_out">
+      <node ref="R26" pin="2"/>
+      <node ref="U4" pin="6"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="45" name="/Power In/V_cap+">
+      <node ref="U4" pin="7"/>
+      <node ref="U3" pin="14"/>
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="46" name="/Power In/V_solar_meas">
+      <node ref="U3" pin="3"/>
+      <node ref="R22" pin="1"/>
+      <node ref="U3" pin="5"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="47" name="/Power In/V_harv">
+      <node ref="L1" pin="1"/>
+      <node ref="R19" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R23" pin="1"/>
+    </net>
+    <net code="48" name="/Power In/V_cap">
+      <node ref="C7" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="R27" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="49" name="/Power In/V_cap_meas">
+      <node ref="R28" pin="1"/>
+      <node ref="U3" pin="12"/>
+      <node ref="U3" pin="10"/>
+      <node ref="R27" pin="2"/>
+    </net>
+    <net code="50" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="51" name="Net-(C5-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="52" name="/Power In/I_harv_neg">
+      <node ref="R23" pin="2"/>
+      <node ref="R24" pin="1"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="53" name="/Power In/I_harv">
+      <node ref="R24" pin="2"/>
+      <node ref="U4" pin="5"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="54" name="/Power In/V_sol+">
+      <node ref="U3" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="55" name="/Power In/Vdd_adc">
+      <node ref="C17" pin="1"/>
+      <node ref="R30" pin="1"/>
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="56" name="/Power In/I_out_neg">
+      <node ref="U3" pin="9"/>
+      <node ref="R26" pin="1"/>
+      <node ref="R25" pin="2"/>
+    </net>
+    <net code="57" name="/Power In/Vdd_tlv">
+      <node ref="U3" pin="4"/>
+      <node ref="R29" pin="2"/>
+    </net>
+    <net code="58" name="Net-(D1-Pad2)">
+      <node ref="U1" pin="3"/>
+      <node ref="D1" pin="2"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="59" name="Net-(R7-Pad2)">
+      <node ref="R8" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="60" name="Net-(L2-Pad2)">
+      <node ref="U2" pin="2"/>
+      <node ref="L2" pin="2"/>
+    </net>
+    <net code="61" name="Net-(L2-Pad1)">
+      <node ref="U2" pin="4"/>
+      <node ref="L2" pin="1"/>
+    </net>
+    <net code="62" name="/Power Out/EN">
+      <node ref="R9" pin="2"/>
+      <node ref="U2" pin="6"/>
+      <node ref="R12" pin="2"/>
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="63" name="Net-(R10-Pad2)">
+      <node ref="R11" pin="1"/>
+      <node ref="U2" pin="10"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="64" name="Net-(U6-Pad3)">
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="65" name="Net-(C19-Pad1)">
+      <node ref="U6" pin="5"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="C19" pin="1"/>
+    </net>
+    <net code="66" name="Net-(C20-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="U6" pin="6"/>
+      <node ref="C20" pin="1"/>
+      <node ref="R5" pin="2"/>
+    </net>
+  </nets>
+</export>
