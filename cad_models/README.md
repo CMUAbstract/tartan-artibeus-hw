@@ -4,7 +4,7 @@
 
 * [README.md](README.md): This document
 * [Satellite Assembly](Satellite.SLDASM): SolidWorks 3D assembly file of the whole satellite
-* [Base Plate Part](FR4 Base.SLDPRT): SolidWorks part file of the base plate
+* [Base Plate Part](<FR4 Base.SLDPRT>): SolidWorks 3D assembly file of the whole satellite
 * [Chassis Part](Cap.SLDPRT): SolidWorks part file of the chassis
 
 
