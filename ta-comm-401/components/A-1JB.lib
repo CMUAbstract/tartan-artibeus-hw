@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model A-1JB
+#/1102502/105706/2.49/4/4/Connector
+DEF A-1JB J 0 30 Y Y 1 F N
+F0 "J" 1250 700 50 H V L CNN
+F1 "A-1JB" 1250 600 50 H V L CNN
+F2 "A1JB" 1250 500 50 H I L CNN
+F3 "https://www.amphenolrf.com/media/downloads/3960/CA-1JB.pdf" 1250 400 50 H I L CNN
+F4 "AMC Straight PCB Jack, Surface Mount" 1250 300 50 H I L CNN "Description"
+F5 "1.05" 1250 200 50 H I L CNN "Height"
+F6 "Amphenol" 1250 100 50 H I L CNN "Manufacturer_Name"
+F7 "A-1JB" 1250 0 50 H I L CNN "Manufacturer_Part_Number"
+F8 "523-A-1JB" 1250 -100 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Amphenol-RF/A-1JB?qs=ncxkyCpAYDBidtvTkuzl1Q%3D%3D" 1250 -200 50 H I L CNN "Mouser Price/Stock"
+F10 "A-1JB" 1250 -300 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/a-1jb/amphenol-rf" 1250 -400 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X SIGNAL 1 1400 0 200 L 50 50 0 0 P
+X GND_1 2 700 700 200 D 50 50 0 0 P
+X GND_2 3 0 0 200 R 50 50 0 0 P
+X GND_3 4 700 -700 200 U 50 50 0 0 P
+P 5 0 1 6 200 500 1200 500 1200 -500 200 -500 200 500 N
+ENDDRAW
+ENDDEF
+#
+#End Library
