@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ta-comm-401)(type Legacy)(uri ${KIPRJMOD}/ta-comm-401.lib)(options "")(descr ""))
+)

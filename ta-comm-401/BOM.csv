@@ -1,0 +1,35 @@
+label,count,id,mouser,url,description
+FB1,1,742792662,710-742792662,https://componentsearchengine.com/part-view/742792662/W%C3%BCrth%20Elektronik,Ferrite bead; 1 kOhm impedance; 600 mA max. DC current; 25%; -55 - +125 C
+R9,1,MCT06030C1000FP500,594-MCT06030C1000FP5,https://componentsearchengine.com/part-view/MCT06030C1000FP500/Vishay,100 Ohm +/- 1%; 75 V; 125 mW; 50 PPM/C; -55 - +125 C
+R1; R2; R3; R4; R5; R6; R8,7,MCT06030C1001FP500,594-MCT06030C1001FP5,https://componentsearchengine.com/part-view/MCT06030C1001FP500/Vishay,1 kOhm +/- 1 %; 75 V; 125 mW; 50 PPM/C; -55 C - + 125 C
+R7,1,MCT06030C3302FP500,594-MCT06030C3302FP5,https://componentsearchengine.com/part-view/MCT06030C3302FP500/Vishay,33 kOhm +/- 1%; 75 V; 125 mW; 50 PPM/C; -55 - +125 C
+R10,1,MCT06030C5602FP500,594-MCT06030C5602FP5,https://componentsearchengine.com/part-view/MCT06030C5602FP500/Vishay,56 kOhm +/- 1%; 75 V; 125 mW; 50 PPM/C; -55 - +125 C
+L1; L2,2,LQW18AN28NG80D,81-LQW18AN28NG80D,https://componentsearchengine.com/part-view/LQW18AN28NG80D/Murata%20Electronics,28 nH +/- 2%; 1.2 A; 98 mOhm; -55 - +125 C
+L3,1,LQW18AN10NG80D,81-LQW18AN10NG80D,https://componentsearchengine.com/part-view/LQW18AN10NG80D/Murata%20Electronics,10 nH +/- 2%; 1.6 A; 52 mOhm; -55 - +125 C
+L4,1,Antenna specific,Antenna specific,Antenna specific,Antenna specific
+C25,1,Antenna specific,Antenna specific,Antenna specific,Antenna specific
+C26,1,Antenna specific,Antenna specific,Antenna specific,Antenna specific
+C20,1,CBR06C399B5GAC,80-CBR06C399B5G,https://componentsearchengine.com/part-view/CBR06C399B5GAC/Kemet,3.9 +/- 0.1 pF; 50 VDC; NP0; -55 - +125 C
+C21,1,CBR06C409B5GAC,80-CBR06C409B5GAC,https://componentsearchengine.com/part-view/CBR06C409B5GAC/Kemet,4.0 +/- 0.1 pF; 50 VDC; NP0; -55 - +125 C
+C11; C12,2,CBR06C529B5GAC,80-CBR06C529B5GAC,https://componentsearchengine.com/part-view/CBR06C529B5GAC/Kemet,5.2 +/- 0.1 pF; 50 VDC; NP0; -55 - +125 C
+C22,1,CBR06C609B5GAC,80-CBR06C609B5GAC,https://componentsearchengine.com/part-view/CBR06C609B5GAC/Kemet,6.0 +/- 0.1 pF; 50 VDC; NP0; -55 - +125 C
+C6; C7,2,C0603C221J5GAC3190,80-C0603C221J5G3190,https://componentsearchengine.com/part-view/C0603C221J5GAC3190/Kemet,220 pF +/- 5%; 50 VDC; NP0; -55 - +125 C
+C10; C13; C15; C16; C23; C24,5,VJ0603D221KXAAJ,77-VJ0603D221KXAAJ,https://componentsearchengine.com/part-view/VJ0603D221KXAAJ/Vishay,220 pF +/- 10%; 50 VDC; NP0; -55 - +125 C
+C3,1,C0603C102J5GAC3190,80-C0603C102J5G3190,https://componentsearchengine.com/part-view/C0603C102J5GAC3190/Kemet,1000 pF +/- 5%; 50 VDC; NP0; -55 - +125 C
+C1; C5; C8; C9; C14; C17; C18,5,06035C104K4T4A,581-06035C104K4T4A,https://componentsearchengine.com/part-view/06035C104K4T4A/AVX,0.1 uF +/- 10%; 50 VDC; X7R; -55 - +125 C
+C4; C19,1,GCM188R71E105KA64J,81-GCM188R71E105KA4J,https://componentsearchengine.com/part-view/GCM188R71E105KA64J/Murata%20Electronics,1 uF +/- 10%; 25 VDC; X7R; -55 - +125 C
+C2,1,CGA3E1X7R0J225K080AC,810-CGA3E1X7R0J225K,https://componentsearchengine.com/part-view/CGA3E1X7R0J225K080AC/TDK,2.2 uF +/- 10%; 6.3 VDC; X7R; -55 - +125 C
+LED1; LED2,2,LG Q396-PS-35,720-LGQ396A3964,https://componentsearchengine.com/part-view/LG%20Q396-PS-35/OSRAM,Green LED (573 nm); If 20 mA; Vf 2.4 V; -30 - +85 C
+Y1,1,FOX924B-27,559-FOX924B-27,https://componentsearchengine.com/part-view/FOX924B-27/Fox,TCXO oscillator; 27 MHz; 3.3 V; 2.5 PPM; 15 pF; 6 mA; -30 - +85 C
+IC1,1,CC1110F32RHHR,595-CC1110F32RHHR,https://componentsearchengine.com/part-view/CC1110F32RHHR/Texas%20Instruments,MCU
+IC2,1,F2972NEGK,972-F2972NEGK,https://componentsearchengine.com/part-view/F2972NEGK/IDT,RF Switch
+IC3,1,SKY66115-11,873-SKY66115-11,https://componentsearchengine.com/part-view/SKY66115-11/Skyworks,RF Front End
+J8,1,A-1JB,523-A-1JB,https://componentsearchengine.com/part-view/A-1JB/Amphenol,50 Ohm impedance; 6 GHz max. freq.; Straight; -40 - +155 C
+J1; J2,2,TSW-116-26-T-S,200-TSW11626TS,pending,Male headers; 16 pin
+J1; J2 Alt,2,TSW-116-05-G-S,200-TSW11605GS,pending,Male headers; 16 pin
+J3; J4,2,TSW-104-26-T-S,200-TSW10426TS,pending,Male headers; 4 pin
+J3; J4 Alt,2,TSW-104-05-G-S,200-TSW10405GS,pending,Male headers; 4 pin
+J5a; J6a,2,TSW-103-26-T-S,200-TSW10326TS,pending,Male headers; 3 pin
+J5a; J6a Alt,2,TSW-103-05-G-S,200-TSW10305GS,pending,Male headers; 3 pin
+J5b; J6b,2,TSW-102-26-T-S,200-TSW10226TS,pending,Male headers; 2 pin
+J5b; J6b Alt,2,TSW-102-05-G-S,200-TSW10205GS,pending,Male headers; 2 pin
