@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name ta-base)(type Legacy)(uri ${KIPRJMOD}/ta-base.lib)(options "")(descr ""))
+  (lib (name infineon)(type Legacy)(uri /home/emily/Code/Hardware/tartan-artibeus-hw/ta-base/components/B2B008NE2LXXUMA1.lib)(options "")(descr ""))
+)
