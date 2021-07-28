@@ -341,25 +341,6 @@ F 3 "" H 9400 3400 50  0001 C CNN
 	1    9800 3400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7850 2700 7850 2800
-Wire Wire Line
-	7850 2800 7950 2800
-Wire Wire Line
-	8150 2700 8150 2800
-Wire Wire Line
-	8050 2700 8050 2800
-Connection ~ 8050 2800
-Wire Wire Line
-	8050 2800 8150 2800
-Wire Wire Line
-	7950 2700 7950 2800
-Connection ~ 7950 2800
-Wire Wire Line
-	7950 2800 8050 2800
-Wire Wire Line
-	7850 2800 7500 2800
-Connection ~ 7850 2800
 Text Label 7500 2800 0    50   ~ 0
 V_solar
 Wire Wire Line
@@ -501,54 +482,6 @@ Wire Wire Line
 Connection ~ 4000 5950
 Wire Wire Line
 	4000 5950 4150 5950
-$Comp
-L ta-base:PinSocket_4_base J3
-U 1 1 60FB8139
-P 8000 2700
-F 0 "J3" H 8300 2850 50  0000 L CNN
-F 1 "PinSocket_4_base" H 8300 2750 50  0000 L CNN
-F 2 "ta-base:PinSocket_1x4_TartanArtibeus_base_cpy" H 7950 2700 50  0001 C CNN
-F 3 "" H 7950 2700 50  0001 C CNN
-	1    8000 2700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8700 4500 9050 4500
-Connection ~ 9050 4500
-Wire Wire Line
-	9050 4400 9050 4500
-Text Label 8700 4500 0    50   ~ 0
-V_solar
-Connection ~ 9250 4500
-Wire Wire Line
-	9250 4400 9250 4500
-Wire Wire Line
-	9250 4500 9350 4500
-Wire Wire Line
-	9350 4500 9450 4500
-Connection ~ 9350 4500
-Wire Wire Line
-	9350 4400 9350 4500
-Wire Wire Line
-	9450 4400 9450 4500
-Wire Wire Line
-	9150 4500 9050 4500
-Wire Wire Line
-	9150 4500 9250 4500
-Connection ~ 9150 4500
-Wire Wire Line
-	9150 4400 9150 4500
-$Comp
-L ta-base:PinSocket_5_base J8
-U 1 1 60FF8354
-P 9250 4400
-F 0 "J8" H 9250 4750 50  0000 C CNN
-F 1 "PinSocket_5_base" H 9250 4650 50  0000 C CNN
-F 2 "ta-base:solar_internal" H 9150 4400 50  0001 C CNN
-F 3 "" H 9150 4400 50  0001 C CNN
-	1    9250 4400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7450 4500 7800 4500
 Connection ~ 7800 4500
@@ -584,6 +517,78 @@ F 1 "PinSocket_5_base" H 8000 4650 50  0000 C CNN
 F 2 "ta-base:5023860570" H 7900 4400 50  0001 C CNN
 F 3 "" H 7900 4400 50  0001 C CNN
 	1    8000 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L ta-base:PinSocket_5_base J8
+U 1 1 610118E5
+P 8100 2700
+F 0 "J8" H 8100 3050 50  0000 C CNN
+F 1 "PinSocket_5_base" H 8100 2950 50  0000 C CNN
+F 2 "ta-base:PinSocket_1x5_left_TartanArtibeus_base_cpy" H 8000 2700 50  0001 C CNN
+F 3 "" H 8000 2700 50  0001 C CNN
+	1    8100 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 2800 8300 2700
+Wire Wire Line
+	7500 2800 7900 2800
+Connection ~ 8200 2800
+Wire Wire Line
+	8200 2800 8300 2800
+Wire Wire Line
+	8200 2700 8200 2800
+Wire Wire Line
+	8100 2700 8100 2800
+Connection ~ 8100 2800
+Wire Wire Line
+	8100 2800 8200 2800
+Wire Wire Line
+	8000 2700 8000 2800
+Connection ~ 8000 2800
+Wire Wire Line
+	8000 2800 8100 2800
+Wire Wire Line
+	7900 2700 7900 2800
+Connection ~ 7900 2800
+Wire Wire Line
+	7900 2800 8000 2800
+Wire Wire Line
+	7450 5150 7800 5150
+Connection ~ 7800 5150
+Wire Wire Line
+	7800 5050 7800 5150
+Text Label 7450 5150 0    50   ~ 0
+V_solar
+Connection ~ 8000 5150
+Wire Wire Line
+	8000 5050 8000 5150
+Wire Wire Line
+	8000 5150 8100 5150
+Wire Wire Line
+	8100 5150 8200 5150
+Connection ~ 8100 5150
+Wire Wire Line
+	8100 5050 8100 5150
+Wire Wire Line
+	8200 5050 8200 5150
+Wire Wire Line
+	7900 5150 7800 5150
+Wire Wire Line
+	7900 5150 8000 5150
+Connection ~ 7900 5150
+Wire Wire Line
+	7900 5050 7900 5150
+$Comp
+L ta-base:PinSocket_5_base J3
+U 1 1 61022732
+P 8000 5050
+F 0 "J3" H 8000 5400 50  0000 C CNN
+F 1 "PinSocket_5_base" H 8000 5300 50  0000 C CNN
+F 2 "ta-base:5023860570" H 7900 5050 50  0001 C CNN
+F 3 "" H 7900 5050 50  0001 C CNN
+	1    8000 5050
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
