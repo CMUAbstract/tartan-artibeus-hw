@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/emily/Code/Hardware/tartan-artibeus-hw/ta-base/ta-base/ta-base.sch)
-    (date "Tue 27 Jul 2021 09:39:10 PM EDT")
+    (date "Tue 03 Aug 2021 11:36:34 AM EDT")
     (tool "Eeschema 5.1.10-88a1d61d58~88~ubuntu20.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
