@@ -1,0 +1,12 @@
+
+The tested values on the final power boards from 2020 are:
+
+R11 = 178k
+R3 = 160k
+R2 = 510k
+
+R6 = 220k
+R7 = 430k
+R4 = 330k
+
+
