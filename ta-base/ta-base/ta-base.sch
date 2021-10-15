@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Tartan Artibeus Base Plate"
-Date ""
+Date "2021-08-25"
 Rev "v0"
 Comp "Carnegie Mellon University-- Abstract Research Group"
 Comment1 "Emily Ruppel"
@@ -287,17 +287,6 @@ $EndComp
 NoConn ~ 3100 3250
 NoConn ~ 3100 4050
 $Comp
-L ta-base:PinSocket_4_base J2
-U 1 1 60FCFD38
-P 8000 1950
-F 0 "J2" H 8300 2100 50  0000 L CNN
-F 1 "PinSocket_4_base" H 8300 2000 50  0000 L CNN
-F 2 "ta-base:PinSocket_1x4_TartanArtibeus_base_cpy" H 7950 1950 50  0001 C CNN
-F 3 "" H 7950 1950 50  0001 C CNN
-	1    8000 1950
-	1    0    0    -1  
-$EndComp
-$Comp
 L ta-base:PinSocket_4_base J4
 U 1 1 60FD0B5F
 P 9700 1950
@@ -352,23 +341,22 @@ Wire Wire Line
 Wire Wire Line
 	6900 3600 6400 3600
 NoConn ~ 7850 1950
-NoConn ~ 8050 1950
 NoConn ~ 8150 1950
 Text Label 6450 3500 0    50   ~ 0
 Vcap
 $Comp
 L power:GND #PWR07
 U 1 1 60FB439D
-P 7950 2050
-F 0 "#PWR07" H 7950 1800 50  0001 C CNN
-F 1 "GND" H 7955 1877 50  0000 C CNN
-F 2 "" H 7950 2050 50  0001 C CNN
-F 3 "" H 7950 2050 50  0001 C CNN
-	1    7950 2050
+P 8050 2050
+F 0 "#PWR07" H 8050 1800 50  0001 C CNN
+F 1 "GND" H 8055 1877 50  0000 C CNN
+F 2 "" H 8050 2050 50  0001 C CNN
+F 3 "" H 8050 2050 50  0001 C CNN
+	1    8050 2050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7950 1950 7950 2050
+	8050 1950 8050 2050
 Text Label 6400 3600 0    50   ~ 0
 BURN_SIG
 $Comp
@@ -413,18 +401,15 @@ Wire Wire Line
 $Comp
 L power:GND #PWR09
 U 1 1 60FDB343
-P 9750 2050
-F 0 "#PWR09" H 9750 1800 50  0001 C CNN
-F 1 "GND" H 9755 1877 50  0000 C CNN
-F 2 "" H 9750 2050 50  0001 C CNN
-F 3 "" H 9750 2050 50  0001 C CNN
-	1    9750 2050
+P 9650 2050
+F 0 "#PWR09" H 9650 1800 50  0001 C CNN
+F 1 "GND" H 9655 1877 50  0000 C CNN
+F 2 "" H 9650 2050 50  0001 C CNN
+F 3 "" H 9650 2050 50  0001 C CNN
+	1    9650 2050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9750 1950 9750 2050
 NoConn ~ 9550 1950
-NoConn ~ 9650 1950
 NoConn ~ 9850 1950
 NoConn ~ 9900 2700
 NoConn ~ 9800 2700
@@ -591,4 +576,19 @@ F 3 "" H 7900 5050 50  0001 C CNN
 	1    8000 5050
 	1    0    0    -1  
 $EndComp
+$Comp
+L ta-base:PinSocket_4_base J2
+U 1 1 60FCFD38
+P 8000 1950
+F 0 "J2" H 8300 2100 50  0000 L CNN
+F 1 "PinSocket_4_base" H 8300 2000 50  0000 L CNN
+F 2 "ta-base:PinSocket_1x4_TartanArtibeus_base_cpy" H 7950 1950 50  0001 C CNN
+F 3 "" H 7950 1950 50  0001 C CNN
+	1    8000 1950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7950 1950
+Wire Wire Line
+	9650 1950 9650 2050
+NoConn ~ 9750 1950
 $EndSCHEMATC

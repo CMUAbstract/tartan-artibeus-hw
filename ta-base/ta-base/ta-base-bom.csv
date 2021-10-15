@@ -1,0 +1,15 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"J8";"PinSocket_1x5_left_TartanArtibeus_base_cpy";1;"PinSocket_5_base";;;
+2;"J3,J7";"5023860570";2;"PinSocket_5_base";;;
+3;"REF**,REF**";"MountingHole_6.4mm_M6";2;"MountingHole_6.4mm_M6";;;
+4;"J5";"PinSocket_1x5_right_TartanArtibeus_base_cpy";1;"PinSocket_5_base";;;
+5;"SW2";"switch_right";1;"SW_SPDT";;;
+6;"P1";"chassis_gnd_screws";1;"Gnd_Screws";;;
+7;"R1,R2";"R_0603_1608Metric_base_cpy";2;"100";;;
+8;"R3";"R_0603_1608Metric_base_cpy";1;"1.5M";;;
+9;"SW1";"switch_left";1;"SW_SPDT";;;
+10;"U1";"BSB008NE2LXXUMA1";1;"BSB008NE2LXXUMA1";;;
+11;"U2";"burn_wire";1;"burn_wire";;;
+12;"J1,J6";"PinSocket_1x16_TartanArtibeus_base_cpy";2;"PinSocket_16_base";;;
+13;"J2,J4";"PinSocket_1x4_TartanArtibeus_base_cpy";2;"PinSocket_4_base";;;
+14;"P2";"MountingHoles_TartanArtibeus_base_cpy";1;"Gnd_standoffs";;;
