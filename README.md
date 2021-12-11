@@ -8,8 +8,7 @@ parallel development.
 
 ## Directory Contents
 
-* [cad_models](cad_models/README.md): SolidWorks files for Tartan Artibeus
-* Assembly
+* [cad_models](cad_models/README.md): SolidWorks files for Tartan Artibeus Assembly
 * [ta-base](ta-base/README.md): KiCad project for the Tartan Artibeus
   base plate
 * [ta-comm-401](ta-comm-401/README.md): KiCad project for the Tartan Artibeus
@@ -35,7 +34,7 @@ TA-0 design (2020)
 * [ta-expt](ta-expt/README.md)
 * [ta-ctrl](ta-ctrl/README.md)
 * [ta-comm](ta-comm/README.md)
-* [FR4 baseplate](cad_models/FR4 Base.SLDPRT)
+* [FR4 baseplate](cad_models/FR4%20Base.SLDPRT)
 
 TA-1 design (2021)
 * [ta-powr](ta-powr/README.md)
