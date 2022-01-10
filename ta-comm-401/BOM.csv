@@ -6,8 +6,8 @@ R7,1,MCT06030C3302FP500,594-MCT06030C3302FP5,https://componentsearchengine.com/p
 R10,1,MCT06030C5602FP500,594-MCT06030C5602FP5,https://componentsearchengine.com/part-view/MCT06030C5602FP500/Vishay,56 kOhm +/- 1%; 75 V; 125 mW; 50 PPM/C; -55 - +125 C
 L1; L2,2,LQW18AN28NG80D,81-LQW18AN28NG80D,https://componentsearchengine.com/part-view/LQW18AN28NG80D/Murata%20Electronics,28 nH +/- 2%; 1.2 A; 98 mOhm; -55 - +125 C
 L3,1,LQW18AN10NG80D,81-LQW18AN10NG80D,https://componentsearchengine.com/part-view/LQW18AN10NG80D/Murata%20Electronics,10 nH +/- 2%; 1.6 A; 52 mOhm; -55 - +125 C
-L4,1,Antenna specific,Antenna specific,Antenna specific,Antenna specific
-C25,1,Antenna specific,Antenna specific,Antenna specific,Antenna specific
+L4,1,LQW18ANR10G80D,81-LQW18ANR10G80D,Antenna specific,100 nH +/- 2%; 0.49 A; 630 mOhm; -55 - +125 C
+C25,1,CBR06C499B5GAC,80-CBR06C499B5G,Antenna specific,4.9 +/- 0.1 pF; 50 VDC; NP0; -55 - +125 C
 C26,1,Antenna specific,Antenna specific,Antenna specific,Antenna specific
 C20,1,CBR06C399B5GAC,80-CBR06C399B5G,https://componentsearchengine.com/part-view/CBR06C399B5GAC/Kemet,3.9 +/- 0.1 pF; 50 VDC; NP0; -55 - +125 C
 C21,1,CBR06C409B5GAC,80-CBR06C409B5GAC,https://componentsearchengine.com/part-view/CBR06C409B5GAC/Kemet,4.0 +/- 0.1 pF; 50 VDC; NP0; -55 - +125 C
