@@ -1987,7 +1987,7 @@ F 3 "~" H 10000 4900 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 Text Notes 8900 3250 0    50   ~ 0
-Mount exactly one:\nC?: Test board, mount J?\nC?: Flight board, note J?
+Mount exactly one:\nC23: Test board, mount J8\nC24: Flight board, note J9
 $Comp
 L Connector_Generic:Conn_01x05 J5
 U 1 1 60C43FD0
